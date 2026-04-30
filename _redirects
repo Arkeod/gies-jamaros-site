@@ -1,0 +1,8 @@
+# /subscribe → Substack signup, preserves any email pre-fill query param
+/subscribe https://giesweekly.substack.com/subscribe 301!
+/subscribe/* https://giesweekly.substack.com/subscribe/:splat 301!
+
+# Convenience redirects
+/youtube https://www.youtube.com/@giesweekly 302
+/linkedin https://www.linkedin.com/company/giesweekly 302
+/podcast https://giesweekly.substack.com/podcast 302

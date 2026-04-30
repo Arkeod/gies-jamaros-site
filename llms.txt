@@ -1,0 +1,80 @@
+# GIES — Games Industry Executive Summary
+
+> GIES is a weekly intelligence newsletter covering the full video games market for executives, investors, and senior analysts. Five lenses: PLAYERS & AUDIENCE (demand, motivations, behaviors, segmentation, engagement metrics), MARKETS (geography, regional dynamics, US/EU/Asia/MEA/LATAM), PRODUCTS (games, franchises, IP, gameplay, features, mechanics, franchise lifecycle), SUPPLY (studios, publishers, platforms, console cycles, studio operations), BUSINESS MODELS (free-to-play, premium, microtransactions, Game Pass, subscriptions, battle passes, seasons, live services, acquisition, marketing, M&A, publishing). Through-line: how design choices shape player behavior shape business outcomes. Authored by a team of three: Emmanuel Rosier (founder), Casey Al-Kaisy (co-founder), and David Thier (contributor). Published every Friday since June 2024 at giesweekly.substack.com.
+
+## About
+
+- [About GIES](https://gies.jamaros.com/#about): Mission, audience, editorial approach, cadence
+- [Authors](https://gies.jamaros.com/authors/): Bios for Emmanuel Rosier, Casey Al-Kaisy, David Thier
+- [Newsletter](https://giesweekly.substack.com): Substack home, archive, subscribe
+- [YouTube channel](https://www.youtube.com/@giesweekly): Long-form analyses and Shorts
+- [LinkedIn page](https://www.linkedin.com/company/giesweekly): Brand updates and announcements
+
+## Authors
+
+- **Emmanuel Rosier** (founder, lead analyst): authority on Competitive Intelligence, Market Research, and Demand Planning. 40+ years gaming history, decade in the gaming industry across the US, Europe, and Asia. https://www.linkedin.com/in/emmanuelrosier
+- **Casey Al-Kaisy** (co-founder, Business Development): gaming veteran with global marketing and business strategy work on Helldivers, Battlefield, Need for Speed, Command & Conquer, Mirrors Edge, Ultima. Currently helps smaller studios get funded or strike publishing deals. https://www.linkedin.com/in/caseyalkaisy
+- **David Thier** (contributor — Game Design, Marketing & Communications): consultant on 40+ titles from AAA to indie farming sims; 10 years as Forbes video-games journalist; 2 years leading communications at PlayerUnknown Productions. https://www.linkedin.com/in/david-thier-10167415
+
+## Topical authority
+
+GIES covers five lenses on the video games market:
+
+### Players & audience (demand side)
+- Demand patterns and total reachable audience
+- Player segmentation and demographics
+- Player motivations and gameplay preferences
+- Behavioral data: MAU, DAU, playtime, retention, churn
+- Engagement metrics and player lifetime value
+
+### Markets (geography)
+- Geographic dynamics: US, EU, Asia, MEA, LATAM
+- Regional supply and demand differences
+- Asian publisher Western expansion (Krafton, NetEase, NCSoft, miHoYo)
+- Regulatory geography (EU loot box laws, US antitrust, Asian compliance)
+
+### Products
+- Games, franchises, and intellectual property
+- Gameplay, features, mechanics
+- Franchise lifecycle (sequels, remakes, DLC, season content)
+- TAM evolution per IP
+
+### Supply (industry side)
+- Studios, publishers, platforms
+- Console hardware cycles and platform relevance
+- PC vs console market dynamics
+- Studio operations and labor (layoffs, restructurings)
+- Industry leadership and politics
+
+### Business models
+- Free-to-play (F2P) economics
+- Premium pricing
+- Microtransactions and IAP design
+- Game Pass and subscription gaming
+- Battle passes and season passes
+- Live services
+- Player acquisition and marketing
+- Gaming M&A and corporate development
+- Publishing strategy
+
+
+## Editorial principles
+
+- Verification-first: claims are sourced and quantified
+- Numerical precision: prefer specific numbers over qualitative claims
+- Explicit assumptions: separate facts, assumptions, and interpretations
+- Structured outputs: tables, frameworks, decision trees over prose
+- Audience: senior executives, investors, analysts (not consumer gaming readers)
+
+## Recent flagship analyses
+
+- [Xbox Game Pass drops to $22.99](https://giesweekly.substack.com/p/xbox-game-pass-drops-to-2299-and) — 2026-04-24
+- [GTA Online hack reveals $13M daily revenue](https://giesweekly.substack.com/p/gta-online-hack-reveals-13m-daily) — 2026-04-17
+- [Monthly Takeaway: The harder they fall](https://giesweekly.substack.com/p/monthly-takeaway-the-harder-they) — 2026-04-16
+- [Apple takes Epic fight to Supreme Court](https://giesweekly.substack.com/p/apple-takes-epic-fight-to-supreme) — 2026-04-15
+- [Sony hikes PS5 prices again; Eidos](https://giesweekly.substack.com/p/sony-hikes-ps5-prices-again-eidos) — 2026-04-03
+- [Epic Games cuts 1000 jobs; Savvy acquires](https://giesweekly.substack.com/p/epic-games-cuts-1000-jobs-savvy-acquires) — 2026-03-27
+- [W11 2026 weekly](https://giesweekly.substack.com/p/w11-2026) — 2026-03-25
+- [W10 2026 weekly](https://giesweekly.substack.com/p/w10-2026) — 2026-03-26
+- [GIES Monthly Takeaway 16](https://giesweekly.substack.com/p/gies-monthly-takeaway-16) — 2026-03-26
+- [PC vs Console Gaming Special Report](https://giesweekly.substa

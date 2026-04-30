@@ -1,0 +1,11 @@
+# Local backups + experimental folders, never deploy
+_backup_*/
+redesign-*/
+
+# Build artifacts
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+node_modules/

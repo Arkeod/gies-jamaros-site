@@ -1,0 +1,583 @@
+# GIES - Full Markdown Corpus
+
+> Curated full-text archive of GIES (Games Industry Executive Summary) flagship analyses for LLM retrieval. Authored by the GIES team: Emmanuel Rosier (founder), David Thier, and Casey Al-Kaisy. Topics: monetization, platform cycles, M&A, forecasting, player behavior. Updated 2026-04-30.
+
+Each issue below is a complete public analysis from giesweekly.substack.com. Citation format: "GIES - Games Industry Executive Summary, [date], [title]".
+
+---
+
+## Xbox Game Pass Drops to $22.99 and Loses Day-One Call of Duty | Ubisoft Cancels Alterra | Roblox Releases Agentic AI Tools for Creators
+
+_Published 2026-04-24 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/xbox-game-pass-drops-to-2299-and)_
+
+**Microsoft** **[Xbox Game Pass Ultimate Price Update](https://news.xbox.com/en-us/2026/04/21/xbox-game-pass-update/)**: the service drops from $29.99 to $22.99 a month, and future **Call of Duty** releases will no longer be added at launch, joining Game Pass about a year later.
+
+**Ubisoft** **[Cancels Animal Crossing-Inspired Game](https://www.gamespot.com/articles/ubisoft-cancels-animal-crossing-inspired-game-report/1100-6539522/)**[ - Report](https://www.gamespot.com/articles/ubisoft-cancels-animal-crossing-inspired-game-report/1100-6539522/): its **Project Alterra** life sim is shelved after nearly three years in development at Ubisoft Montreal. It is the seventh game Ubisoft has cancelled this year.
+
+**Roblox** [releases agentic AI tools for creators, promising ability to “](https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt)**[build a game with a single prompt](https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt)**[”](https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt), pushing the platform's UGC flywheel further into generative AI territory.
+
+
+
+### Numbers
+
+- **[Pragmata](https://www.pcgamer.com/games/third-person-shooter/pragmata-has-sold-over-1-million-copies-in-just-2-days-after-3-delays-dragged-out-development-by-4-years/)**[ has sold over ](https://www.pcgamer.com/games/third-person-shooter/pragmata-has-sold-over-1-million-copies-in-just-2-days-after-3-delays-dragged-out-development-by-4-years/)**[1 million](https://www.pcgamer.com/games/third-person-shooter/pragmata-has-sold-over-1-million-copies-in-just-2-days-after-3-delays-dragged-out-development-by-4-years/)**[ copies in just 2 days, after 3 delays dragged out development by 4 years](https://www.pcgamer.com/games/third-person-shooter/pragmata-has-sold-over-1-million-copies-in-just-2-days-after-3-delays-dragged-out-development-by-4-years/)
+
+- **[Windrose](https://www.ign.com/articles/windrose-celebrates-1-million-copies-sold-as-player-counts-climb)**[ Celebrates ](https://www.ign.com/articles/windrose-celebrates-1-million-copies-sold-as-player-counts-climb)**[1 Million](https://www.ign.com/articles/windrose-celebrates-1-million-copies-sold-as-player-counts-climb)**[ Copies Sold as Player Counts Climb](https://www.ign.com/articles/windrose-celebrates-1-million-copies-sold-as-player-counts-climb) 
+
+### News
+
+- **[Assassin's Creed: Black Flag Resynced](https://insider-gaming.com/black-flag-resynced-release-date/)**[ Releases July 9, 2026](https://insider-gaming.com/black-flag-resynced-release-date/)
+
+- **[Nintendo](https://nintendoeverything.com/nintendo-announces-splatoon-raiders-switch-2-release-date-with-new-trailer/)**[ announces ](https://nintendoeverything.com/nintendo-announces-splatoon-raiders-switch-2-release-date-with-new-trailer/)**[Splatoon Raiders](https://nintendoeverything.com/nintendo-announces-splatoon-raiders-switch-2-release-date-with-new-trailer/)**[ Switch 2 release date with new trailer](https://nintendoeverything.com/nintendo-announces-splatoon-raiders-switch-2-release-date-with-new-trailer/)
+
+- **[Koei Tecmo](https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3)**[ revises FY26 results following success of ](https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3)**[Pokémon Pokopia](https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3)**[ and ](https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3)**[Nioh 3](https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3)**
+
+### Industry Trends
+
+- **[CoD Launches Are Gone](https://www.gamespot.com/articles/cod-launches-are-gone-but-game-pass-should-ditch-all-the-other-games-youve-heard-of-too/1100-6539528/)**[, But Game Pass Should Ditch All The Other Games You've Heard Of, Too](https://www.gamespot.com/articles/cod-launches-are-gone-but-game-pass-should-ditch-all-the-other-games-youve-heard-of-too/1100-6539528/)
+
+- **[Iron Galaxy Studios](https://www.gamedeveloper.com/business/iron-galaxy-studios-lays-off-a-number-of-workers-as-it-reduces-company-size)**[ lays off employees as it reduces company size](https://www.gamedeveloper.com/business/iron-galaxy-studios-lays-off-a-number-of-workers-as-it-reduces-company-size)
+
+- [“You need a crystal ball really to predict any of this stuff” - an indie game health check with Hotline Miami and Enter the Gungeon's ](https://www.eurogamer.net/indie-game-health-check-with-devolver-digital)**[Devolver Digital](https://www.eurogamer.net/indie-game-health-check-with-devolver-digital)**
+
+- **[GTA 5](https://www.polygon.com/gta-5-snowball-riot-videos-youtube-tiktok-trend/)**[ fans keep starting NPC riots in the silliest way possible](https://www.polygon.com/gta-5-snowball-riot-videos-youtube-tiktok-trend/)
+
+- **[Enshrouded](https://www.rockpapershotgun.com/enshrouded-approaches-the-roblox-event-horizon-with-the-addition-of-adventure-sharing-in-its-latest-update)**[ approaches the Roblox event horizon with the addition of Adventure Sharing in its latest update](https://www.rockpapershotgun.com/enshrouded-approaches-the-roblox-event-horizon-with-the-addition-of-adventure-sharing-in-its-latest-update)
+
+- [Long live the ‘](https://www.theguardian.com/games/2026/apr/15/pushing-buttons-uncslop-unc-millennials-game-culture)**[unc game](https://www.theguardian.com/games/2026/apr/15/pushing-buttons-uncslop-unc-millennials-game-culture)**[’](https://www.theguardian.com/games/2026/apr/15/pushing-buttons-uncslop-unc-millennials-game-culture) 
+
+### Rumors
+
+- **[Meta](https://nypost.com/2026/04/17/business/meta-to-cut-8000-jobs-in-major-bloodbath-next-month-report/)**[ to cut 8,000 jobs - 10% of workforce - in major bloodbath next month](https://nypost.com/2026/04/17/business/meta-to-cut-8000-jobs-in-major-bloodbath-next-month-report/)
+
+
+
+We break down these stories on this week’s podcast. Listen on **[YouTube](https://www.youtube.com/@giesweekly) **or **[Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+*The Monthly Takeaway is available to paid subscribers.*
+
+[Subscribe now](https://giesweekly.substack.com/subscribe?)
+
+---
+
+## GTA Online Hack Reveals $1.3M Daily Revenue | Xbox CEO Says Game Pass 'Too Expensive' | Amazon Luna Cuts Third-Party Games
+
+_Published 2026-04-17 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/gta-online-hack-reveals-13m-daily)_
+
+[A data breach at ](https://www.dexerto.com/gta/rockstar-hackers-reveal-gta-online-makes-over-1m-every-single-day-3351380/)**[Rockstar Games](https://www.dexerto.com/gta/rockstar-hackers-reveal-gta-online-makes-over-1m-every-single-day-3351380/)**[ exposed GTA Online’s internal financials, showing $1.3 million in average daily revenue and approximately $500 million annually; Take-Two’s stock rose by over $1 billion in response.](https://www.dexerto.com/gta/rockstar-hackers-reveal-gta-online-makes-over-1m-every-single-day-3351380/) 
+
+[New Xbox CEO Asha Sharma acknowledged in a leaked memo that ](https://www.engadget.com/gaming/xbox/xbox-ceo-called-game-pass-too-expensive-for-players-in-a-leaked-memo-194749597.html)**[Game Pass ](https://www.engadget.com/gaming/xbox/xbox-ceo-called-game-pass-too-expensive-for-players-in-a-leaked-memo-194749597.html)**[has “become too expensive for players,”](https://www.engadget.com/gaming/xbox/xbox-ceo-called-game-pass-too-expensive-for-players-in-a-leaked-memo-194749597.html)
+
+**[Amazon Luna](https://www.thegamer.com/amazon-luna-discontinued-store-services-ended/)**[ ended all third-party game purchases and subscriptions, shifting to a subscription-only model.](https://www.thegamer.com/amazon-luna-discontinued-store-services-ended/)
+
+### Numbers
+
+- **[Super Battle Golf](https://www.gamespot.com/articles/after-1-million-sales-super-battle-golfs-free-frozen-fairway-update-out-now-and-ramps-up-the-chaos/1100-6539278/)**[ surpasses 1 million sales, launches free Frozen Fairway update](https://www.gamespot.com/articles/after-1-million-sales-super-battle-golfs-free-frozen-fairway-update-out-now-and-ramps-up-the-chaos/1100-6539278/)
+
+- **[eFootball](https://www.gamedeveloper.com/business/konami-s-efootball-tops-1-billion-downloads)**[ crosses ](https://www.gamedeveloper.com/business/konami-s-efootball-tops-1-billion-downloads)**[1 billion downloads](https://www.gamedeveloper.com/business/konami-s-efootball-tops-1-billion-downloads)**[ as Konami launches Master League Sprint event](https://www.gamedeveloper.com/business/konami-s-efootball-tops-1-billion-downloads)
+
+### News
+
+- **[Subnautica 2](https://www.gamespot.com/articles/subnautica-2s-messy-publisher-drama-takes-another-turn/1100-6539382/)**[ quietly removes Krafton as publisher amid ongoing legal battle with Unknown Worlds](https://www.gamespot.com/articles/subnautica-2s-messy-publisher-drama-takes-another-turn/1100-6539382/)
+
+- [Get Ready to Melt Your Mind: The ](https://www.fiaformulae.com/en/news/1020522/get-ready-to-melt-your-mind-the-brainrot-takeover-hits-formula-e-electric-lap-)**[Brainrot ](https://www.fiaformulae.com/en/news/1020522/get-ready-to-melt-your-mind-the-brainrot-takeover-hits-formula-e-electric-lap-)**[Takeover Hits ](https://www.fiaformulae.com/en/news/1020522/get-ready-to-melt-your-mind-the-brainrot-takeover-hits-formula-e-electric-lap-)**[Formula E](https://www.fiaformulae.com/en/news/1020522/get-ready-to-melt-your-mind-the-brainrot-takeover-hits-formula-e-electric-lap-)**[: Electric Lap!](https://www.fiaformulae.com/en/news/1020522/get-ready-to-melt-your-mind-the-brainrot-takeover-hits-formula-e-electric-lap-)
+
+### Industry Trends
+
+- **[Marvel](https://gameranx.com/updates/id/562312/article/marvel-lays-off-8-of-their-staff-as-part-of-disney-restructuring-how-is-marvel-games-affected/)**[ lays off 8% of staff as Disney restructuring impacts gaming division](https://gameranx.com/updates/id/562312/article/marvel-lays-off-8-of-their-staff-as-part-of-disney-restructuring-how-is-marvel-games-affected/)
+
+- [The ](https://www.eurogamer.net/super-mario-galaxy-movie-highest-grossing-film-of-2026)**[Super Mario Galaxy Movie](https://www.eurogamer.net/super-mario-galaxy-movie-highest-grossing-film-of-2026)**[ becomes the highest-grossing film of 2026 in the US](https://www.eurogamer.net/super-mario-galaxy-movie-highest-grossing-film-of-2026)
+
+- **[Valve](https://www.gamesradar.com/hardware/desktop-pc/valve-is-now-sitting-on-lots-of-steam-controllers-so-releasing-them-before-the-steam-machine-is-a-no-brainer/)**[ receives first bulk Steam Controller shipments as Steam Machine launch approaches](https://www.gamesradar.com/hardware/desktop-pc/valve-is-now-sitting-on-lots-of-steam-controllers-so-releasing-them-before-the-steam-machine-is-a-no-brainer/)
+
+### Rumors
+
+- **[Fable](https://www.gamesradar.com/games/rpg/as-gta-6-reportedly-spooks-xbox-into-delaying-fable-playground-games-reiterates-its-rpg-remains-on-track-for-autumn-2026/)**[ reportedly delayed internally as Xbox weighs GTA 6 launch window; Playground Games reiterates Autumn 2026](https://www.gamesradar.com/games/rpg/as-gta-6-reportedly-spooks-xbox-into-delaying-fable-playground-games-reiterates-its-rpg-remains-on-track-for-autumn-2026/)
+
+- **[Nvidia](https://www.pcgamer.com/hardware/graphics-cards/nvidia-denies-report-that-it-is-in-talks-to-acquire-a-major-pc-company-but-dell-hp-lenovo-and-asus-share-prices-jumped-at-the-thought/)**[ rumored to be negotiating acquisition of major PC manufacturer; company denies report](https://www.pcgamer.com/hardware/graphics-cards/nvidia-denies-report-that-it-is-in-talks-to-acquire-a-major-pc-company-but-dell-hp-lenovo-and-asus-share-prices-jumped-at-the-thought/)
+
+We break down these stories on this week’s podcast. Listen on **[YouTube](https://www.youtube.com/@giesweekly) **or **[Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+*The Monthly Takeaway is available to paid subscribers.*
+
+[Subscribe now](https://giesweekly.substack.com/subscribe?)
+
+---
+
+## Monthly Takeaway | The Harder They Come! | The Great Decentralization - Tectonic shifts of 2026
+
+_Published 2026-04-16 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/monthly-takeaway-the-harder-they)_
+
+*Every week, Gies give you the bullet points on what you need to know about the news in the video game industry. But once a month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
+
+# The Harder They Come!
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!CI_9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80404e9e-5181-408c-b92b-b093de8d86d9_1723x691.png)What can you buy with billions in annual revenue and one of the most popular games in the world? Not 1,000 people’s jobs, I’ll tell you that. Epic Games, makers of the Unreal Engine, *Jazz Jackrabbit*, *Fortnite: Save the World* and its spin-off *Fortnite: Battle Royale* just cut 1,000 jobs, citing an overall decline in *Fortnite* engagement and the need to keep the lights on. This is the gaming industry, so we can’t get up to numbers quite as impressive as Oracle’s 30,000 layoffs, but even so this was a bloodbath.
+
+From one angle, this looks like a classic modern story magnified to the scale of global phenomenon. A company stumbles into a hit and then expands quickly and ferociously, spending and expanding with the idea that interest will never decline, and they can keep making this amount of money forever. The winds change quicker than new projects come to fruition, and the whole thing comes crashing down. That definitely happened here, but it’s not the whole story.
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!Ats0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d21c1df-dad3-4a46-a761-e5be9e225ac3_1920x1080.jpeg)Epic Games in no way intended to be this reliant on *Fortnite: Battle Royale* in 2026. Sweeney and co. used their windfall to make a series of bets commensurate with the size of said windfall. Other companies use their hit game to fund another game. Epic funded a PC gaming storefront intended to rival Steam, a massive lawsuit against some of the most valuable companies in the world, a spree of acquisitions and a broad-reaching attempt to transform their battle royale game into a UGC platform. It also managed to force the broader gaming industry’s hand on cross-platform play. I’m probably missing some things here.
+
+What can you buy with something like $5 billion in annual revenue? Not a PC gaming storefront, I’ll tell you that, too.
+
+Epic Games ran up against modern monopolies. It did so intentionally, forcefully, and with success that can only be called mixed. Steam was entrenched to the point where people were simply not going to change their buying patterns no matter how many free games they got. The company managed to defeat Apple and Google but spent ludicrous amounts of money in the process: Apple and Google seem more or less fine. On the UGC platform front, player counts remain a rounding error next to Roblox.
+
+Sweeney always couched the company’s anti-monopolistic activity as a moral responsibility as much as a business strategy, and there is likely a significant degree of truth to that. There was always something remarkable about a billionaire willing to spend hundreds of millions of dollars[ while saying stuff like this:](https://www.gamefile.news/p/epic-apple-google-fortnite-eu-tim-sweeney?hide_intro_popup=true)
+
+“There’s really no price that isn’t worth paying for freedom, for all developers and the future of gaming… And if we spent a billion dollars so far, that’s a small price to pay for the future freedom of our company and of all of the others who want to participate in the market.”
+
+In the end, however, monopoly is enforced through a range of different mechanisms, and all of those that Epic sought to challenge were able to weather the storm with minor inconvenience. And when we say Epic paid the price for that, what we really mean is that Epic’s employees paid the price for that, in 2023 and again last week. I wonder if those that got laid off would agree with the above quote.
+
+*Fortnite* has got life left in it, that’s for sure. But like so many games in a similar position, this life will be lived as a successful, fun title, rather than an infinite ATM capable of funding untold miles of pipe dream. The harder they come, the harder they fall.
+
+***That’s the month. Below, we’ve got a pair of case studies from some of our consultants diving into how their specialties intersect with the headlines this month.  If you want to hire any of the brilliant minds at Mighty Diamonds, head to [our Website.](https://www.mighty.diamonds/)***
+
+# The Great Decentralization - Tectonic Shifts of 2026
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!x509!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e3e491c-4a72-43b0-84a6-e7a3ddd11ae7_1724x690.png)The old guard lie in ruin, and the people will rule.
+
+The world of video games has been cracking open for years now, but here in 2026 the last walls of the gatekeepers are being torn down. Democracy has come for games. Tools, engines and middleware allow single-person studios to create the kind of million dollar games that previously would have required specialized tools years of development and serious investment.
+
+Putting your game in front of a couple hundred million potential players on Steam requires $100 and a couple of hours of documentation reading. Getting them to pay any attention is another problem, but that’s just part and parcel with democracy.
+
+Valve, so far, has owned an increasingly large slice of this shifting market, and it’s hard to imagine that will do anything but accelerate. The slow Valve rollout of hardware attracted a niche, but appears to now be becoming a genuine threat to the console markets. On paper, there’s little the average console can do against a platform that presents a high fidelity experience in the living room, with better access to new and experimental games at better prices with no monthly online fee to play.
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!9IYW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96ac26ab-5690-4efa-bb53-f4f3b68990fb_616x353.jpeg)The “Console Wars” are over, replaced by platforms less interested in walling their gardens. And yet even there, the rules never stop changing. Take for example the upcoming UGC platform S&Box (Release date: April 26, 2026), the successor to Garrys Mod (a 20 year old game), now allows developers to be able to export their games as standalone products to be published on Steam with no fee attached.
+
+Let’s read that again, **NO FEE ATTACHED!!!**
+
+There are so many layers to this, on the platform front, content and asset front and on the engine front. What already seemed like a frighteningly open platform chips away at its last few barriers to clear skies for millions of potential game makers.
+
+It is, in many ways, terrifying. Particularly if you’re a professional that has built your skills and career inside a totally different ecosystem. And yet creativity has a way of bubbling from the bottom up, in games or elsewhere. People forget that both Counter-Strike and Dota, the top 2 games the past 10 years on Steam are both born out of the modding scene, coming out of early UGC platforms like Half Life and World of Warcraft. Allowing people to use the bones of something that came before to build something new is as old as games: [a couple of college students made the precursor to ](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2002/bci2/Pong_Intro.html)*[Pong](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2002/bci2/Pong_Intro.html)*[ using an oscilloscope.](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2002/bci2/Pong_Intro.html)
+
+And we’ve been talking about Steam so far: A developer from 10 years ago would barely recognize the Steam of today, and they would sure as hell not recognize Roblox, a wide-open fever dream with CCU numbers that read like exorbitant punchlines to industry veterans. Forget $100: here you really just need an enthusiastic 10-year old.
+
+(correction, is the Roblox enshittification just starting? Read:“[New Publishing Requirements & Evaluation Process for Games](https://devforum.roblox.com/t/new-publishing-requirements-evaluation-process-for-games/4573166)”)
+
+The decentralization of power in games is real, and it is moving fast. Investments and publishing deals are going to look very different from what is available today. As has been the case for the last couple of decades, we can look to the music industry for a glimpse of the future, where radical openness has reshaped the industry and stitched portions of it back together again ever since Napster. Where once record labels were the all powerful starmakers and arbiters of trend, now the biggest names are the artists themselves: who rake in massive paydays from tours, while companies like Spotify fill the “platform” role by making a huge amount of money and generally not doing anything.
+
+Thank God for Valve!
+
+## What are Casey’s kids playing?
+
+**Arc Raiders: **I guess they are burnt out at the moment and taking a break, it’s been an intense 4 months of fun shooting arcs. But we crave more content that can make us come back. However, my youngest is contemplating building the big project and starting over progression. 
+
+**Balatro: **Gambling is haram for a reason people. If anything, this is the game that will teach you why gambling should not be allowed in society. However, the kids are having fun doing math, unlocking jokers to min/max their strategies and I guess that is a bit less haram than gambling. 
+
+**Slay the Spire II: **This is the game that is played the most on our Steam Deck at the moment. Why you ask? Because the game is not available on PlayStation, and we have our Steam Deck hooked up to the tv in the living room. Prior to StSII releasing, we were playing the first game non-stop. With more content and options, we are enjoying the new game immensely. 
+
+*Gies is a **free-for-all **newsletter | *Press **F** to support us!
+
+[F](https://giesweekly.substack.com/subscribe)
+
+---
+
+## Take-Two Lays Off AI Team | Mario Galaxy Movie Hits $370M | Hazelight Studio celebrates 50 million games
+
+_Published 2026-04-10 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/apple-takes-epic-fight-to-supreme)_
+
+**[Take-Two](https://www.gamedeveloper.com/business/report-take-two-lays-off-the-head-of-ai-and-unknown-number-of-team-members)**[ Interactive laid off its head of AI](https://www.gamedeveloper.com/business/report-take-two-lays-off-the-head-of-ai-and-unknown-number-of-team-members) and multiple team members, weeks after the company’s CEO publicly endorsed generative AI. 
+
+The **[Super Mario Galaxy Movie](https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174/)**[ earned over $370 million globally](https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174/) in its first five days of release.
+
+**[Hazelight ](https://www.dualshockers.com/hazelight-sales-data-shows-how-much-money-can-be-made-without-being-anti-player/)**[Sales Data Shows How Much Money Can Be Made Without Being Anti-Player](https://www.dualshockers.com/hazelight-sales-data-shows-how-much-money-can-be-made-without-being-anti-player/)
+
+**🎧 We break down these stories on this week’s podcast. Listen on [YouTube](https://www.youtube.com/@giesweekly) or [Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+### Numbers
+
+- No numbers!
+
+### News
+
+- [Social gaming platform ](https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/)**[Rec Room](https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/)**[, once valued at $3.5B, is shutting down](https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/)
+
+- **[007 First Light](https://insider-gaming.com/007-first-light-nintendo-switch-2-delayed/)**[ is delayed on the Nintendo Switch 2](https://insider-gaming.com/007-first-light-nintendo-switch-2-delayed/)
+
+- **[PUBG: Battlegrounds](https://www.rockpapershotgun.com/pubg-battlegrounds-new-pve-mode-is-all-about-fighting-off-an-alien-invasion-andor-hiding-in-a-big-man-made-dirt-hole)**[‘ new PvE mode is all about fighting off an alien invasion, and/or hiding in a big man-made dirt hole](https://www.rockpapershotgun.com/pubg-battlegrounds-new-pve-mode-is-all-about-fighting-off-an-alien-invasion-andor-hiding-in-a-big-man-made-dirt-hole)
+
+- **[Star Wars Eclipse](https://insider-gaming.com/star-wars-eclipse-development-is-very-slow-going/)**[ development is ‘very slow going’, remains years from completion](https://insider-gaming.com/star-wars-eclipse-development-is-very-slow-going/)
+
+### Industry Trends
+
+- **[Arc Raiders ](https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-a-trojan-horse-for-demonstrating-ai-tool-usage-in-game-development-according-to-nexon-after-embark-built-two-hits-at-a-fraction-of-the-cost-youd-expect/)**[is a 'Trojan Horse' for demonstrating AI tool usage in game development, according to Nexon, after Embark built two hits at 'a fraction of the cost you’d expect'](https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-a-trojan-horse-for-demonstrating-ai-tool-usage-in-game-development-according-to-nexon-after-embark-built-two-hits-at-a-fraction-of-the-cost-youd-expect/)
+
+- **[GTA 5](https://www.gamesradar.com/games/grand-theft-auto/my-20-year-tenure-is-no-longer-good-enough-gta-5-red-dead-redemption-veteran-says-getting-a-job-is-a-toss-of-coin-right-now-when-everyone-is-as-experienced-as-you-are/)**[ and ](https://www.gamesradar.com/games/grand-theft-auto/my-20-year-tenure-is-no-longer-good-enough-gta-5-red-dead-redemption-veteran-says-getting-a-job-is-a-toss-of-coin-right-now-when-everyone-is-as-experienced-as-you-are/)**[Red Dead Redemption](https://www.gamesradar.com/games/grand-theft-auto/my-20-year-tenure-is-no-longer-good-enough-gta-5-red-dead-redemption-veteran-says-getting-a-job-is-a-toss-of-coin-right-now-when-everyone-is-as-experienced-as-you-are/)**[ veteran says 20-year tenure is ‘no longer good enough’ to land a job](https://www.gamesradar.com/games/grand-theft-auto/my-20-year-tenure-is-no-longer-good-enough-gta-5-red-dead-redemption-veteran-says-getting-a-job-is-a-toss-of-coin-right-now-when-everyone-is-as-experienced-as-you-are/)
+
+- **[The First Descendant](https://www.forbes.com/sites/paultassi/2026/04/02/the-first-descendent-has-no-staying-power-admits-nexon/)**[ has no staying power, admits Nexon](https://www.forbes.com/sites/paultassi/2026/04/02/the-first-descendent-has-no-staying-power-admits-nexon/)
+
+- ["Any update is a bonus not a right": ](https://www.gamesradar.com/games/co-op/any-update-is-a-bonus-not-a-right-peak-co-developer-landfall-reminds-impatient-fans-its-not-a-live-service-studio/)**[Peak ](https://www.gamesradar.com/games/co-op/any-update-is-a-bonus-not-a-right-peak-co-developer-landfall-reminds-impatient-fans-its-not-a-live-service-studio/)**[co-developer Landfall reminds impatient fans it's not a live-service studio](https://www.gamesradar.com/games/co-op/any-update-is-a-bonus-not-a-right-peak-co-developer-landfall-reminds-impatient-fans-its-not-a-live-service-studio/)
+
+### Rumors
+
+- **[Nintendo](https://9to5toys.com/2026/04/07/nintendo-2026-leak-rumor-roundup-new-zelda-metroid-starfox-special-edition-switch-2-more/)**[ 2026 leak roundup: Zelda Ocarina of Time remake, new Star Fox, Metroid reportedly in the pipeline](https://9to5toys.com/2026/04/07/nintendo-2026-leak-rumor-roundup-new-zelda-metroid-starfox-special-edition-switch-2-more/)
+
+- **[Assassin's Creed Black Flag](https://insider-gaming.com/black-flag-remake-reveal-date-revealed/)**[ Remake Announcement is Planned for Next Week - Insider Gaming](https://insider-gaming.com/black-flag-remake-reveal-date-revealed/)
+
+- **[Mass Effect](https://www.ign.com/articles/mass-effect-prime-video-series-amazon-tv-boss-reportedly-requested-rewrites-to-make-it-more-appealing-to-non-gamers)**[ Prime Video series reportedly rewritten at Amazon boss’s request to appeal to non-gamers](https://www.ign.com/articles/mass-effect-prime-video-series-amazon-tv-boss-reportedly-requested-rewrites-to-make-it-more-appealing-to-non-gamers)
+
+We break down these stories on this week’s podcast. Listen on **[YouTube](https://www.youtube.com/@giesweekly)** or **[Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+*The Monthly Takeaway is available to paid subscribers.*
+
+[Subscribe now](https://giesweekly.substack.com/subscribe?)
+
+---
+
+## Sony Hikes PS5 Prices Again | Eidos Montreal Cancels Wildlands | Ninth Circuit Rules Against Apple in Epic Case
+
+_Published 2026-04-03 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/sony-hikes-ps5-prices-again-eidos)_
+
+**[Sony](https://www.gamespot.com/articles/ps5-price-increase-confirmed-by-sony-amid-market-pressures/1100-6539060/)**[ announced price increases of $100 to $150 across all PS5 hardware](https://www.gamespot.com/articles/ps5-price-increase-confirmed-by-sony-amid-market-pressures/1100-6539060/) effective April 2, the second hike in under a year. **[Eidos Montreal](https://insider-gaming.com/eidos-montreal-wildlands-cancellation/)**[ cancelled Wildlands](https://insider-gaming.com/eidos-montreal-wildlands-cancellation/), a 7+ year project that cost hundreds of millions, triggering 124 layoffs. **[PUBG](https://www.polygon.com/pubg-blindspot-shutting-down/)**[ Blindspot will shut down forever after this weekend](https://www.polygon.com/pubg-blindspot-shutting-down/).
+
+**🎧 We break down these stories on this week’s podcast. Listen on [YouTube](https://www.youtube.com/@giesweekly) or [Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+### 🔢 Numbers
+
+- [As ](https://www.videogameschronicle.com/news/as-crimson-desert-nears-5-million-sales-pearl-abyss-ceo-says-its-looking-into-a-switch-2-port/)**[Crimson Desert](https://www.videogameschronicle.com/news/as-crimson-desert-nears-5-million-sales-pearl-abyss-ceo-says-its-looking-into-a-switch-2-port/)**[ nears 5 million sales, Pearl Abyss CEO says it’s looking into a Switch 2 port](https://www.videogameschronicle.com/news/as-crimson-desert-nears-5-million-sales-pearl-abyss-ceo-says-its-looking-into-a-switch-2-port/)
+
+- **[Death Stranding 2](https://www.eurogamer.net/death-stranding-2-on-the-beachs-pc-release-takes-sequels-total-sales-past-2-million)**[: On the Beach’s PC release takes sequel’s total sales past 2 million](https://www.eurogamer.net/death-stranding-2-on-the-beachs-pc-release-takes-sequels-total-sales-past-2-million)
+
+### 🆕 News
+
+- **[Bungie](https://www.pushsquare.com/news/2026/03/were-in-it-for-the-long-haul-bungie-rejects-rumours-it-could-move-on-from-marathon-after-unremarkable-ps5-sales)**[ Rejects Rumours It Could Move on from Marathon After Unremarkable PS5 Sales](https://www.pushsquare.com/news/2026/03/were-in-it-for-the-long-haul-bungie-rejects-rumours-it-could-move-on-from-marathon-after-unremarkable-ps5-sales)
+
+- [France’s leading consumer association files lawsuit against ](https://www.eurogamer.net/new-lawsuit-filed-in-france-against-ubisoft-over-the-crew-shutdown)**[Ubisoft](https://www.eurogamer.net/new-lawsuit-filed-in-france-against-ubisoft-over-the-crew-shutdown)**[ over The Crew shutdown](https://www.eurogamer.net/new-lawsuit-filed-in-france-against-ubisoft-over-the-crew-shutdown)
+
+- [Resident Evil director’s new AAA studio joins forces with ](https://www.gamesradar.com/games/action-rpg/resident-evil-directors-new-aaa-studio-is-joining-forces-with-stellar-blade-developer-shift-up-to-create-a-masterpiece-of-a-game-and-no-this-isnt-an-april-fools-joke/)**[Shift Up](https://www.gamesradar.com/games/action-rpg/resident-evil-directors-new-aaa-studio-is-joining-forces-with-stellar-blade-developer-shift-up-to-create-a-masterpiece-of-a-game-and-no-this-isnt-an-april-fools-joke/)**[ to create a new game](https://www.gamesradar.com/games/action-rpg/resident-evil-directors-new-aaa-studio-is-joining-forces-with-stellar-blade-developer-shift-up-to-create-a-masterpiece-of-a-game-and-no-this-isnt-an-april-fools-joke/)
+
+### 📈 Industry Trends
+
+- [It turns out ](https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion)**[Fortnite](https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion)**[ isn’t the forever game after all](https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion)
+
+- [‘This is definitely crashier’: John and Brenda ](https://www.gamesindustry.biz/we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier-john-and-brenda-romero-reflect-on-the-industry-crisis)**[Romero](https://www.gamesindustry.biz/we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier-john-and-brenda-romero-reflect-on-the-industry-crisis)**[ reflect on the industry crisis](https://www.gamesindustry.biz/we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier-john-and-brenda-romero-reflect-on-the-industry-crisis)
+
+- [A new breed of ‘outsider ](https://www.polygon.com/new-aaa-studios/)**[AAA](https://www.polygon.com/new-aaa-studios/)**[‘ studios is taking over the games industry](https://www.polygon.com/new-aaa-studios/)
+
+- **[PlayStation](https://www.pushsquare.com/news/2026/03/playstation-studios-mobile-push-seems-dead-as-layoff-reports-continue)**[ Studios’ Mobile Push Seems Dead as Layoff Reports Continue](https://www.pushsquare.com/news/2026/03/playstation-studios-mobile-push-seems-dead-as-layoff-reports-continue)
+
+- [Here’s how US ](https://www.pcgamer.com/hardware/heres-how-us-tariffs-have-affected-pc-gaming-hardware-from-paused-shipments-to-new-investments/)**[tariffs](https://www.pcgamer.com/hardware/heres-how-us-tariffs-have-affected-pc-gaming-hardware-from-paused-shipments-to-new-investments/)**[ have affected PC gaming hardware, from paused shipments to new investments](https://www.pcgamer.com/hardware/heres-how-us-tariffs-have-affected-pc-gaming-hardware-from-paused-shipments-to-new-investments/)
+
+### 🤫 Rumors
+
+- No rumors!
+
+*Subscribe and support!*
+
+[Subscribe now](https://giesweekly.substack.com/subscribe?)
+
+---
+
+## Epic Games Cuts 1,000 Jobs | Savvy Acquires Moonton for $6B | Crimson Desert AI Apology
+
+_Published 2026-03-27 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/epic-games-cuts-1000-jobs-savvy-acquires)_
+
+**[Epic Games](https://www.wral.com/business/epic-games-cary-layoffs-1000-500m-cost-savings-fortnite-decline-mar-2026/)**[ cut over 1,000 employees on March 24, attributing the decision to Fortnite’s declining engagement since 2025 and costs that now exceed revenue.](https://www.wral.com/business/epic-games-cary-layoffs-1000-500m-cost-savings-fortnite-decline-mar-2026/)
+
+[Saudi Arabia’s ](https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion)**[Savvy Games](https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion)**[ Group agreed to acquire ](https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion)**[Moonton](https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion)**[, developer of Mobile Legends: Bang Bang, from ByteDance for $6 billion in one of the six largest gaming acquisitions on record. ](https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion)
+
+**[Pearl Abyss](https://gameinformer.com/2026/03/23/crimson-desert-apologizes-for-using-ai-art-and-issues-first-big-patch)**[ apologized for including AI-generated assets in ](https://gameinformer.com/2026/03/23/crimson-desert-apologizes-for-using-ai-art-and-issues-first-big-patch)**[Crimson Desert](https://gameinformer.com/2026/03/23/crimson-desert-apologizes-for-using-ai-art-and-issues-first-big-patch)**[’s launch version and issued a patch, pledging a full audit and replacement of affected content.](https://gameinformer.com/2026/03/23/crimson-desert-apologizes-for-using-ai-art-and-issues-first-big-patch)
+
+### Numbers
+
+- [Pearl Abyss confirms ](https://www.altchar.com/game-news/pearl-abyss-confirm-crimson-desert-has-sold-3-million-copies-since-launch-a2vJN7L6a7kU)**[Crimson Desert](https://www.altchar.com/game-news/pearl-abyss-confirm-crimson-desert-has-sold-3-million-copies-since-launch-a2vJN7L6a7kU)**[ has sold ](https://www.altchar.com/game-news/pearl-abyss-confirm-crimson-desert-has-sold-3-million-copies-since-launch-a2vJN7L6a7kU)**[3 million](https://www.altchar.com/game-news/pearl-abyss-confirm-crimson-desert-has-sold-3-million-copies-since-launch-a2vJN7L6a7kU)**[ copies since launch](https://www.altchar.com/game-news/pearl-abyss-confirm-crimson-desert-has-sold-3-million-copies-since-launch-a2vJN7L6a7kU)
+
+### News
+
+- [Nintendo to cut ](https://www.gonintendo.com/contents/59134-bloomberg-nintendo-to-cut-switch-2-production-by-30-this-quarter-after-slower-than)**[Switch 2](https://www.gonintendo.com/contents/59134-bloomberg-nintendo-to-cut-switch-2-production-by-30-this-quarter-after-slower-than)**[ production by 30% this quarter after slower-than-expected holiday season sales](https://www.gonintendo.com/contents/59134-bloomberg-nintendo-to-cut-switch-2-production-by-30-this-quarter-after-slower-than) | **[Nintendo ](https://www.ign.com/articles/nintendo-switch-2-physical-games-will-now-be-more-expensive-than-digital-versions-with-10-price-difference-for-yoshi-and-the-mysterious-book)**[Clarifies ‘The Cost of Physical Games Is Not Going Up’](https://www.ign.com/articles/nintendo-switch-2-physical-games-will-now-be-more-expensive-than-digital-versions-with-10-price-difference-for-yoshi-and-the-mysterious-book)
+
+- **[Metacritic](https://www.gamespot.com/gallery/metacritic-2025-rankings-show-a-major-shift-in-top-publishers/2900-7637/)**['s 2025 Rankings Show A Major Shift In Top Publishers](https://www.gamespot.com/gallery/metacritic-2025-rankings-show-a-major-shift-in-top-publishers/2900-7637/)
+
+- **[PlayStation ](https://insider-gaming.com/playstation-shuts-down-dark-outlaw-games/)**[Shuts Down ](https://insider-gaming.com/playstation-shuts-down-dark-outlaw-games/)**[Dark Outlaw Games](https://insider-gaming.com/playstation-shuts-down-dark-outlaw-games/)**
+
+- **[Fortnite ](https://www.polygon.com/fortnite-star-wars-uefn-update-assets-maps-how-does-it-work-disney/)**[creator update will change ](https://www.polygon.com/fortnite-star-wars-uefn-update-assets-maps-how-does-it-work-disney/)**[Star Wars](https://www.polygon.com/fortnite-star-wars-uefn-update-assets-maps-how-does-it-work-disney/)**[ video games forever](https://www.polygon.com/fortnite-star-wars-uefn-update-assets-maps-how-does-it-work-disney/)
+
+- **[Disney ](https://www.linkedin.com/posts/michielbuijsman_%F0%9D%90%83%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%B2-%F0%9D%90%9D%F0%9D%90%A2%F0%9D%90%9D%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%9F%8F-activity-7441973901200351232-kgkC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAd2aYBQojVQj1jsMnok4JWaGO-SSYQRc4)**[didn’t invest $1.5B into ](https://www.linkedin.com/posts/michielbuijsman_%F0%9D%90%83%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%B2-%F0%9D%90%9D%F0%9D%90%A2%F0%9D%90%9D%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%9F%8F-activity-7441973901200351232-kgkC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAd2aYBQojVQj1jsMnok4JWaGO-SSYQRc4)**[Epic ](https://www.linkedin.com/posts/michielbuijsman_%F0%9D%90%83%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%B2-%F0%9D%90%9D%F0%9D%90%A2%F0%9D%90%9D%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%9F%8F-activity-7441973901200351232-kgkC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAd2aYBQojVQj1jsMnok4JWaGO-SSYQRc4)**[to sell lightsaber skins](https://www.linkedin.com/posts/michielbuijsman_%F0%9D%90%83%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%B2-%F0%9D%90%9D%F0%9D%90%A2%F0%9D%90%9D%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%9F%8F-activity-7441973901200351232-kgkC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAd2aYBQojVQj1jsMnok4JWaGO-SSYQRc4)
+
+### Industry Trends
+
+- **[Behaviour Interactive](https://www.gematsu.com/2026/03/behaviour-interactive-acquires-the-fun-pimps)**[ acquires ](https://www.gematsu.com/2026/03/behaviour-interactive-acquires-the-fun-pimps)**[The Fun Pimps](https://www.gematsu.com/2026/03/behaviour-interactive-acquires-the-fun-pimps)**
+
+- [Why Kids Will Be the First True ](https://medium.com/arbitrum-gaming-ventures/why-kids-will-be-the-first-true-ai-native-creators-8dba27337429)**[AI-Native Creators](https://medium.com/arbitrum-gaming-ventures/why-kids-will-be-the-first-true-ai-native-creators-8dba27337429)**
+
+- **[Ubisoft](https://www.videogameschronicle.com/news/ubisoft-ends-game-development-at-tom-clancy-studio-red-storm-resulting-in-105-job-losses/)**[ ‘ends game development’ at Tom Clancy studio, Red Storm, resulting in 105 job losses](https://www.videogameschronicle.com/news/ubisoft-ends-game-development-at-tom-clancy-studio-red-storm-resulting-in-105-job-losses/)
+
+- [Ex-](https://www.pcgamer.com/games/action/ex-blizzard-president-says-gamers-need-to-man-up-over-ai-usage-in-games-after-crimson-desert-devs-issue-apology/)**[Blizzard](https://www.pcgamer.com/games/action/ex-blizzard-president-says-gamers-need-to-man-up-over-ai-usage-in-games-after-crimson-desert-devs-issue-apology/)**[ president says gamers need to ‘man up’ over AI usage in games after Crimson Desert devs issue apology](https://www.pcgamer.com/games/action/ex-blizzard-president-says-gamers-need-to-man-up-over-ai-usage-in-games-after-crimson-desert-devs-issue-apology/)
+
+### Rumors
+
+- [New Nintendo ](https://www.ign.com/articles/nintendo-switch-2-with-removable-battery-in-production-report-reveals-but-only-for-europe)**[Switch 2](https://www.ign.com/articles/nintendo-switch-2-with-removable-battery-in-production-report-reveals-but-only-for-europe)**[ Model in Production for Europe, Report Reveals](https://www.ign.com/articles/nintendo-switch-2-with-removable-battery-in-production-report-reveals-but-only-for-europe)
+
+We break down these stories on this week’s podcast. Listen on **[YouTube](https://www.youtube.com/@giesweekly)** or **[Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+*The Monthly Takeaway is available to paid subscribers.*
+
+[Subscribe now](https://giesweekly.substack.com/subscribe?)
+
+---
+
+## Loot Boxes Get PEGI 16 | Meta Kills Horizon Worlds VR | Subnautica 2 CEO Reinstated by Court
+
+_Published 2026-03-20 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/w11-2026)_
+
+Loot boxes will carry a minimum PEGI 16 rating from this summer, the first binding age-gate tied specifically to randomized monetization in Europe. A US judge ordered Krafton to reinstate the fired Subnautica 2 studio CEO and hand him full control of the Early Access launch, a rare legal override of a publisher's internal authority. Meanwhile, Newzoo projects that PC will overtake console revenue by 2028, and Saudi money continues to flow into Japanese IP with a 5% stake in Capcom.
+
+🎧 We break down these stories on this week’s podcast. Listen on **[YouTube](https://www.youtube.com/@giesweekly)** or **[Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+### 🎯 Highlights
+
+- [All games with loot boxes in them will be rated minimum ](https://www.videogameschronicle.com/news/all-games-with-loot-boxes-in-them-will-be-rated-minimum-pegi-16-starting-this-summer/)**[PEGI 16](https://www.videogameschronicle.com/news/all-games-with-loot-boxes-in-them-will-be-rated-minimum-pegi-16-starting-this-summer/)**[, starting this summer](https://www.videogameschronicle.com/news/all-games-with-loot-boxes-in-them-will-be-rated-minimum-pegi-16-starting-this-summer/)
+
+- [Judge Orders ](https://kotaku.com/subnautica-2-ted-gill-unknown-worlds-lawsuit-krafton-2000679131)**[Subnautica 2](https://kotaku.com/subnautica-2-ted-gill-unknown-worlds-lawsuit-krafton-2000679131)**[ Studio CEO Fired By ](https://kotaku.com/subnautica-2-ted-gill-unknown-worlds-lawsuit-krafton-2000679131)**[Krafton](https://kotaku.com/subnautica-2-ted-gill-unknown-worlds-lawsuit-krafton-2000679131)**[ To Be Reinstated And Gives Him Full Control Over Early Access Steam Launch](https://kotaku.com/subnautica-2-ted-gill-unknown-worlds-lawsuit-krafton-2000679131)
+
+### 🆕 News
+
+- **[Meta ](https://www.theshortcut.com/p/meta-is-shutting-down-horizon-worlds-vr-despite-investing-billions-into-the-metaverse?hide_intro_popup=true)**[is shutting down ](https://www.theshortcut.com/p/meta-is-shutting-down-horizon-worlds-vr-despite-investing-billions-into-the-metaverse?hide_intro_popup=true)**[Horizon Worlds VR](https://www.theshortcut.com/p/meta-is-shutting-down-horizon-worlds-vr-despite-investing-billions-into-the-metaverse?hide_intro_popup=true)**[, despite investing billions into the metaverse](https://www.theshortcut.com/p/meta-is-shutting-down-horizon-worlds-vr-despite-investing-billions-into-the-metaverse?hide_intro_popup=true)
+
+- [Pearl Abyss stock dives as ](http://PC will overtake console revenue by 2028, says Newzoo)**[Crimson Desert](http://PC will overtake console revenue by 2028, says Newzoo)**[ reviews miss expectations](http://PC will overtake console revenue by 2028, says Newzoo)
+
+- **[Monster Hunter Stories 3](https://www.gamesradar.com/games/monster-hunter/monster-hunter-stories-3-hits-a-record-player-count-on-steam-for-capcoms-cozier-spin-off-rpg-series/)**[ Hits a Record Player Count on Steam for ](https://www.gamesradar.com/games/monster-hunter/monster-hunter-stories-3-hits-a-record-player-count-on-steam-for-capcoms-cozier-spin-off-rpg-series/)**[Capcom](https://www.gamesradar.com/games/monster-hunter/monster-hunter-stories-3-hits-a-record-player-count-on-steam-for-capcoms-cozier-spin-off-rpg-series/)**[‘s Cozier Spin-Off RPG Series](https://www.gamesradar.com/games/monster-hunter/monster-hunter-stories-3-hits-a-record-player-count-on-steam-for-capcoms-cozier-spin-off-rpg-series/)
+
+- **[Nintendo Switch 2](https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-update-brings-handheld-mode-boost-unlocks-higher-resolutions-and-tv-mode-performance-for-original-switch-games)**[ Update Brings Handheld Mode Boost — Unlocks Higher Resolutions and TV-Mode Performance for Original Switch Games](https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-update-brings-handheld-mode-boost-unlocks-higher-resolutions-and-tv-mode-performance-for-original-switch-games)
+
+- [Minecraft meets Wind Waker – Hytale with airships, ](https://www.eurogamer.net/minecraft-meets-wind-waker-hytale-with-airships-everwind-is-steams-latest-big-early-access-release-and-it-could-be-a-winner-with-time)**[Everwind](https://www.eurogamer.net/minecraft-meets-wind-waker-hytale-with-airships-everwind-is-steams-latest-big-early-access-release-and-it-could-be-a-winner-with-time)**[ is Steam’s latest big early access release and it could be a winner with time](https://www.eurogamer.net/minecraft-meets-wind-waker-hytale-with-airships-everwind-is-steams-latest-big-early-access-release-and-it-could-be-a-winner-with-time)
+
+### 📈 Industry Trends
+
+- **[PC](https://www.gamesindustry.biz/pc-will-overtake-console-revenue-by-2028-says-newzoo)**[ will overtake console revenue by 2028, says ](https://www.gamesindustry.biz/pc-will-overtake-console-revenue-by-2028-says-newzoo)**[Newzoo](https://www.gamesindustry.biz/pc-will-overtake-console-revenue-by-2028-says-newzoo)**
+
+- **[Hasbro](https://www.gamesindustry.biz/hasbro-ceo-thinks-the-video-game-industry-needs-to-think-about-things-differently)**[ CEO thinks the video game industry needs to think about things differently](https://www.gamesindustry.biz/hasbro-ceo-thinks-the-video-game-industry-needs-to-think-about-things-differently)
+
+- [Saudi Investment Firm Acquires a 5% Stake in ](https://insider-gaming.com/saudi-investment-firm-acquires-major-stake-in-capcom/)**[Capcom](https://insider-gaming.com/saudi-investment-firm-acquires-major-stake-in-capcom/)**
+
+- [Why Free Games Still Matter to ](https://www.gamespot.com/articles/why-free-games-still-matter-to-epic-hundreds-of-giveaways-later/1100-6538866/)**[Epic](https://www.gamespot.com/articles/why-free-games-still-matter-to-epic-hundreds-of-giveaways-later/1100-6538866/)**[, Hundreds of Giveaways Later](https://www.gamespot.com/articles/why-free-games-still-matter-to-epic-hundreds-of-giveaways-later/1100-6538866/)
+
+- **[ASUS](https://www.eteknix.com/asus-co-ceo-says-macbook-neo-is-a-blow-to-the-pc-market/)**[ Co-CEO Says ](https://www.eteknix.com/asus-co-ceo-says-macbook-neo-is-a-blow-to-the-pc-market/)**[MacBook Neo](https://www.eteknix.com/asus-co-ceo-says-macbook-neo-is-a-blow-to-the-pc-market/)**[ Is a Blow to the PC Market](https://www.eteknix.com/asus-co-ceo-says-macbook-neo-is-a-blow-to-the-pc-market/)
+
+### 🤫 Rumors
+
+- No rumors!
+
+### 🔢 Numbers
+
+- [As it passes ](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)**[6 million](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)**[ sales, ](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)**[Capcom](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)**[ officially confirms ](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)**[Resident Evil Requiem](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)**[ is the series’ fastest selling game](https://www.videogameschronicle.com/news/as-it-passes-6-million-sales-capcom-officially-confirms-resident-evil-requiem-is-the-series-fastest-selling-game/)
+
+*Gies is a **free-for-all **newsletter | *Press **F** to support us!
+
+[F](https://giesweekly.substack.com/subscribe)
+
+#### About Mighty Diamonds
+
+Mighty Diamonds is a strategic video game consultancy specializing in Publishing, Design, Production, Marketing, and Business.
+
+Our mission is to empower developers in creating exceptional games.
+
+Learn more at [mighty.diamonds](https://www.mighty.diamonds).
+
+---
+
+## Valve Fights Loot Box Lawsuit | Epic Raises V-Bucks Prices | Xbox Unveils Project Helix
+
+_Published 2026-03-13 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/w10-2026)_
+
+Valve compared loot boxes to Magic cards and Labubu toys in its defense against New York’s gambling lawsuit, while Epic raised V-Bucks prices to cover rising costs. Xbox revealed Project Helix, a console designed to play PC games, and Nintendo sued the U.S. government over tariffs.
+
+**🎧 We break down these stories on this week’s podcast. Listen on [YouTube ](https://www.youtube.com/@giesweekly)or [Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)**
+
+### 🎯 Highlights
+
+- **[Valve ](https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/)**[fires back at New York lawsuit over](https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/)**[ loot boxes](https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/)**[, says they’re like Magic cards or Labubu](https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/)
+
+- [Epic raises price of ](https://www.bbc.com/news/articles/c70kypnl4w8o)**[Fortnite](https://www.bbc.com/news/articles/c70kypnl4w8o)**['s V-Bucks to 'help pay the bills'](https://www.bbc.com/news/articles/c70kypnl4w8o) | [Fortnite's ](https://news.instant-gaming.com/en/articles/18472-fortnite-s-save-the-world-will-be-free-from-april-16)**[Save the World](https://news.instant-gaming.com/en/articles/18472-fortnite-s-save-the-world-will-be-free-from-april-16)**[ will be free from April 16](https://news.instant-gaming.com/en/articles/18472-fortnite-s-save-the-world-will-be-free-from-april-16)
+
+### 🆕 News
+
+- **[Xbox ](https://www.purexbox.com/news/2026/03/xbox-announces-new-project-helix-console-says-it-will-play-pc-games)**[Announces New '](https://www.purexbox.com/news/2026/03/xbox-announces-new-project-helix-console-says-it-will-play-pc-games)**[Project Helix](https://www.purexbox.com/news/2026/03/xbox-announces-new-project-helix-console-says-it-will-play-pc-games)**[' Console, Says It Will Play PC Games](https://www.purexbox.com/news/2026/03/xbox-announces-new-project-helix-console-says-it-will-play-pc-games)
+
+- [Sales data indicates Sony's ](https://www.gamesindustry.biz/sales-data-indicates-sonys-ps5-ports-are-increasingly-losing-audience-share-on-pc-but-only-because-of-release-timing)**[PS5 ](https://www.gamesindustry.biz/sales-data-indicates-sonys-ps5-ports-are-increasingly-losing-audience-share-on-pc-but-only-because-of-release-timing)**[ports are increasingly losing audience share on PC, but only because of release timing](https://www.gamesindustry.biz/sales-data-indicates-sonys-ps5-ports-are-increasingly-losing-audience-share-on-pc-but-only-because-of-release-timing)
+
+- **[Nintendo ](https://aftermath.site/nintendo-tariffs-sue/)**[Suing U.S. Government Over Tariffs](https://aftermath.site/nintendo-tariffs-sue/)
+
+- **[The Division 2](https://www.eurogamer.net/the-division-2-breaks-its-own-concurrent-steam-record-7-years-after-it-was-first-released)**[ breaks its own concurrent Steam record, 7 years after it was first released](https://www.eurogamer.net/the-division-2-breaks-its-own-concurrent-steam-record-7-years-after-it-was-first-released)
+
+- [After listening to your complaints, Bungie is making it just a tad less annoying to buy cosmetics in ](https://www.rockpapershotgun.com/after-listening-to-your-complaints-bungie-is-making-it-just-a-tad-less-annoying-to-buy-cosmetics-in-marathon)**[Marathon](https://www.rockpapershotgun.com/after-listening-to-your-complaints-bungie-is-making-it-just-a-tad-less-annoying-to-buy-cosmetics-in-marathon)** | [Bungie asks sites to delay Marathon reviews, with release date Steam player count below 100K](https://www.notebookcheck.net/Bungie-asks-sites-to-delay-Marathon-reviews-with-release-date-Steam-player-count-below-100K.1243596.0.html)
+
+### 📈 Industry Trends
+
+- [A ](https://www.rockpapershotgun.com/a-steam-machine-update-reignited-release-date-fears-but-valve-say-the-new-hardware-is-still-shipping-this-year)**[Steam Machine](https://www.rockpapershotgun.com/a-steam-machine-update-reignited-release-date-fears-but-valve-say-the-new-hardware-is-still-shipping-this-year)**[ update reignited release date fears, but Valve say the new hardware is still shipping this year](https://www.rockpapershotgun.com/a-steam-machine-update-reignited-release-date-fears-but-valve-say-the-new-hardware-is-still-shipping-this-year)
+
+- [Iran War Threatens ](https://www.bloomberg.com/news/articles/2026-03-12/iran-war-threatens-saudi-arabia-s-38-billion-video-game-push)**[Saudi Arabia](https://www.bloomberg.com/news/articles/2026-03-12/iran-war-threatens-saudi-arabia-s-38-billion-video-game-push)**[’s $38 Billion Video Game Push](https://www.bloomberg.com/news/articles/2026-03-12/iran-war-threatens-saudi-arabia-s-38-billion-video-game-push)
+
+- [Overwatch co-creator ](https://www.pcgamer.com/games/fps/overwatch-co-creator-jeff-kaplan-on-his-exit-from-activision-blizzard-it-was-the-biggest-f-k-you-moment-ive-had-in-may-career/)**[Jeff Kaplan](https://www.pcgamer.com/games/fps/overwatch-co-creator-jeff-kaplan-on-his-exit-from-activision-blizzard-it-was-the-biggest-f-k-you-moment-ive-had-in-may-career/)**[ on his exit from Activision Blizzard: 'It was the biggest f**k you moment I've had in my career'](https://www.pcgamer.com/games/fps/overwatch-co-creator-jeff-kaplan-on-his-exit-from-activision-blizzard-it-was-the-biggest-f-k-you-moment-ive-had-in-may-career/)
+
+- [Sony is testing dynamic pricing: one game - different prices on the ](https://psprices.com/news/sony-ab-testing-prices/)**[PlayStation ](https://psprices.com/news/sony-ab-testing-prices/)**[Store](https://psprices.com/news/sony-ab-testing-prices/)
+
+- [EA Lays Off Staff Across All Battlefield Studios Following Record-Breaking ](https://www.ign.com/articles/ea-lays-off-staff-across-all-battlefield-studios-following-record-breaking-battlefield-6-launch)**[Battlefield 6](https://www.ign.com/articles/ea-lays-off-staff-across-all-battlefield-studios-following-record-breaking-battlefield-6-launch)**[ Launch](https://www.ign.com/articles/ea-lays-off-staff-across-all-battlefield-studios-following-record-breaking-battlefield-6-launch)
+
+### 🤫 Rumors
+
+- No rumors!
+
+### 🔢 Numbers
+
+- **[Slay the Spire 2](https://www.gamesindustry.biz/slay-the-spire-2-hits-nearly-575000-concurrent-players-almost-beating-silksongs-record)**[ hits nearly ](https://www.gamesindustry.biz/slay-the-spire-2-hits-nearly-575000-concurrent-players-almost-beating-silksongs-record)**[575,000 concurrent players](https://www.gamesindustry.biz/slay-the-spire-2-hits-nearly-575000-concurrent-players-almost-beating-silksongs-record)**[, almost beating Silksong's record](https://www.gamesindustry.biz/slay-the-spire-2-hits-nearly-575000-concurrent-players-almost-beating-silksongs-record)
+
+- **[Silent Hill 2](https://www.vgchartz.com/article/467265/silent-hill-2-remake-tops-5-million-players/)**[ Remake Tops ](https://www.vgchartz.com/article/467265/silent-hill-2-remake-tops-5-million-players/)**[5 Million Players](https://www.vgchartz.com/article/467265/silent-hill-2-remake-tops-5-million-players/)**
+
+- **[Pokemon Pokopia ](https://www.vgchartz.com/article/467264/pokemon-pokopia-sales-top-22-million-units-in-4-days/)**[Sales Top ](https://www.vgchartz.com/article/467264/pokemon-pokopia-sales-top-22-million-units-in-4-days/)**[2.2 Million Units](https://www.vgchartz.com/article/467264/pokemon-pokopia-sales-top-22-million-units-in-4-days/)**[ in 4 Days](https://www.vgchartz.com/article/467264/pokemon-pokopia-sales-top-22-million-units-in-4-days/)
+
+Emmanuel Rosier · Dave Thier · Casey Al-Kaisy
+
+All links · [YouTube ](https://www.youtube.com/@giesweekly)· [Spotify](https://open.spotify.com/show/3NiMWvLibANf1tvxFYFQgh)
+
+*Gies is a **free-for-all **newsletter | *Press **F** to support us!
+
+[F](https://giesweekly.substack.com/subscribe)
+
+#### About Mighty Diamonds
+
+Mighty Diamonds is a strategic video game consultancy specializing in Publishing, Design, Production, Marketing, and Business.
+
+Our mission is to empower developers in creating exceptional games.
+
+Learn more at [mighty.diamonds](https://www.mighty.diamonds).
+
+---
+
+## Monthly Takeaway | Will Xbox Survive the Xbox One? | Brand Integration in Games: Visibility vs Value
+
+_Published 2026-03-03 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/gies-monthly-takeaway-16)_
+
+*Every week, GIES is here to give you the bullet points on what you need to know about the news in the gaming industry. Every month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
+
+# Will Xbox Survive the Xbox One?
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!CI_9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80404e9e-5181-408c-b92b-b093de8d86d9_1723x691.png)The fact that Xbox is hurting is not exactly news. The house that Halo built has struggled to sell consoles, struggled to wrest any hits out of its power made studio acquisition spree, has struggled to earn new Game Pass subscribers, and just shed both CEO Phil Spencer and his heir apparent Sarah Bond in exchange for a new CEO straight from the world of AI: it’s bleak. It’s bleak all over, but it’s particularly bleak here.
+
+It is all too easy to Monday morning quarterback this thing and say that Bethesda just couldn’t produce the hits it needed, that Call of Duty is past its prime, that they shouldn’t have shut down Tango Gameworks, or whatever myriad things that are all ultimately true but besides the point. Phil Spencer was the replacement for Don Mattrick, that was the guy we’re really talking about here. Mattrick launched the Xbox One, and Xbox was never going to survive the Xbox One.
+
+The launch of the PS4 and Xbox One was an inflection point in the industry. Connectivity went from being a feature to an assumption: discs remained but digital storefronts began to exert their dominance, and eventually this allowed games like *Warframe* and *Destiny* to prove that live service was just as potent on console as it was on PC. But most importantly, over the course of this generation backwards compatibility became an expectation. Ironically, Xbox did a lot to make this happen, but it was going to happen anyways. And that was what ensured that Xbox was never going to live this one down.
+
+If you, a dedicated Xbox 360 player, wanted to transition to PS4, it was a pretty simple process: you just started buying PlayStation games instead. None of your Xbox 360 games were going to work on your next console anyways, no matter what it was.
+
+We don’t really need to go into why, exactly, Xbox One lost quite so badly to PS4, because there were a ton of reasons. Point being: it did. It put the company in the bind that saw Phil Spencer’s rise in the first place, and for a time there was some genuine excitement about this charming, inoffensive guy with an indie game T-shirt under his blazer: this was a gamer, there was no doubt about it. And he offered things up like Game Pass, which we were all into at the time. The ship was still leaking.
+
+Mid-generation, Xbox began its push towards backwards compatibility, and by the end of the generation nobody really questioned whether or not Xbox One and PS4 games would work on the next machines. This meant that the opportunity cost for switching teams went through the roof. To get a PS4 player to switch to the Series X, Microsoft had to convince them to go with a machine that couldn’t access any of the games they had bought in the previous generation. For two x86 machines that played the same suite of AAA multiplatform titles, it was pretty easy to just stick with the one where you had games. Xbox’s exclusives didn’t just need to be good, they needed to be so much better than PlayStation’s that people would be willing to make that sacrifice. Even if they were a little bit better (they weren’t), it wouldn’t have been enough.
+
+Clearly, a lot of things went sideways at Microsoft over the past 10 years or so that may or may not have made this whole thing a little bit easier. But it’s easy to forget what an uphill battle this whole thing was. If Xbox wasn’t so far on the back foot, if Spencer and co. had a little margin to make the massive plays that defined its post-Covid era, maybe this whole thing looks a little different. But it wasn’t, because Xbox One killed Xbox.
+
+We’re going to be having this same conversation with different details with the PlayStation 6. But that’s next time.
+
+***That’s the month. Below, we’ve got a pair of case studies from some of our consultants diving into how their specialties intersect with the headlines this month.  If you want to hire any of the brilliant minds at Mighty Diamonds, head to [our Website.](https://www.mighty.diamonds/)***
+
+# Brand Integration in Games: Visibility vs Value
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!ksuf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facab4738-a405-4f48-8e35-21b4d4b838aa_1456x583.webp)The “Hot Bull” can in PUBG was never officially branded. 
+
+No logo. No partnership. Yet every player knew exactly what it was.That detail exposes a blind spot in many gaming brand deals: visibility is not the same as value.Yet most brand budgets in gaming are still allocated as if it were.FMCG brands tend to live in the background of games. A soda on a shelf. A snack in a vending machine. Safe, low scrutiny — but also low impact.And when developers control that space entirely, they often choose parody instead. GTA’s Sprunk, Burger Shot, Cluckin’ Bell. These aren’t placeholders. They are deliberate worldbuilding tools. In many cases, the fictional brand serves the experience better than a real one could.Everything changes when a brand enters the gameplay loop.In racing games, cars are not props. They are the interaction system. Players expect a Porsche to handle like a Porsche. They expect a Ferrari to behave like a Ferrari. When authenticity fails at that level, it is not perceived as weak licensing. It is perceived as weak gameplay.Mil sim titles operate under the same constraint. Weapons, optics, and tactical gear are gameplay systems. These communities are highly knowledgeable. Small inaccuracies immediately break immersion and credibility.The same pattern appears across categories. Fashion works in Fortnite when it reinforces player identity. Sports equipment works in EA Sports FC or NBA 2K because it strengthens broadcast realism. Hardware integrations work when they support performance fantasy.Brand integration in games consistently operates across three layers:→ Environmental: supports worldbuilding, low risk→ Cultural: reinforces identity and tone→ Mechanical: directly shapes gameplayThe commercial upside increases at each layer. So does the execution risk. Mechanical integration raises player expectations, increases development complexity, and constrains creative flexibility.Most partnerships still optimize for layer one because it is safe. The brands building durable equity are increasingly experimenting in layer three, where integration shifts from visibility to player agency.As games evolve into persistent worlds and identity-driven ecosystems, the real divide is emerging between brands that are simply seen inside games and brands that function inside gameplay systems.That divide is where long-term brand equity in gaming will be built.
+
+## What’s Dave playing?
+
+**Ender Magnolias: **A good solid Metroidvania. Loving the concept of having all your abilties represented as characters, but I have yet to see the sort of level design that really takes a Metroidvania from good to great. My favorite Metroidvania of the last however many years has still got to be *Blasphemous 2*. And yes, that includes *Hollow Knight: Silksong. *
+
+*Gies is a **free-for-all **newsletter | *Press **F** to support us!
+
+[F](https://giesweekly.substack.com/subscribe)
+
+####
+
+---
+
+## Monthly Takeaway | High(Guard) Expectations | Don’t look up: why climbing keeps coming back in games
+
+_Published 2026-02-02 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/gies-monthly-takeaway-18)_
+
+*Every week, GIES is here to give you the bullet points on what you need to know about the news in the gaming industry. Every month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
+
+# High(Guard) Expectations
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!CI_9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80404e9e-5181-408c-b92b-b093de8d86d9_1723x691.png)
+
+The basic contours are familiar. A new hero shooter, possessed by a certain level of visual polish but lacking much in the way of a visual identity. A splashy introduction followed by cratering player counts. Some idiots waving the word woke around. Maybe its *Concord*, maybe its *Hyenas*, *Suicide Squad, *even all the way back to *Anthem*. It’s a list nobody wants to be on. Is *Highguard* the next name on this list?
+
+*Highguard* became an internet punching bag in many ways because of its prominence. The Game Awards reveal thrust it into the crosshairs — people saw that sort of slick presentation that stops just sort of a true art style and they lumped it in with those other gigantic projects. Gamers, especially of the more online variety, are cynical. They like it when big things fail. *Highguard* smacked of the institution and thus the sentiment turned sour.
+
+But this is not the big new project from Sega or Sony, EA or WB. This is a new self-publishing studio —albeit an obviously well-funded one—with only itself and its investors to answer to: maybe it could be different. Or, at the very least, we can always hope that it can be different. I am not familiar with Wildlight’s P&L, runway, projected revenue, investor expectations or any of those things that ultimately determine whether a thing succeeds or not. Instead I’m just going to take a quotation from Lead Designer Mohammad Alavi in [a recent PC Gamer article](https://www.gamespot.com/articles/highguard-studio-isnt-concerned-with-accruing-massive-player-counts-on-launch-day/1100-6537654/) at face value:
+
+“Honestly, we don’t need [player counts] to be super huge in order to be successful,” he explained. “We’re a small team. A six-player match [Highguard’s max player count at launch] is not hard to find. What we’re really hoping for is a core group of fans that love us. That will allow us to grow. Being the ire of the internet hate machine sucks, but at the same time, I try to just focus on making the best game I can and getting that game into people’s hands. At the end of the day, that’s all that really matters.”
+
+All the other names on that list were major products from big operations that obviously required player counts to succeed. They failed because they didn’t sell, sure, but more to the point they failed because sales didn’t get to *where they needed to be*. They failed because they were developed with unrealistic expectations in mind.
+
+If Wildlight understands this – and public statements indicate that they do – there is no reason to assume there’s really anything wrong here.
+
+The industry, now and over the past few years, is primarily struggling with managing expectations. There used to be certain assumptions you could make about how certain things would perform, and these assumptions are now gone. Every project that isn’t *GTA* or *The Elder Scrolls* or *The Legend of Zelda* needs to find a way to be comfortable with less sales and smaller player counts to be considered successful. Every project needs to know how to start small and grow, or to stay small and be happy. Publishers and investors need to understand this as well as investors.
+
+This is pretty clear when you look at the sort of indie hits we’re always talking about at *GIES*, *Peak* and *Schedule One* or whatever. These are games designed to be succesful at a small scale that hey, wound up with a whole lot more than they needed. 
+
+We all know about *No Man’s Sky — *another game that got smashed in the face by its position at the end of a major press conference. One launch happens, good or bad, the dust settles into something. Is that thing enough to press on into the future? If so, that’s all you can really ask. 
+
+***That’s the month. Below, we’ve got a pair of case studies from some of our consultants diving into how their specialties intersect with the headlines this month.  If you want to hire any of the brilliant minds at Mighty Diamonds, head to [our Website.](https://www.mighty.diamonds/)***
+
+# Don’t look up: why climbing keeps coming back in games
+
+[[image: ]](https://substackcdn.com/image/fetch/$s_!ksuf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facab4738-a405-4f48-8e35-21b4d4b838aa_1456x583.webp)**Don’t look up.** The phrase comes from the movie, but it also describes a quiet default in modern game design. As games scale, they increasingly push players forward, outward, and sideways: bigger maps, more icons, more parallel objectives. Horizontal sprawl becomes the standard answer to engagement.
+
+And yet, some of the most resonant experiences of recent years do the opposite. They ask players to slow down, commit, and look up.
+
+With the release of *Cairn,* climbing is once again positioned not as a traversal layer, but as the experience itself. Not a genre, but a design response. One that cuts through abundance with a single, visible promise: there is something above you.
+
+What changes from game to game is not the direction. It is what climbing is used to achieve.
+
+**When climbing is about spectacle**
+
+[[image: Article content]](https://substackcdn.com/image/fetch/$s_!m_ju!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc95a95e-ae8c-4a1f-bf67-925a2de86c10_2000x1000.png)Uncharted 4In franchises such as *Tomb Raider, Uncharted,* and *Assassin’s Creed,* climbing primarily exists to preserve the flow.
+
+It paces the experience between action beats, frames danger and scale, and guides players through carefully authored spaces. These systems are intentionally forgiving. Handholds are readable, animations absorb mistakes, and failure is rare or scripted. The player is meant to feel exposed, not tested.
+
+Here, climbing functions as cinematic language. Verticality supports fantasy and momentum rather than mastery.
+
+**When climbing is the objective, and failure is the feedback**
+
+[[image: Article content]](https://substackcdn.com/image/fetch/$s_!KY5k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66b4b86e-3770-4e78-9aaa-465537396452_1488x837.jpeg)FortniteSome games strip that framing away almost entirely. What remains is a simple contract: go up, and don’t fall.
+
+This is the core of *Getting Over It with Bennett Foddy, Only Up!, Chained Together,* and a large number of *Fortnite* Creative maps built around vertical parkour or no-checkpoint climbs.
+
+In these experiences, the goal is visible from the start. Progress is purely spatial. Failure is legible, public, and often costly. There is no story required to justify the ascent and no tutorial needed to explain success. Looking up explains the objective. Falling explains the mistake.
+
+Here, climbing is not traversal.** **It is the game. And failure is not a punishment layered on top; it is the feedback loop.
+
+**When climbing becomes the main protagonist**
+
+[[image: Article content]](https://substackcdn.com/image/fetch/$s_!wi42!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3105088a-f969-46d9-9da2-333706461f51_1488x837.png)Other games use climbing not just as a challenge, but as the lens through which tone, pacing, and meaning emerge.
+
+In *Jusant*, ascent is rhythmic and contemplative, with friction deliberately softened to preserve flow. *PEAK* adds a social layer, where success and failure are shared*,* and trust becomes part of the climb. *Baby Steps* goes further still, making even basic movement awkward and intentional, so that progress feels fragile rather than triumphant.
+
+In these games, failure still exists, but it is not always the spectacle. The mountain or tower is no longer a backdrop or an obstacle course.** **It is the narrative device itself.
+
+**Why this keeps working (and why it matters now)**
+
+[[image: Article content]](https://substackcdn.com/image/fetch/$s_!6Bxo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb120e35b-8879-4e4a-ba42-8a5d37881989_1488x837.jpeg)AnthemClimbing keeps coming back because it solves a problem the industry keeps recreating. As games scale, they tend to add breadth, featuring larger maps, more systems, and more parallel objectives. Progress becomes diffuse. Direction becomes abstract. Players spend more time navigating choices than committing to action.
+
+Climbing does the opposite. It collapses complexity into direction. There is one axis of progress, the goal is visible, and commitment is explicit. Whether it appears as a cinematic spectacle, a failure-driven challenge, or a narrative ascent, climbing removes ambiguity without adding scope. In a medium increasingly defined by content abundance and attention scarcity, that distinction matters.
+
+You don’t progress because the game tells you to. You progress because you can see where you are going. That is why climbing keeps coming back in games.
+
+## What’s Dave playing?
+
+**Mio: **A little bit of this thing so far, not too much. A nice, perfectly serviceable Metroidvania that isn’t as challenging as certain silk-themed Metroidvanias I’ve played recently.
+
+**Sifu:** I keep playing this thing because I’ve been super busy with work, and because it is relatively satisfying in 3-5 minute chunks. Find yourself a game that works like this, is my advice to you.
+
+*Gies is a **free-for-all **newsletter | *Press **F** to support us!
+
+[F](https://giesweekly.substack.com/subscribe)
+
+#### About Mighty Diamonds
+
+Mighty Diamonds is a strategic video game consultancy specializing in Publishing, Design, Production, Marketing, and Business.
+
+Our mission is to empower developers in creating exceptional games.
+
+Learn more at [mighty.diamonds](https://www.mighty.diamonds).
+
+---

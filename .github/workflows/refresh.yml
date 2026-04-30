@@ -1,0 +1,50 @@
+name: Refresh GIES site
+
+on:
+  schedule:
+    # Friday 09:15 CET = 08:15 UTC (winter), 09:15 CEST = 07:15 UTC (summer).
+    # Run at both. Script is idempotent — second run is a no-op redeploy.
+    - cron: '15 7 * * 5'
+    - cron: '15 8 * * 5'
+  workflow_dispatch:        # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write           # so the job can commit the regenerated HTML back
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet requests
+
+      - name: Run refresh + deploy
+        env:
+          NETLIFY_PAT: ${{ secrets.NETLIFY_PAT }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: python tools/refresh.py --deploy
+
+      - name: Commit regenerated HTML
+        run: |
+          git config user.name "gies-refresh-bot"
+          git config user.email "gies-refresh-bot@users.noreply.github.com"
+          git add index.html research/index.html img/issues/ tools/state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: refresh content $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
