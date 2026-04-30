@@ -44,7 +44,8 @@ import requests
 SITE_ROOT = Path(__file__).resolve().parent.parent
 STATE_PATH = SITE_ROOT / 'tools' / 'state.json'
 
-SUBSTACK_API = 'https://giesweekly.substack.com/api/v1/archive'
+SUBSTACK_API = 'https://giesweekly.substack.com/api/v1/archive'  # blocked from datacenter IPs
+SUBSTACK_FEED = 'https://giesweekly.substack.com/feed'  # public RSS, never blocked
 YT_HANDLE_URL = 'https://www.youtube.com/@giesweekly'
 YT_FEED_URL = 'https://www.youtube.com/feeds/videos.xml?channel_id={cid}'
 NETLIFY_DEPLOY_URL = 'https://api.netlify.com/api/v1/sites/{site_id}/deploys'
@@ -134,61 +135,87 @@ N_ARCHIVE = 30  # cap research-page archive at most-recent N issues
 
 
 def fetch_substack_archive() -> list[Issue]:
-    """Pull recent issues via Substack's paginated JSON API. Returns newest-first."""
+    """Pull recent issues from the public Substack RSS feed.
+    
+    Substack's JSON API returns 403 to datacenter IPs (GitHub Actions, AWS, etc).
+    The RSS feed is heavily cached at the edge and accessible from anywhere.
+    Returns up to ~20 most-recent issues, newest-first.
+    """
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    
+    r = requests.get(SUBSTACK_FEED, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    root = ET.fromstring(r.content)
+    
     issues: list[Issue] = []
-    offset = 0
-    page_size = 25
-    while len(issues) < N_ARCHIVE + 5:  # small buffer for filtering
-        params = {'sort': 'new', 'search': '', 'offset': offset, 'limit': page_size}
-        r = requests.get(SUBSTACK_API, params=params, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        page = r.json()
-        if not isinstance(page, list) or not page:
-            break
-        for p in page:
-            title = _clean(p.get('title', '') or '')
-            slug = p.get('slug', '')
-            url = p.get('canonical_url') or f'https://giesweekly.substack.com/p/{slug}'
-            cover = p.get('cover_image') or ''
-            date = ''
-            pd = p.get('post_date') or ''
-            if pd:
-                try:
-                    date = datetime.fromisoformat(pd.replace('Z', '+00:00')).date().isoformat()
-                except Exception:
-                    pass
-            subtitle = p.get('subtitle', '') or ''
-            is_takeaway = bool(re.search(r'monthly\s*takeaway', title + ' ' + subtitle, re.I)) or '/monthly-takeaway' in url or '/gies-monthly-takeaway' in url
-            is_special = bool(re.search(r'special\s*report', title + ' ' + subtitle, re.I)) or '/gies-special' in url
-            week = ''
-            wm = (
-                re.search(r'/p/(?:gies-)?w(\d{1,2})-?\d{4}', url)
-                or re.search(r'\bGIES\s*W(\d{1,2})\b', subtitle, re.I)
-                or re.search(r'\bW(\d{1,2})\b', subtitle)
-                or re.search(r'\bW(\d{1,2})\b', title)
-            )
-            if wm:
-                week = f'W{int(wm.group(1)):02d}'
-            if is_takeaway:
-                week = 'Monthly'
-            if is_special:
-                week = 'Special'
-            short = title.split('|')[0].strip()
-            if len(short) > 90:
-                short = short[:87].rsplit(' ', 1)[0] + '…'
-            issues.append(Issue(
-                title=title,
-                url=url,
-                date=date,
-                cover_url=cover,
-                is_takeaway=is_takeaway,
-                is_special=is_special,
-                week=week,
-                short_title=short,
-            ))
-        offset += page_size
+    for item in root.findall('.//item'):
+        title = _clean(_xt(item, 'title'))
+        subtitle = _clean(_xt(item, 'description'))
+        url = _xt(item, 'link') or _xt(item, 'guid')
+        if not (title and url):
+            continue
+        
+        # Date from pubDate (RFC 2822, e.g. "Fri, 24 Apr 2026 07:02:41 GMT")
+        date = ''
+        pd = _xt(item, 'pubDate')
+        if pd:
+            try:
+                date = parsedate_to_datetime(pd).date().isoformat()
+            except Exception:
+                pass
+        
+        # Cover image: <enclosure url=...> for image type
+        cover = ''
+        for enc in item.findall('enclosure'):
+            if (enc.get('type') or '').startswith('image/'):
+                cover = enc.get('url') or ''
+                break
+        # Fallback: first <img> in <content:encoded> body
+        if not cover:
+            body = _xt(item, '{http://purl.org/rss/1.0/modules/content/}encoded')
+            m = re.search(r'<img[^>]+src="([^"]+)"', body)
+            if m:
+                cover = m.group(1)
+        
+        is_takeaway = bool(re.search(r'monthly\s*takeaway', title + ' ' + subtitle, re.I)) \
+            or '/monthly-takeaway' in url or '/gies-monthly-takeaway' in url
+        is_special = bool(re.search(r'special\s*report', title + ' ' + subtitle, re.I)) \
+            or '/gies-special' in url
+        
+        # Week tag from URL slug, then subtitle, then title
+        week = ''
+        wm = (
+            re.search(r'/p/(?:gies-)?w(\d{1,2})-?\d{4}', url)
+            or re.search(r'\bGIES\s*W(\d{1,2})\b', subtitle, re.I)
+            or re.search(r'\bW(\d{1,2})\b', subtitle)
+            or re.search(r'\bW(\d{1,2})\b', title)
+        )
+        if wm:
+            week = f'W{int(wm.group(1)):02d}'
+        if is_takeaway:
+            week = 'Monthly'
+        if is_special:
+            week = 'Special'
+        
+        short = title.split('|')[0].strip()
+        if len(short) > 90:
+            short = short[:87].rsplit(' ', 1)[0] + '\u2026'
+        
+        issues.append(Issue(
+            title=title, url=url, date=date, cover_url=cover,
+            is_takeaway=is_takeaway, is_special=is_special,
+            week=week, short_title=short,
+        ))
+    
     issues.sort(key=lambda i: (i.date or '0000'), reverse=True)
     return issues[:N_ARCHIVE]
+
+
+def _xt(elem, tag: str) -> str:
+    """Get the text of a child element by tag, or '' if missing."""
+    e = elem.find(tag)
+    return (e.text or '') if e is not None else ''
 
 
 def _legacy_html_scrape_unused() -> None:
