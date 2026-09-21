@@ -1,0 +1,13 @@
+# Deploy config for the name-tool Worker (name-tool.arkeod.workers.dev).
+# Source of truth is ../name-tool-worker.js. Secrets (ANTHROPIC_API_KEY) persist on the worker across deploys.
+# Deploy from this folder after `npx wrangler login`:
+#   npx --prefix "C:\Users\Manu Rosier\dev\cf-worker" wrangler deploy
+# Fill kv_namespaces.id from `npx wrangler kv namespace list` before the first deploy from here,
+# otherwise the deploy would drop the KV binding the worker needs for rate limits and caching.
+name = "name-tool"
+main = "../name-tool-worker.js"
+compatibility_date = "2025-09-01"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "be1df386c22842b396fb4035873bde44"

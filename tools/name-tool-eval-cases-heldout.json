@@ -1,0 +1,202 @@
+[
+ {
+  "id": "1032670:verbatim",
+  "pitch": "Love at first sight arrived like a sunny summer day. Meet her and make your own sparkling moments.",
+  "target": "1032670"
+ },
+ {
+  "id": "1032670:devpitch",
+  "pitch": "A first-person VR photography student takes a part-time cafe job. After photographing a shy stranger in a park, she starts turning up wherever he goes, asking for more shots. What begins as portrait work slides into a slow-burn, mature romance, intimate and tender dating scenes rendered with unusual physical presence for the genre. Anime art style, singleplayer visual novel structure, adult content, built for VR headsets.",
+  "target": "1032670"
+ },
+ {
+  "id": "1096900:verbatim",
+  "pitch": "You want to create an RPG, but every game making tool you have found was either too complex or too limited? This engine empowers you with simple tools to create your RPG right out of the box, yet is customizable enough to make the exact RPG you want!",
+  "target": "1096900"
+ },
+ {
+  "id": "1096900:devpitch",
+  "pitch": "We built an engine for creators who want their own role-playing game without writing code. Design maps with adjustable tile grids, layer terrain, and generate character sprites in a built-in editor. A time-based battle system runs combat off stat formulas you set. Ships with hundreds of animations, battle backgrounds, character sheets, music tracks, and sound effects, plus a plugin system for extending mechanics. Autosave and touch-friendly controls included.",
+  "target": "1096900"
+ },
+ {
+  "id": "1098293:verbatim",
+  "pitch": "This expansion is the epic conclusion to the slayer's saga and the second campaign expansion to the critically acclaimed hardcore shooter.",
+  "target": "1098293"
+ },
+ {
+  "id": "1098293:devpitch",
+  "pitch": "We are closing out the slayer's saga: a single-player, first-person shooter where you rally allied armies to storm the last enemy stronghold and take down the final boss. Expect fast, violent, gory combat against new heavily armored demon types: armored brutes, stone-skinned imps, screeching flyers, cursed enemies. New melee tool: a hammer that stuns on impact, chaining into ice and fire weapons for crowd control. Setting shifts between ruined fortresses and overgrown, decayed cityscapes.",
+  "target": "1098293"
+ },
+ {
+  "id": "1173770:verbatim",
+  "pitch": "The original role-playing saga comes to life with completely new graphics and audio! A remodeled 2D take on the first game in a world-renowned fantasy series! Enjoy the timeless story told through charming retro graphics.",
+  "target": "1173770"
+ },
+ {
+  "id": "1173770:devpitch",
+  "pitch": "A 2D fantasy RPG about four chosen heroes restoring power to ancient crystals scattered across a broken world. Turn-based party combat lets you freely swap job classes mid-adventure, fighter, mage, thief, and more, to reshape your team's strategy. Explore continents on foot, by ship, and by airship, uncovering ruined kingdoms and ancient evils. Retro pixel-art presentation and an orchestral score set an earnest, classic, unhurried heroic-fantasy tone.",
+  "target": "1173770"
+ },
+ {
+  "id": "1351450:verbatim",
+  "pitch": "This tank combat simulation is based on real-life events during a fierce Eastern Front campaign. During a vicious German counterattack, three Soviet Armies were surrounded and forced into fighting in what became known as the meat grinder.",
+  "target": "1351450"
+ },
+ {
+  "id": "1351450:devpitch",
+  "pitch": "A hardcore World War II tank simulator putting you inside the crew of a Soviet or German armored vehicle on the Eastern Front. Command from first or third person as Commander, Gunner, Loader, Driver, or Hull Gunner across 30 missions in three campaigns. Pilot the T-34, a Matilda III, or a Panzer IV in open battlefields with no artificial corridors, historically modeled interiors, and over 40 vehicle types in play.",
+  "target": "1351450"
+ },
+ {
+  "id": "1369520:verbatim",
+  "pitch": "You wake in a surreal carnival, where a woman cries out to you before leaping to her death. Can either of you be saved? The denizens and devices of this place answer with riddles, puzzles, and warnings of a dark presence lurking at the park's peak. A new adventure from the makers of a beloved cult classic adventure game.",
+  "target": "1369520"
+ },
+ {
+  "id": "1369520:devpitch",
+  "pitch": "A first-person point-and-click adventure set in a nightmarish, dreamlike carnival rendered in surreal pixel art. You wander ominous attractions and question bizarre denizens, an eyeless scribe, a living furnace, a mismade mermaid, solving lateral, narrative-driven puzzles and parsing cryptic riddles to confront grief, guilt, and a shadowy presence haunting the park. Choices branch toward multiple endings. Tone: melancholic, poetic, unsettling; heavy narration, slow atmospheric pacing.",
+  "target": "1369520"
+ },
+ {
+  "id": "1529710:verbatim",
+  "pitch": "You haven't been seen around the garage races in a long time. Come back for a nostalgic, first-person dive into an authentic post-Soviet childhood, rendered in high-fidelity 3D you can wander at your own pace, revisiting old courtyards, rooftops, and garages from your past.",
+  "target": "1529710"
+ },
+ {
+  "id": "1529710:devpitch",
+  "pitch": "A first-person nostalgia sim built in Unreal Engine 5 with ray tracing and Nanite. There's no scoring or goals: you wander an authentic post-Soviet courtyard block at your own pace, climbing onto garage roofs and jumping between rooftops, replaying a hazy 1990s childhood memory the developers call a dream rather than a game.",
+  "target": "1529710"
+ },
+ {
+  "id": "1956600:verbatim",
+  "pitch": "Snow melting bar, melt the ice in your heart. This is a warm love game, where you can enjoy a real snack bar love experience.",
+  "target": "1956600"
+ },
+ {
+  "id": "1956600:devpitch",
+  "pitch": "A visual novel following a worn-out bar employee who spends evenings behind the counter of a cozy late-night bar, pouring drinks and talking with three regular customers. Conversation choices and wine selections raise affection meters and unlock branching story routes with distinct endings. Presented with Live2D animated portraits, full Japanese voice acting, and dozens of collectible character illustrations. Each route runs about two hours. Tone: warm, slice-of-life mature romance for adults.",
+  "target": "1956600"
+ },
+ {
+  "id": "206440:verbatim",
+  "pitch": "A story-driven experience about two doctors traversing backwards through a dying man's memories to artificially fulfill his last wish.",
+  "target": "206440"
+ },
+ {
+  "id": "206440:devpitch",
+  "pitch": "Two doctors enter a dying man's mind to rewrite his final memory, walking backward through fragments of his life to piece together an impossible last wish. No combat, no filler: an adventure-RPG hybrid built on exploring branching memory vignettes. Clinical, curious narrator perspective; tone is quiet, melancholic, intimate in scale. Pixel-art visuals, top-down movement, acclaimed original score carrying every emotional beat. Short runtime, single sitting, single-player, story over mechanics.",
+  "target": "206440"
+ },
+ {
+  "id": "214510:verbatim",
+  "pitch": "Based on a classic fantasy film trilogy, this plastic brick toy game follows the original storylines of all three films in the saga, taking players through the epic story events re-imagined with the humor and endless variety of brick-building play.",
+  "target": "214510"
+ },
+ {
+  "id": "214510:devpitch",
+  "pitch": "An open-world action-adventure built from plastic brick toy figures, dropped into a sweeping fantasy quest. Two players explore, solve environmental puzzles, and fight waves of monstrous creatures in slapstick, family-friendly combat. Collect materials and forge new gear at a blacksmith forge. Unlock over 80 characters, each with unique traversal and puzzle abilities. A magic seeing-stone lets you jump between parallel storylines mid-adventure. Full drop-in, drop-out couch co-op throughout.",
+  "target": "214510"
+ },
+ {
+  "id": "2194530:verbatim",
+  "pitch": "Manage a hotel and hire employees including Death, a dragon, a Spirit Hunter, and a bioroid maid. Build your wealth through various means and refine your strategies based on the predictions of Oracles. All employees can be romanced depending on your choices.",
+  "target": "2194530"
+ },
+ {
+  "id": "2194530:devpitch",
+  "pitch": "You inherit a crumbling villa loaded with debt and turn it into a hotel staffed by Death, a dragon, a spirit hunter, and a bioroid maid. Mine and log the grounds, cook and brew alchemy from strange ingredients, then consult oracles to steer your fortunes, though every reading chips at your sanity. Guests are strange, staff can fall for you, and 23 endings wait depending on how far you push your luck and your SAN meter. Cozy management on the surface, Lovecraftian dread underneath.",
+  "target": "2194530"
+ },
+ {
+  "id": "331690:verbatim",
+  "pitch": "California, 1986: A group of friends discover a mysterious pink stone that allows travel between two realms. This gang will live the summer of their lives in an adventure that will get them involved in a government conspiracy. Control five kids with special skills while fighting and solving puzzles.",
+  "target": "331690"
+ },
+ {
+  "id": "331690:devpitch",
+  "pitch": "Set in a 1980s California suburb during a supernatural incident, this action-adventure lets you swap between five kids in real time, each with a distinct combat style and specialty, to exploit enemy weaknesses. Solve environmental puzzles, battle escalating bosses, and drop into retro-arcade-inspired bonus levels styled after the era's coin-op games. Pixel-art visuals, a synth-heavy soundtrack, and a coming-of-age story about friendship facing a government conspiracy and otherworldly forces.",
+  "target": "331690"
+ },
+ {
+  "id": "349730:verbatim",
+  "pitch": "A tactical roguelike RPG inspired by our favorite tabletop games that lets you create any ability, item, villain, hero, and game imaginable.",
+  "target": "349730"
+ },
+ {
+  "id": "349730:devpitch",
+  "pitch": "We're building a tactical, turn-based RPG where every ability, item, enemy, and character can be created from scratch, no coding needed. Think tabletop game night crossed with a roguelike dungeon crawl: assemble a party of up to five heroes, descend through an escalating tower of trials, and swap between tilesets that range from a dungeon to a spaceship. Ships with 1,500+ abilities, 400+ items, and 200 voiced enemies, plus a full level editor for players to build and share their own campaigns.",
+  "target": "349730"
+ },
+ {
+  "id": "350110:verbatim",
+  "pitch": "In this game you face a new challenge as the boss of your own shipping line in both single-player and - for the first time - multiplayer mode: The international competition has gotten a lot tougher and the battle for the most lucrative contracts has only just begun.",
+  "target": "350110"
+ },
+ {
+  "id": "350110:devpitch",
+  "pitch": "You take over a shipping company teetering on the edge of collapse and rebuild it into a global logistics empire. Manage container ships, tankers, and bulk carriers across 60 ports worldwide, weathering fuel price swings and tough competitors. A six-chapter campaign charts your comeback, and a hands-on 3D docking mini-game lets you steer vessels into harbor yourself. Face up to seven opponents in matches up to two hours long, racing to rack up victory points through shifting objectives.",
+  "target": "350110"
+ },
+ {
+  "id": "446040:verbatim",
+  "pitch": "In a world ruled by blade, magic, and fist, diverse warriors gather for combat! This is a 2D fighting game featuring characters from two connected fantasy RPG series.",
+  "target": "446040"
+ },
+ {
+  "id": "446040:devpitch",
+  "pitch": "2D tag-team fighter set in a world of blade, magic, and fist combat. Roster of 16 warriors drawn from two connected anime-style fantasy RPG series, each fighter paired with a partner you switch mid-round for Link Attacks and assist combos. Rooted in Japanese arcade fighting tradition. Includes a fully voice-acted story mode, training mode, local versus, and online ranked leaderboards. Tone: colorful, fast-paced, fanservice-flavored anime brawler with painterly character art.",
+  "target": "446040"
+ },
+ {
+  "id": "456780:verbatim",
+  "pitch": "From the creators of a motorcycle racing series comes a spin-off entirely dedicated to a legendary Italian motorcycle manufacturer - nearly a century of legend wrapped up in one video game!",
+  "target": "456780"
+ },
+ {
+  "id": "456780:devpitch",
+  "pitch": "A single-marque motorcycle racing sim spanning seven decades of one legendary Italian manufacturer's machines. Choose from dozens of authentic bikes, from 1950s classics to modern superbikes, and race across faithfully reproduced country roads and real-world circuits, including a fan-favorite Italian track. An in-game museum unpacks the engineering and racing history behind each model. Third-person arcade-leaning handling, sunny European scenery, a love letter to one brand's motorsport heritage.",
+  "target": "456780"
+ },
+ {
+  "id": "646910:verbatim",
+  "pitch": "Take on the American motorsports scene as you explore and dominate the land, air, and sea across the entire USA. New: play offline or online with the new Hybrid mode, available now!",
+  "target": "646910"
+ },
+ {
+  "id": "646910:devpitch",
+  "pitch": "An open-world racing experience set across the entire USA, with hundreds of vehicles spanning cars, boats, and planes. Compete across diverse American landscapes in seasonal motorsport disciplines and events, alongside a community of 30 million players. Play online with up to seven friends, or go solo offline through a new Hybrid mode. A built-in replay feature lets you capture and share your best stunts and races across land, sea, and air.",
+  "target": "646910"
+ },
+ {
+  "id": "897030:verbatim",
+  "pitch": "Smuggle contraband VHS tapes across the border. Discover the remnants of illicit industry. Prepare for an assassination. This is an atmospheric retro-3D horror adventure through a cursed fever dream.",
+  "target": "897030"
+ },
+ {
+  "id": "897030:devpitch",
+  "pitch": "A first-person experimental horror adventure told through three intersecting character stories in a nightmarish, low-polygon world. Players smuggle contraband across a border checkpoint, photograph wildlife through a camera lens, and stumble into violent encounters in a fever-dream setting. About 45 minutes long, built around a dark ambient soundtrack mixing glitchy textures with 90s synth nostalgia. Retro 3D visuals, surreal tone, psychological dread throughout.",
+  "target": "897030"
+ },
+ {
+  "id": "960910:verbatim",
+  "pitch": "Experience a gripping psychological thriller filled with innumerable twists and turns. The hunt is on for a serial killer known only by a sinister alias. Four characters, each following their own leads, must take part in a desperate attempt to prevent the killer from claiming a new victim.",
+  "target": "960910"
+ },
+ {
+  "id": "960910:devpitch",
+  "pitch": "A noir psychological thriller played across four perspectives, each chasing their own leads in a missing-person case. Action plays out through quick-time, context-sensitive prompts instead of combat: every choice and split-second reaction branches the story toward one of several endings, including character deaths that permanently reshape the plot. Set in a grim, storm-soaked American city, tone is somber and morally ambiguous. No HUD clutter, just immersive investigation and consequence.",
+  "target": "960910"
+ },
+ {
+  "id": "964130:verbatim",
+  "pitch": "Build, expand, and rule a growing space colony. Explore tech, trade, and multiplayer.",
+  "target": "964130"
+ },
+ {
+  "id": "964130:devpitch",
+  "pitch": "Sci-fi city-builder and space empire sim. Start with one lander and rover, gather resources, and climb a massive tech tree of structures and units. Pick from four factions with unique economies, from insectoid swarms to reptilian overlords. Link cities into shared multiplayer regions, tax sub-colonies, trade on a live player-run auction house, and balance population, GDP, and security as you grow from outpost to interplanetary empire.",
+  "target": "964130"
+ }
+]

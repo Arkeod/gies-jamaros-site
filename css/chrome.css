@@ -1,0 +1,25 @@
+/* Shared site chrome - single source of truth for the nav. Loaded LAST on every page. */
+html{overflow-y:scroll;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+nav{font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Inter','Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.65;position:sticky;top:0;z-index:100;background:#0a0a0a;backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:1px solid #1f1f1f}
+nav .nav-inner{max-width:1280px;margin:0 auto;padding:0.85rem 1.75rem;display:flex;justify-content:space-between;align-items:center;gap:1.5rem}
+nav .brand{font-weight:700;font-size:1.05rem;color:#fff;letter-spacing:0.02em;display:inline-flex;align-items:center;gap:0.6rem;text-decoration:none;border-bottom:0}
+nav .brand-logo{height:32px;width:auto;display:block;flex-shrink:0}
+nav .nav-links{display:flex;gap:1.65rem;align-items:center;flex-wrap:wrap}
+nav .nav-links a{line-height:1.65;font-size:0.74rem;color:#7a7a7a;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-bottom:0}
+nav .nav-links a:hover,nav .nav-links a.active{color:#fff}
+nav .nav-links a.nav-cta,.nav-cta{font-size:0.74rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#fff;background:#ED1C24;padding:0.6rem 1.15rem;border-radius:999px;box-shadow:0 2px 10px rgba(237,28,36,0.18);transition:background .2s}
+nav .nav-links a.nav-cta:hover,.nav-cta:hover{background:#c8141b;color:#fff}
+
+/* Shared page-header grammar */
+.edition-bar{display:flex;justify-content:space-between;align-items:center;font-family:'SF Mono',Menlo,monospace;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:#7a7a7a;padding-bottom:1.25rem;border-bottom:1px solid #2a2a2a;margin-bottom:2rem;flex-wrap:wrap;gap:0.5rem;line-height:1.65}
+.edition-bar .crumb{margin-bottom:0}
+h1 .accent{color:#ED1C24}
+.lede{font-style:italic;font-weight:500;font-size:clamp(1rem,1.6vw,1.2rem);color:#b8b8b8;max-width:680px;line-height:1.5}
+header.page-head h1.display{font-weight:700;font-size:clamp(2.4rem,5.5vw,4rem);line-height:0.98;letter-spacing:-0.03em;margin-bottom:1rem;max-width:none}
+
+/* redesign grain overlay lightened about/archives vs plain pages; remove for consistency */
+.grain{display:none!important}
+
+/* crumb links: one color everywhere (was text-dim on watch/about, text-mute on tools, missing on this-week) */
+.crumb a{color:#7a7a7a!important;border-bottom:1px solid #3a3a3a;padding-bottom:1px}
+.crumb a:hover{color:#ED1C24!important}

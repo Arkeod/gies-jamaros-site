@@ -1,0 +1,774 @@
+[
+ {
+  "id": "1144200:verbatim",
+  "target": "1144200",
+  "tags": [
+   "Tactical",
+   "Action",
+   "Strategy",
+   "Realistic",
+   "Crime",
+   "Third Person"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Ready or Not",
+   "SWAT 4"
+  ],
+  "raw": "{\"tags\": [\"Tactical\", \"Action\", \"Strategy\", \"Realistic\", \"Crime\", \"Third Person\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Ready or Not\", \"SWAT 4\"]}"
+ },
+ {
+  "id": "1144200:devpitch",
+  "target": "1144200",
+  "tags": [
+   "Tactical",
+   "FPS",
+   "Realistic",
+   "Co-op",
+   "Violent",
+   "Crime"
+  ],
+  "perspective": "First-Person",
+  "mode": "Co-op",
+  "comps": [
+   "Ready or Not",
+   "Zero Hour"
+  ],
+  "raw": "{\"tags\":[\"Tactical\",\"FPS\",\"Realistic\",\"Co-op\",\"Violent\",\"Crime\"],\"perspective\":\"First-Person\",\"mode\":\"Co-op\",\"comps\":[\"Ready or Not\",\"Zero Hour\"]}"
+ },
+ {
+  "id": "1172650:verbatim",
+  "target": "1172650",
+  "tags": [
+   "FPS",
+   "Atmospheric",
+   "Cold War",
+   "Mystery",
+   "Sci-fi"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Metro 2033",
+   "SIGNALIS"
+  ],
+  "raw": "{\"tags\": [\"FPS\", \"Atmospheric\", \"Cold War\", \"Mystery\", \"Sci-fi\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Metro 2033\", \"SIGNALIS\"]}"
+ },
+ {
+  "id": "1172650:devpitch",
+  "target": "1172650",
+  "tags": [
+   "FPS",
+   "Story Rich",
+   "Cold War",
+   "Atmospheric",
+   "Female Protagonist",
+   "Time Manipulation"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Half-Life",
+   "Wolfenstein: The New Order"
+  ],
+  "raw": "{\"tags\": [\"FPS\", \"Story Rich\", \"Cold War\", \"Atmospheric\", \"Female Protagonist\", \"Time Manipulation\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Half-Life\", \"Wolfenstein: The New Order\"]}"
+ },
+ {
+  "id": "1200860:verbatim",
+  "target": "1200860",
+  "tags": [
+   "Exploration",
+   "Surreal",
+   "Adventure",
+   "Short",
+   "Atmospheric",
+   "Nudity"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Rain World",
+   "Journey"
+  ],
+  "raw": "{\"tags\": [\"Exploration\", \"Surreal\", \"Adventure\", \"Short\", \"Atmospheric\", \"Nudity\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Rain World\", \"Journey\"]}"
+ },
+ {
+  "id": "1200860:devpitch",
+  "target": "1200860",
+  "tags": [
+   "Walking Simulator",
+   "Exploration",
+   "Surreal",
+   "Atmospheric",
+   "Hand-drawn",
+   "Psychological"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Proteus",
+   "Rain World"
+  ],
+  "raw": "{\"tags\": [\"Walking Simulator\", \"Exploration\", \"Surreal\", \"Atmospheric\", \"Hand-drawn\", \"Psychological\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Proteus\", \"Rain World\"]}"
+ },
+ {
+  "id": "1245540:verbatim",
+  "target": "1245540",
+  "tags": [
+   "Bullet Hell",
+   "Rogue-lite",
+   "Action Roguelike",
+   "Fast-Paced",
+   "Procedural Generation"
+  ],
+  "perspective": "Top-Down",
+  "mode": "Singleplayer",
+  "comps": [
+   "Enter the Gungeon",
+   "Nuclear Throne"
+  ],
+  "raw": "{\"tags\":[\"Bullet Hell\",\"Rogue-lite\",\"Action Roguelike\",\"Fast-Paced\",\"Procedural Generation\"],\"perspective\":\"Top-Down\",\"mode\":\"Singleplayer\",\"comps\":[\"Enter the Gungeon\",\"Nuclear Throne\"]}"
+ },
+ {
+  "id": "1245540:devpitch",
+  "target": "1245540",
+  "tags": [
+   "Bullet Hell",
+   "Rogue-lite",
+   "Top-Down Shooter",
+   "Procedural Generation",
+   "Action Roguelike",
+   "Replay Value"
+  ],
+  "perspective": "Top-Down",
+  "mode": "Singleplayer",
+  "comps": [
+   "Enter the Gungeon",
+   "Nova Drift"
+  ],
+  "raw": "{\"tags\":[\"Bullet Hell\",\"Rogue-lite\",\"Top-Down Shooter\",\"Procedural Generation\",\"Action Roguelike\",\"Replay Value\"],\"perspective\":\"Top-Down\",\"mode\":\"Singleplayer\",\"comps\":[\"Enter the Gungeon\",\"Nova Drift\"]}"
+ },
+ {
+  "id": "1433140:verbatim",
+  "target": "1433140",
+  "tags": [
+   "Horror",
+   "Survival Horror",
+   "Multiplayer",
+   "PvP",
+   "Asymmetric VR",
+   "Third Person"
+  ],
+  "perspective": "Third Person",
+  "mode": "PvP",
+  "comps": [
+   "Friday the 13th: The Game",
+   "Dead by Daylight"
+  ],
+  "raw": "{\"tags\": [\"Horror\", \"Survival Horror\", \"Multiplayer\", \"PvP\", \"Asymmetric VR\", \"Third Person\"], \"perspective\": \"Third Person\", \"mode\": \"PvP\", \"comps\": [\"Friday the 13th: The Game\", \"Dead by Daylight\"]}"
+ },
+ {
+  "id": "1433140:devpitch",
+  "target": "1433140",
+  "tags": [
+   "Survival Horror",
+   "Multiplayer",
+   "Stealth",
+   "Gore",
+   "Horror",
+   "PvP"
+  ],
+  "perspective": "Third Person",
+  "mode": "PvP",
+  "comps": [
+   "Dead by Daylight",
+   "Friday the 13th: The Game"
+  ],
+  "raw": "{\"tags\": [\"Survival Horror\", \"Multiplayer\", \"Stealth\", \"Gore\", \"Horror\", \"PvP\"], \"perspective\": \"Third Person\", \"mode\": \"PvP\", \"comps\": [\"Dead by Daylight\", \"Friday the 13th: The Game\"]}"
+ },
+ {
+  "id": "1610:verbatim",
+  "target": "1610",
+  "tags": [
+   "Grand Strategy",
+   "4X",
+   "Strategy",
+   "Space",
+   "Turn-Based Strategy",
+   "Exploration"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Stellaris",
+   "Galactic Civilizations III"
+  ],
+  "raw": "{\"tags\":[\"Grand Strategy\",\"4X\",\"Strategy\",\"Space\",\"Turn-Based Strategy\",\"Exploration\"],\"perspective\":null,\"mode\":\"Singleplayer\",\"comps\":[\"Stellaris\",\"Galactic Civilizations III\"]}"
+ },
+ {
+  "id": "1610:devpitch",
+  "target": "1610",
+  "tags": [
+   "4X",
+   "Turn-Based Strategy",
+   "Space",
+   "Sci-fi",
+   "Strategy",
+   "Moddable"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Stellaris",
+   "Galactic Civilizations III"
+  ],
+  "raw": "{\"tags\": [\"4X\", \"Turn-Based Strategy\", \"Space\", \"Sci-fi\", \"Strategy\", \"Moddable\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Stellaris\", \"Galactic Civilizations III\"]}"
+ },
+ {
+  "id": "1689640:verbatim",
+  "target": "1689640",
+  "tags": [
+   "Rogue-lite",
+   "Action Roguelike",
+   "Shooter",
+   "Co-op",
+   "Robots",
+   "Fast-Paced"
+  ],
+  "perspective": "Third Person",
+  "mode": "Co-op",
+  "comps": [
+   "Risk of Rain 2",
+   "Deep Rock Galactic"
+  ],
+  "raw": "{\"tags\": [\"Rogue-lite\", \"Action Roguelike\", \"Shooter\", \"Co-op\", \"Robots\", \"Fast-Paced\"], \"perspective\": \"Third Person\", \"mode\": \"Co-op\", \"comps\": [\"Risk of Rain 2\", \"Deep Rock Galactic\"]}"
+ },
+ {
+  "id": "1689640:devpitch",
+  "target": "1689640",
+  "tags": [
+   "Rogue-lite",
+   "Third-Person Shooter",
+   "Action Roguelike",
+   "Co-op",
+   "Robots",
+   "Sci-fi"
+  ],
+  "perspective": "Third Person",
+  "mode": "Co-op",
+  "comps": [
+   "Risk of Rain 2",
+   "Returnal"
+  ],
+  "raw": "{\"tags\": [\"Rogue-lite\", \"Third-Person Shooter\", \"Action Roguelike\", \"Co-op\", \"Robots\", \"Sci-fi\"], \"perspective\": \"Third Person\", \"mode\": \"Co-op\", \"comps\": [\"Risk of Rain 2\", \"Returnal\"]}"
+ },
+ {
+  "id": "1740000:verbatim",
+  "target": "1740000",
+  "tags": [
+   "Tower Defense",
+   "Strategy",
+   "Supernatural",
+   "Story Rich",
+   "Fantasy"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Kingdom Rush",
+   "Defense Grid: The Awakening"
+  ],
+  "raw": "{\"tags\": [\"Tower Defense\", \"Strategy\", \"Supernatural\", \"Story Rich\", \"Fantasy\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Kingdom Rush\", \"Defense Grid: The Awakening\"]}"
+ },
+ {
+  "id": "1740000:devpitch",
+  "target": "1740000",
+  "tags": [
+   "Tower Defense",
+   "Dating Sim",
+   "Strategy",
+   "Puzzle-Platformer",
+   "Turn-Based",
+   "Supernatural"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Kingdom Rush",
+   "Melody"
+  ],
+  "raw": "{\"tags\": [\"Tower Defense\", \"Dating Sim\", \"Strategy\", \"Puzzle-Platformer\", \"Turn-Based\", \"Supernatural\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Kingdom Rush\", \"Melody\"]}"
+ },
+ {
+  "id": "217790:verbatim",
+  "target": "217790",
+  "tags": [
+   "Flight",
+   "World War II",
+   "Combat",
+   "Military",
+   "Simulation"
+  ],
+  "perspective": "Third Person",
+  "mode": "Multiplayer",
+  "comps": [
+   "IL-2 Sturmovik: Battle of Stalingrad",
+   "War Thunder"
+  ],
+  "raw": "{\"tags\": [\"Flight\", \"World War II\", \"Combat\", \"Military\", \"Simulation\"], \"perspective\": \"Third Person\", \"mode\": \"Multiplayer\", \"comps\": [\"IL-2 Sturmovik: Battle of Stalingrad\", \"War Thunder\"]}"
+ },
+ {
+  "id": "217790:devpitch",
+  "target": "217790",
+  "tags": [
+   "Flight",
+   "World War II",
+   "Vehicular Combat",
+   "Simulation",
+   "Historical",
+   "Action"
+  ],
+  "perspective": "Third Person",
+  "mode": "Local Co-Op",
+  "comps": [
+   "IL-2 Sturmovik: Cliffs of Dover",
+   "War Thunder"
+  ],
+  "raw": "{\"tags\": [\"Flight\", \"World War II\", \"Vehicular Combat\", \"Simulation\", \"Historical\", \"Action\"], \"perspective\": \"Third Person\", \"mode\": \"Local Co-Op\", \"comps\": [\"IL-2 Sturmovik: Cliffs of Dover\", \"War Thunder\"]}"
+ },
+ {
+  "id": "2186400:verbatim",
+  "target": "2186400",
+  "tags": [
+   "PvP",
+   "Multiplayer",
+   "Action",
+   "Free To Play",
+   "Arena Shooter"
+  ],
+  "perspective": "Third Person",
+  "mode": "PvP",
+  "comps": [
+   "Fall Guys",
+   "Brawlhalla"
+  ],
+  "raw": "{\"tags\": [\"PvP\", \"Multiplayer\", \"Action\", \"Free to Play\", \"Arena Shooter\"], \"perspective\": \"Third Person\", \"mode\": \"PvP\", \"comps\": [\"Fall Guys\", \"Brawlhalla\"]}"
+ },
+ {
+  "id": "2186400:devpitch",
+  "target": "2186400",
+  "tags": [
+   "FPS",
+   "Free To Play",
+   "PvP",
+   "Arena Shooter",
+   "Multiplayer",
+   "Funny"
+  ],
+  "perspective": "First-Person",
+  "mode": "PvP",
+  "comps": [
+   "Team Fortress 2",
+   "Battlerite"
+  ],
+  "raw": "{\"tags\": [\"FPS\", \"Free to Play\", \"PvP\", \"Arena Shooter\", \"Multiplayer\", \"Funny\"], \"perspective\": \"First-Person\", \"mode\": \"PvP\", \"comps\": [\"Team Fortress 2\", \"Battlerite\"]}"
+ },
+ {
+  "id": "2577760:verbatim",
+  "target": "2577760",
+  "tags": [
+   "Clicker",
+   "Idler",
+   "Casual",
+   "Indie",
+   "Singleplayer"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Cookie Clicker",
+   "Adventure Capitalist"
+  ],
+  "raw": "{\"tags\": [\"Clicker\", \"Idler\", \"Casual\", \"Indie\", \"Singleplayer\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Cookie Clicker\", \"Adventure Capitalist\"]}"
+ },
+ {
+  "id": "2577760:devpitch",
+  "target": "2577760",
+  "tags": [
+   "Bullet Hell",
+   "Action Roguelike",
+   "Top-Down",
+   "Arena Shooter",
+   "Rogue-lite",
+   "Multiple Endings"
+  ],
+  "perspective": "Top-Down",
+  "mode": "Singleplayer",
+  "comps": [
+   "Vampire Survivors",
+   "Brotato"
+  ],
+  "raw": "{\"tags\": [\"Bullet Hell\", \"Action Roguelike\", \"Top-Down\", \"Arena Shooter\", \"Rogue-lite\", \"Multiple Endings\"], \"perspective\": \"Top-Down\", \"mode\": \"Singleplayer\", \"comps\": [\"Vampire Survivors\", \"Brotato\"]}"
+ },
+ {
+  "id": "336670:verbatim",
+  "target": "336670",
+  "tags": [
+   "Shooter",
+   "Multiplayer",
+   "Social Deduction",
+   "PvP",
+   "Free To Play",
+   "Third Person"
+  ],
+  "perspective": "Third Person",
+  "mode": "PvP",
+  "comps": [
+   "Among Us",
+   "Team Fortress 2"
+  ],
+  "raw": "{\"tags\": [\"Shooter\", \"Multiplayer\", \"Social Deduction\", \"PvP\", \"Free to Play\", \"Third Person\"], \"perspective\": \"Third Person\", \"mode\": \"PvP\", \"comps\": [\"Among Us\", \"Team Fortress 2\"]}"
+ },
+ {
+  "id": "336670:devpitch",
+  "target": "336670",
+  "tags": [
+   "Social Deduction",
+   "Shooter",
+   "Multiplayer",
+   "Third Person",
+   "Free To Play",
+   "Funny"
+  ],
+  "perspective": "Third Person",
+  "mode": "Multiplayer",
+  "comps": [
+   "Among Us",
+   "Deceive Inc"
+  ],
+  "raw": "{\"tags\": [\"Social Deduction\", \"Shooter\", \"Multiplayer\", \"Third Person\", \"Free to Play\", \"Funny\"], \"perspective\": \"Third Person\", \"mode\": \"Multiplayer\", \"comps\": [\"Among Us\", \"Deceive Inc\"]}"
+ },
+ {
+  "id": "387340:verbatim",
+  "target": "387340",
+  "tags": [
+   "Hack and Slash",
+   "Beat 'em up",
+   "Action",
+   "Co-op",
+   "Local Co-Op",
+   "Combat"
+  ],
+  "perspective": "Third Person",
+  "mode": "Co-op",
+  "comps": [
+   "Streets of Rage 4",
+   "Devil May Cry 5"
+  ],
+  "raw": "{\"tags\": [\"Hack and Slash\", \"Beat 'em up\", \"Action\", \"Co-op\", \"Local Co-Op\", \"Combat\"], \"perspective\": \"Third Person\", \"mode\": \"Co-op\", \"comps\": [\"Streets of Rage 4\", \"Devil May Cry 5\"]}"
+ },
+ {
+  "id": "387340:devpitch",
+  "target": "387340",
+  "tags": [
+   "Hack and Slash",
+   "Anime",
+   "Action RPG",
+   "Nudity",
+   "Character Customization",
+   "Comedy"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Senran Kagura Burst Re:Newal",
+   "Onechanbara Z2: Chaos"
+  ],
+  "raw": "{\"tags\": [\"Hack and Slash\", \"Anime\", \"Action RPG\", \"Nudity\", \"Character Customization\", \"Comedy\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Senran Kagura Burst Re:Newal\", \"Onechanbara Z2: Chaos\"]}"
+ },
+ {
+  "id": "393390:verbatim",
+  "target": "393390",
+  "tags": [
+   "Cats",
+   "First-Person",
+   "Destruction",
+   "Simulation",
+   "Casual",
+   "Funny"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Catlateral Damage",
+   "Goat Simulator"
+  ],
+  "raw": "{\"tags\": [\"Cats\", \"First-Person\", \"Destruction\", \"Simulation\", \"Casual\", \"Funny\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Catlateral Damage\", \"Goat Simulator\"]}"
+ },
+ {
+  "id": "393390:devpitch",
+  "target": "393390",
+  "tags": [
+   "Life Sim",
+   "Simulation",
+   "Physics",
+   "Sandbox",
+   "Funny",
+   "Open World"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Goat Simulator",
+   "Catlateral Damage"
+  ],
+  "raw": "{\"tags\": [\"Life Sim\", \"Simulation\", \"Physics\", \"Sandbox\", \"Funny\", \"Open World\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Goat Simulator\", \"Catlateral Damage\"]}"
+ },
+ {
+  "id": "394970:verbatim",
+  "target": "394970",
+  "tags": [
+   "Stealth",
+   "Action",
+   "Zombies",
+   "Difficult",
+   "Dark Fantasy",
+   "Third Person"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Styx: Master of Shadows",
+   "Mark of the Ninja"
+  ],
+  "raw": "{\"tags\": [\"Stealth\", \"Action\", \"Zombies\", \"Difficult\", \"Dark Fantasy\", \"Third Person\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Styx: Master of Shadows\", \"Mark of the Ninja\"]}"
+ },
+ {
+  "id": "394970:devpitch",
+  "target": "394970",
+  "tags": [
+   "Stealth",
+   "Top-Down",
+   "Pixel Graphics",
+   "Action",
+   "Perma Death",
+   "Gore"
+  ],
+  "perspective": "Top-Down",
+  "mode": "Singleplayer",
+  "comps": [
+   "Hotline Miami",
+   "Gunpoint"
+  ],
+  "raw": "{\"tags\": [\"Stealth\", \"Top-Down\", \"Pixel Graphics\", \"Action\", \"Perma Death\", \"Gore\"], \"perspective\": \"Top-Down\", \"mode\": \"Singleplayer\", \"comps\": [\"Hotline Miami\", \"Gunpoint\"]}"
+ },
+ {
+  "id": "435790:verbatim",
+  "target": "435790",
+  "tags": [
+   "Side Scroller",
+   "Action",
+   "Robots",
+   "Fast-Paced",
+   "Difficult",
+   "Score Attack"
+  ],
+  "perspective": "Side Scroller",
+  "mode": "Singleplayer",
+  "comps": [
+   "Super Meat Boy",
+   "Broforce"
+  ],
+  "raw": "{\"tags\": [\"Side Scroller\", \"Action\", \"Robots\", \"Fast-Paced\", \"Difficult\", \"Score Attack\"], \"perspective\": \"Side Scroller\", \"mode\": \"Singleplayer\", \"comps\": [\"Super Meat Boy\", \"Broforce\"]}"
+ },
+ {
+  "id": "435790:devpitch",
+  "target": "435790",
+  "tags": [
+   "Platformer",
+   "Puzzle-Platformer",
+   "Action",
+   "Score Attack",
+   "Time Attack",
+   "2D"
+  ],
+  "perspective": "Side Scroller",
+  "mode": "Singleplayer",
+  "comps": [
+   "Super Meat Boy",
+   "BattleBlock Theater"
+  ],
+  "raw": "{\"tags\":[\"Platformer\",\"Puzzle-Platformer\",\"Action\",\"Score Attack\",\"Time Attack\",\"2D\"],\"perspective\":\"Side Scroller\",\"mode\":\"Singleplayer\",\"comps\":[\"Super Meat Boy\",\"BattleBlock Theater\"]}"
+ },
+ {
+  "id": "471660:verbatim",
+  "target": "471660",
+  "tags": [
+   "Skateboarding",
+   "Casual",
+   "Multiplayer",
+   "Local Multiplayer",
+   "Third Person",
+   "Funny"
+  ],
+  "perspective": "Third Person",
+  "mode": "Local Multiplayer",
+  "comps": [
+   "Skate 3",
+   "OlliOlli World"
+  ],
+  "raw": "{\"tags\": [\"Skateboarding\", \"Casual\", \"Multiplayer\", \"Local Multiplayer\", \"Third Person\", \"Funny\"], \"perspective\": \"Third Person\", \"mode\": \"Local Multiplayer\", \"comps\": [\"Skate 3\", \"OlliOlli World\"]}"
+ },
+ {
+  "id": "471660:devpitch",
+  "target": "471660",
+  "tags": [
+   "Simulation",
+   "VR",
+   "Casual",
+   "Multiplayer",
+   "Sandbox",
+   "Exploration"
+  ],
+  "perspective": "VR",
+  "mode": "Multiplayer",
+  "comps": [
+   "Rec Room",
+   "Kingspray Graffiti"
+  ],
+  "raw": "{\"tags\": [\"Simulation\", \"VR\", \"Casual\", \"Multiplayer\", \"Sandbox\", \"Exploration\"], \"perspective\": \"VR\", \"mode\": \"Multiplayer\", \"comps\": [\"Rec Room\", \"Kingspray Graffiti\"]}"
+ },
+ {
+  "id": "485870:verbatim",
+  "target": "485870",
+  "tags": [
+   "Comedy",
+   "Simulation",
+   "Indie",
+   "Casual",
+   "Funny",
+   "Third Person"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Goat Simulator",
+   "Untitled Goose Game"
+  ],
+  "raw": "{\"tags\": [\"Comedy\", \"Simulation\", \"Indie\", \"Casual\", \"Funny\", \"Third Person\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Goat Simulator\", \"Untitled Goose Game\"]}"
+ },
+ {
+  "id": "485870:devpitch",
+  "target": "485870",
+  "tags": [
+   "Rhythm",
+   "Simulation",
+   "Dark Comedy",
+   "Action",
+   "Music",
+   "Comedy"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Untitled Goose Game",
+   "Goat Simulator"
+  ],
+  "raw": "{\"tags\": [\"Rhythm\", \"Simulation\", \"Dark Comedy\", \"Action\", \"Music\", \"Comedy\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Untitled Goose Game\", \"Goat Simulator\"]}"
+ },
+ {
+  "id": "602770:verbatim",
+  "target": "602770",
+  "tags": [
+   "Turn-Based Tactics",
+   "Tactical",
+   "Robots",
+   "Strategy",
+   "Character Customization"
+  ],
+  "perspective": "Isometric",
+  "mode": "Singleplayer",
+  "comps": [
+   "Into the Breach",
+   "Battle Brothers"
+  ],
+  "raw": "{\"tags\": [\"Turn-Based Tactics\", \"Tactical\", \"Robots\", \"Strategy\", \"Character Customization\"], \"perspective\": \"Isometric\", \"mode\": \"Singleplayer\", \"comps\": [\"Into the Breach\", \"Battle Brothers\"]}"
+ },
+ {
+  "id": "602770:devpitch",
+  "target": "602770",
+  "tags": [
+   "Turn-Based Tactics",
+   "Robots",
+   "Strategy",
+   "Tactical",
+   "Multiplayer",
+   "Character Customization"
+  ],
+  "perspective": "Isometric",
+  "mode": "PvP",
+  "comps": [
+   "Frozen Synapse",
+   "Mechanicus"
+  ],
+  "raw": "{\"tags\": [\"Turn-Based Tactics\", \"Robots\", \"Strategy\", \"Tactical\", \"Multiplayer\", \"Character Customization\"], \"perspective\": \"Isometric\", \"mode\": \"PvP\", \"comps\": [\"Frozen Synapse\", \"Mechanicus\"]}"
+ },
+ {
+  "id": "989790:verbatim",
+  "target": "989790",
+  "tags": [
+   "Action-Adventure",
+   "Medieval",
+   "Fantasy",
+   "Audio Production",
+   "Narration",
+   "Singleplayer"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Blind Swordsman",
+   "A Blind Legend"
+  ],
+  "raw": "{\"tags\": [\"Action-Adventure\", \"Medieval\", \"Fantasy\", \"Audio Production\", \"Narration\", \"Singleplayer\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Blind Swordsman\", \"A Blind Legend\"]}"
+ },
+ {
+  "id": "989790:devpitch",
+  "target": "989790",
+  "tags": [
+   "Action RPG",
+   "Adventure",
+   "Fantasy",
+   "Story Rich",
+   "Exploration",
+   "Singleplayer"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Skyrim",
+   "Kingdom Come: Deliverance"
+  ],
+  "raw": "{\"tags\": [\"Action RPG\", \"Adventure\", \"Fantasy\", \"Story Rich\", \"Exploration\", \"Singleplayer\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Skyrim\", \"Kingdom Come: Deliverance\"]}"
+ },
+ {
+  "id": "371100:verbatim",
+  "target": "371100",
+  "tags": [
+   "RPG",
+   "Survival",
+   "Post-apocalyptic",
+   "Open World",
+   "Atmospheric",
+   "Singleplayer"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Fallout: New Vegas",
+   "S.T.A.L.K.E.R.: Shadow of Chernobyl"
+  ],
+  "raw": "{\"tags\": [\"RPG\", \"Survival\", \"Post-apocalyptic\", \"Open World\", \"Atmospheric\", \"Singleplayer\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Fallout: New Vegas\", \"S.T.A.L.K.E.R.: Shadow of Chernobyl\"]}"
+ }
+]

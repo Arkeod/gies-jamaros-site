@@ -1,0 +1,207 @@
+[
+ {
+  "id": "1144200:verbatim",
+  "target": "1144200",
+  "pitch": "Tactical, Action, Strategy, Realistic, Crime, Third Person, Singleplayer. Like SWAT 4."
+ },
+ {
+  "id": "1144200:devpitch",
+  "target": "1144200",
+  "pitch": "Tactical, FPS, Realistic, Co-op, Violent, Crime, First-Person. Like Zero Hour."
+ },
+ {
+  "id": "1172650:verbatim",
+  "target": "1172650",
+  "pitch": "FPS, Atmospheric, Cold War, Mystery, Sci-fi, First-Person, Singleplayer. Like Metro 2033 meets SIGNALIS."
+ },
+ {
+  "id": "1172650:devpitch",
+  "target": "1172650",
+  "pitch": "FPS, Story Rich, Cold War, Atmospheric, Female Protagonist, Time Manipulation, First-Person, Singleplayer. Like Half-Life meets Wolfenstein: The New Order."
+ },
+ {
+  "id": "1200860:verbatim",
+  "target": "1200860",
+  "pitch": "Exploration, Surreal, Adventure, Short, Atmospheric, Nudity, Third Person, Singleplayer. Like Rain World meets Journey."
+ },
+ {
+  "id": "1200860:devpitch",
+  "target": "1200860",
+  "pitch": "Walking Simulator, Exploration, Surreal, Atmospheric, Hand-drawn, Psychological, Third Person, Singleplayer. Like Proteus meets Rain World."
+ },
+ {
+  "id": "1245540:verbatim",
+  "target": "1245540",
+  "pitch": "Bullet Hell, Rogue-lite, Action Roguelike, Fast-Paced, Procedural Generation, Top-Down, Singleplayer. Like Enter the Gungeon meets Nuclear Throne."
+ },
+ {
+  "id": "1245540:devpitch",
+  "target": "1245540",
+  "pitch": "Bullet Hell, Rogue-lite, Top-Down Shooter, Procedural Generation, Action Roguelike, Replay Value, Top-Down, Singleplayer. Like Enter the Gungeon meets Nova Drift."
+ },
+ {
+  "id": "1433140:verbatim",
+  "target": "1433140",
+  "pitch": "Horror, Survival Horror, Multiplayer, PvP, Asymmetric VR, Third Person. Like Friday the 13th: The Game meets Dead by Daylight."
+ },
+ {
+  "id": "1433140:devpitch",
+  "target": "1433140",
+  "pitch": "Survival Horror, Multiplayer, Stealth, Gore, Horror, PvP, Third Person. Like Dead by Daylight meets Friday the 13th: The Game."
+ },
+ {
+  "id": "1610:verbatim",
+  "target": "1610",
+  "pitch": "Grand Strategy, 4X, Strategy, Space, Turn-Based Strategy, Exploration, Singleplayer. Like Stellaris meets Galactic Civilizations III."
+ },
+ {
+  "id": "1610:devpitch",
+  "target": "1610",
+  "pitch": "4X, Turn-Based Strategy, Space, Sci-fi, Strategy, Moddable, Singleplayer. Like Stellaris meets Galactic Civilizations III."
+ },
+ {
+  "id": "1689640:verbatim",
+  "target": "1689640",
+  "pitch": "Rogue-lite, Action Roguelike, Shooter, Co-op, Robots, Fast-Paced, Third Person. Like Risk of Rain 2 meets Deep Rock Galactic."
+ },
+ {
+  "id": "1689640:devpitch",
+  "target": "1689640",
+  "pitch": "Rogue-lite, Third-Person Shooter, Action Roguelike, Co-op, Robots, Sci-fi, Third Person. Like Risk of Rain 2 meets Returnal."
+ },
+ {
+  "id": "1740000:verbatim",
+  "target": "1740000",
+  "pitch": "Tower Defense, Strategy, Supernatural, Story Rich, Fantasy, Singleplayer. Like Kingdom Rush meets Defense Grid: The Awakening."
+ },
+ {
+  "id": "1740000:devpitch",
+  "target": "1740000",
+  "pitch": "Tower Defense, Dating Sim, Strategy, Puzzle-Platformer, Turn-Based, Supernatural, Third Person, Singleplayer. Like Kingdom Rush meets Melody."
+ },
+ {
+  "id": "217790:verbatim",
+  "target": "217790",
+  "pitch": "Flight, World War II, Combat, Military, Simulation, Third Person, Multiplayer. Like IL-2 Sturmovik: Battle of Stalingrad meets War Thunder."
+ },
+ {
+  "id": "217790:devpitch",
+  "target": "217790",
+  "pitch": "Flight, World War II, Vehicular Combat, Simulation, Historical, Action, Third Person, Local Co-Op. Like IL-2 Sturmovik: Cliffs of Dover meets War Thunder."
+ },
+ {
+  "id": "2186400:verbatim",
+  "target": "2186400",
+  "pitch": "PvP, Multiplayer, Action, Free To Play, Arena Shooter, Third Person. Like Fall Guys meets Brawlhalla."
+ },
+ {
+  "id": "2186400:devpitch",
+  "target": "2186400",
+  "pitch": "FPS, Free To Play, PvP, Arena Shooter, Multiplayer, Funny, First-Person. Like Team Fortress 2 meets Battlerite."
+ },
+ {
+  "id": "2577760:verbatim",
+  "target": "2577760",
+  "pitch": "Clicker, Idler, Casual, Indie, Singleplayer. Like Cookie Clicker meets Adventure Capitalist."
+ },
+ {
+  "id": "2577760:devpitch",
+  "target": "2577760",
+  "pitch": "Bullet Hell, Action Roguelike, Top-Down, Arena Shooter, Rogue-lite, Multiple Endings, Singleplayer. Like Vampire Survivors meets Brotato."
+ },
+ {
+  "id": "336670:verbatim",
+  "target": "336670",
+  "pitch": "Shooter, Multiplayer, Social Deduction, PvP, Free To Play, Third Person. Like Among Us meets Team Fortress 2."
+ },
+ {
+  "id": "336670:devpitch",
+  "target": "336670",
+  "pitch": "Social Deduction, Shooter, Multiplayer, Third Person, Free To Play, Funny. Like Among Us meets Deceive Inc."
+ },
+ {
+  "id": "387340:verbatim",
+  "target": "387340",
+  "pitch": "Hack and Slash, Beat 'em up, Action, Co-op, Local Co-Op, Combat, Third Person. Like Streets of Rage 4 meets Devil May Cry 5."
+ },
+ {
+  "id": "387340:devpitch",
+  "target": "387340",
+  "pitch": "Hack and Slash, Anime, Action RPG, Nudity, Character Customization, Comedy, Third Person, Singleplayer. Like Senran Kagura Burst Re:Newal meets Onechanbara Z2: Chaos."
+ },
+ {
+  "id": "393390:verbatim",
+  "target": "393390",
+  "pitch": "Cats, First-Person, Destruction, Simulation, Casual, Funny, Singleplayer. Like Catlateral Damage meets Goat Simulator."
+ },
+ {
+  "id": "393390:devpitch",
+  "target": "393390",
+  "pitch": "Life Sim, Simulation, Physics, Sandbox, Funny, Open World, First-Person, Singleplayer. Like Goat Simulator meets Catlateral Damage."
+ },
+ {
+  "id": "394970:verbatim",
+  "target": "394970",
+  "pitch": "Stealth, Action, Zombies, Difficult, Dark Fantasy, Third Person, Singleplayer. Like Styx: Master of Shadows meets Mark of the Ninja."
+ },
+ {
+  "id": "394970:devpitch",
+  "target": "394970",
+  "pitch": "Stealth, Top-Down, Pixel Graphics, Action, Perma Death, Gore, Singleplayer. Like Hotline Miami meets Gunpoint."
+ },
+ {
+  "id": "435790:verbatim",
+  "target": "435790",
+  "pitch": "Side Scroller, Action, Robots, Fast-Paced, Difficult, Score Attack, Singleplayer. Like Super Meat Boy meets Broforce."
+ },
+ {
+  "id": "435790:devpitch",
+  "target": "435790",
+  "pitch": "Platformer, Puzzle-Platformer, Action, Score Attack, Time Attack, 2D, Side Scroller, Singleplayer. Like Super Meat Boy meets BattleBlock Theater."
+ },
+ {
+  "id": "471660:verbatim",
+  "target": "471660",
+  "pitch": "Skateboarding, Casual, Multiplayer, Local Multiplayer, Third Person, Funny. Like Skate 3 meets OlliOlli World."
+ },
+ {
+  "id": "471660:devpitch",
+  "target": "471660",
+  "pitch": "Simulation, VR, Casual, Multiplayer, Sandbox, Exploration. Like Rec Room meets Kingspray Graffiti."
+ },
+ {
+  "id": "485870:verbatim",
+  "target": "485870",
+  "pitch": "Comedy, Simulation, Indie, Casual, Funny, Third Person, Singleplayer. Like Goat Simulator meets Untitled Goose Game."
+ },
+ {
+  "id": "485870:devpitch",
+  "target": "485870",
+  "pitch": "Rhythm, Simulation, Dark Comedy, Action, Music, Comedy, Third Person, Singleplayer. Like Untitled Goose Game meets Goat Simulator."
+ },
+ {
+  "id": "602770:verbatim",
+  "target": "602770",
+  "pitch": "Turn-Based Tactics, Tactical, Robots, Strategy, Character Customization, Isometric, Singleplayer. Like Into the Breach meets Battle Brothers."
+ },
+ {
+  "id": "602770:devpitch",
+  "target": "602770",
+  "pitch": "Turn-Based Tactics, Robots, Strategy, Tactical, Multiplayer, Character Customization, Isometric, PvP. Like Frozen Synapse meets Mechanicus."
+ },
+ {
+  "id": "989790:verbatim",
+  "target": "989790",
+  "pitch": "Action-Adventure, Medieval, Fantasy, Audio Production, Narration, Singleplayer, First-Person. Like Blind Swordsman meets A Blind Legend."
+ },
+ {
+  "id": "989790:devpitch",
+  "target": "989790",
+  "pitch": "Action RPG, Adventure, Fantasy, Story Rich, Exploration, Singleplayer, First-Person. Like Skyrim meets Kingdom Come: Deliverance."
+ },
+ {
+  "id": "371100:verbatim",
+  "target": "371100",
+  "pitch": "RPG, Survival, Post-apocalyptic, Open World, Atmospheric, Singleplayer. Like Fallout: New Vegas meets S.T.A.L.K.E.R.: Shadow of Chernobyl."
+ }
+]

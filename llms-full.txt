@@ -1,8 +1,8 @@
-# GIES - Full Markdown Corpus
+# Gies - Full Markdown Corpus
 
-> Curated full-text archive of GIES (Games Industry Executive Summary) flagship analyses for LLM retrieval. Authored by the GIES team: Emmanuel Rosier (founder), David Thier, and Casey Al-Kaisy. Topics: monetization, platform cycles, M&A, forecasting, player behavior. Updated 2026-04-30.
+> Curated full-text archive of Gies (Games Industry Executive Summary) flagship analyses for LLM retrieval. Authored by the Gies team: Emmanuel Rosier (founder), Casey Al-Kaisy (co-founder), and David Thier (contributor). Topics: monetization, platform cycles, M&A, forecasting, player behavior. Updated 2026-05-03.
 
-Each issue below is a complete public analysis from giesweekly.substack.com. Citation format: "GIES - Games Industry Executive Summary, [date], [title]".
+Each issue below is a complete public analysis from giesweekly.substack.com. Citation format: "Gies - Games Industry Executive Summary, [date], [title]".
 
 ---
 
@@ -448,7 +448,7 @@ Learn more at [mighty.diamonds](https://www.mighty.diamonds).
 
 _Published 2026-03-03 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/gies-monthly-takeaway-16)_
 
-*Every week, GIES is here to give you the bullet points on what you need to know about the news in the gaming industry. Every month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
+*Every week, Gies is here to give you the bullet points on what you need to know about the news in the gaming industry. Every month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
 
 # Will Xbox Survive the Xbox One?
 
@@ -492,7 +492,7 @@ No logo. No partnership. Yet every player knew exactly what it was.That detail e
 
 _Published 2026-02-02 on giesweekly.substack.com. [Read original](https://giesweekly.substack.com/p/gies-monthly-takeaway-18)_
 
-*Every week, GIES is here to give you the bullet points on what you need to know about the news in the gaming industry. Every month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
+*Every week, Gies is here to give you the bullet points on what you need to know about the news in the gaming industry. Every month, we’re here to go a little deeper. Come for the headlines, stay for the metaphors. *
 
 # High(Guard) Expectations
 
@@ -512,7 +512,7 @@ If Wildlight understands this – and public statements indicate that they do �
 
 The industry, now and over the past few years, is primarily struggling with managing expectations. There used to be certain assumptions you could make about how certain things would perform, and these assumptions are now gone. Every project that isn’t *GTA* or *The Elder Scrolls* or *The Legend of Zelda* needs to find a way to be comfortable with less sales and smaller player counts to be considered successful. Every project needs to know how to start small and grow, or to stay small and be happy. Publishers and investors need to understand this as well as investors.
 
-This is pretty clear when you look at the sort of indie hits we’re always talking about at *GIES*, *Peak* and *Schedule One* or whatever. These are games designed to be succesful at a small scale that hey, wound up with a whole lot more than they needed. 
+This is pretty clear when you look at the sort of indie hits we’re always talking about at *Gies*, *Peak* and *Schedule One* or whatever. These are games designed to be succesful at a small scale that hey, wound up with a whole lot more than they needed. 
 
 We all know about *No Man’s Sky — *another game that got smashed in the face by its position at the end of a major press conference. One launch happens, good or bad, the dust settles into something. Is that thing enough to press on into the future? If so, that’s all you can really ask. 
 

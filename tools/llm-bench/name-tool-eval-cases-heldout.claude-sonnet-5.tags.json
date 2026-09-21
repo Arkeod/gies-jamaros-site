@@ -1,0 +1,756 @@
+[
+ {
+  "id": "1032670:verbatim",
+  "target": "1032670",
+  "tags": [
+   "Dating Sim",
+   "Romance",
+   "Visual Novel",
+   "Anime",
+   "Story Rich"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Doki Doki Literature Club!",
+   "Hatoful Boyfriend"
+  ],
+  "raw": "{\"tags\": [\"Dating Sim\", \"Romance\", \"Visual Novel\", \"Anime\", \"Story Rich\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Doki Doki Literature Club!\", \"Hatoful Boyfriend\"]}"
+ },
+ {
+  "id": "1032670:devpitch",
+  "target": "1032670",
+  "tags": [
+   "Visual Novel",
+   "Anime",
+   "Romance",
+   "Dating Sim",
+   "NSFW",
+   "VR"
+  ],
+  "perspective": "VR",
+  "mode": "Singleplayer",
+  "comps": [
+   "Senran Kagura Peach Ball",
+   "VR Kanojo"
+  ],
+  "raw": "{\"tags\": [\"Visual Novel\", \"Anime\", \"Romance\", \"Dating Sim\", \"NSFW\", \"VR\"], \"perspective\": \"VR\", \"mode\": \"Singleplayer\", \"comps\": [\"Senran Kagura Peach Ball\", \"VR Kanojo\"]}"
+ },
+ {
+  "id": "1096900:verbatim",
+  "target": "1096900",
+  "tags": [
+   "RPGMaker",
+   "Game Development",
+   "Design & Illustration",
+   "RPG",
+   "Software",
+   "Level Editor"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "RPG Maker MV",
+   "GameMaker Studio 2"
+  ],
+  "raw": "{\"tags\":[\"RPGMaker\",\"Game Development\",\"Design & Illustration\",\"RPG\",\"Software\",\"Level Editor\"],\"perspective\":null,\"mode\":\"Singleplayer\",\"comps\":[\"RPG Maker MV\",\"GameMaker Studio 2\"]}"
+ },
+ {
+  "id": "1096900:devpitch",
+  "target": "1096900",
+  "tags": [
+   "RPGMaker",
+   "Game Development",
+   "RPG",
+   "Level Editor",
+   "Character Customization",
+   "Turn-Based Combat"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "RPG Maker MV",
+   "RPG Maker VX Ace"
+  ],
+  "raw": "{\"tags\":[\"RPGMaker\",\"Game Development\",\"RPG\",\"Level Editor\",\"Character Customization\",\"Turn-Based Combat\"],\"perspective\":null,\"mode\":\"Singleplayer\",\"comps\":[\"RPG Maker MV\",\"RPG Maker VX Ace\"]}"
+ },
+ {
+  "id": "1098293:verbatim",
+  "target": "1098293",
+  "tags": [
+   "FPS",
+   "Action",
+   "Boomer Shooter",
+   "Gore",
+   "Violent",
+   "Singleplayer"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "DUSK",
+   "Ion Fury"
+  ],
+  "raw": "{\"tags\": [\"FPS\", \"Action\", \"Boomer Shooter\", \"Gore\", \"Violent\", \"Singleplayer\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"DUSK\", \"Ion Fury\"]}"
+ },
+ {
+  "id": "1098293:devpitch",
+  "target": "1098293",
+  "tags": [
+   "FPS",
+   "Gore",
+   "Violent",
+   "Action",
+   "Demons",
+   "Singleplayer"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "DOOM Eternal",
+   "Painkiller"
+  ],
+  "raw": "{\"tags\": [\"FPS\", \"Gore\", \"Violent\", \"Action\", \"Demons\", \"Singleplayer\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"DOOM Eternal\", \"Painkiller\"]}"
+ },
+ {
+  "id": "1173770:verbatim",
+  "target": "1173770",
+  "tags": [
+   "RPG",
+   "Fantasy",
+   "Pixel Graphics",
+   "Story Rich",
+   "2D",
+   "Remake"
+  ],
+  "perspective": "2D",
+  "mode": "Singleplayer",
+  "comps": [
+   "Dragon Quest",
+   "Final Fantasy"
+  ],
+  "raw": "{\"tags\": [\"RPG\", \"Fantasy\", \"Pixel Graphics\", \"Story Rich\", \"2D\", \"Remake\"], \"perspective\": \"2D\", \"mode\": \"Singleplayer\", \"comps\": [\"Dragon Quest\", \"Final Fantasy\"]}"
+ },
+ {
+  "id": "1173770:devpitch",
+  "target": "1173770",
+  "tags": [
+   "JRPG",
+   "Turn-Based Combat",
+   "Party-Based RPG",
+   "Fantasy",
+   "Pixel Graphics",
+   "Exploration"
+  ],
+  "perspective": "Pixel Graphics",
+  "mode": "Singleplayer",
+  "comps": [
+   "Final Fantasy V",
+   "Final Fantasy VI"
+  ],
+  "raw": "{\"tags\": [\"JRPG\", \"Turn-Based Combat\", \"Party-Based RPG\", \"Fantasy\", \"Pixel Graphics\", \"Exploration\"], \"perspective\": \"Pixel Graphics\", \"mode\": \"Singleplayer\", \"comps\": [\"Final Fantasy V\", \"Final Fantasy VI\"]}"
+ },
+ {
+  "id": "1351450:verbatim",
+  "target": "1351450",
+  "tags": [
+   "Tanks",
+   "War",
+   "Simulation",
+   "Realistic",
+   "Historical",
+   "World War II"
+  ],
+  "perspective": "3D",
+  "mode": "Singleplayer",
+  "comps": [
+   "Steel Division: Normandy 44",
+   "Men of War: Assault Squad 2"
+  ],
+  "raw": "{\"tags\": [\"Tanks\", \"War\", \"Simulation\", \"Realistic\", \"Historical\", \"World War II\"], \"perspective\": \"3D\", \"mode\": \"Singleplayer\", \"comps\": [\"Steel Division: Normandy 44\", \"Men of War: Assault Squad 2\"]}"
+ },
+ {
+  "id": "1351450:devpitch",
+  "target": "1351450",
+  "tags": [
+   "Tanks",
+   "War",
+   "World War II",
+   "Simulation",
+   "Realistic",
+   "Military"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Steel Armor: Blaze of War",
+   "Panzer Elite Action: Fields of Glory"
+  ],
+  "raw": "{\"tags\": [\"Tanks\", \"War\", \"World War II\", \"Simulation\", \"Realistic\", \"Military\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Steel Armor: Blaze of War\", \"Panzer Elite Action: Fields of Glory\"]}"
+ },
+ {
+  "id": "1369520:verbatim",
+  "target": "1369520",
+  "tags": [
+   "Adventure",
+   "Puzzle",
+   "Mystery",
+   "Surreal",
+   "Atmospheric",
+   "Story Rich"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "The Longest Journey",
+   "Loom"
+  ],
+  "raw": "{\"tags\": [\"Adventure\", \"Puzzle\", \"Mystery\", \"Surreal\", \"Atmospheric\", \"Story Rich\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"The Longest Journey\", \"Loom\"]}"
+ },
+ {
+  "id": "1369520:devpitch",
+  "target": "1369520",
+  "tags": [
+   "Point & Click",
+   "Adventure",
+   "Surreal",
+   "Atmospheric",
+   "Multiple Endings",
+   "Mystery"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "The Vanishing of Ethan Carter",
+   "Fran Bow"
+  ],
+  "raw": "{\"tags\": [\"Point & Click\", \"Adventure\", \"Surreal\", \"Atmospheric\", \"Multiple Endings\", \"Mystery\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"The Vanishing of Ethan Carter\", \"Fran Bow\"]}"
+ },
+ {
+  "id": "1529710:verbatim",
+  "target": "1529710",
+  "tags": [
+   "Exploration",
+   "Walking Simulator",
+   "Nostalgia",
+   "Atmospheric",
+   "Story Rich",
+   "Realistic"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Gone Home",
+   "Everybody's Gone to the Rapture"
+  ],
+  "raw": "{\"tags\": [\"Exploration\", \"Walking Simulator\", \"Nostalgia\", \"Atmospheric\", \"Story Rich\", \"Realistic\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Gone Home\", \"Everybody's Gone to the Rapture\"]}"
+ },
+ {
+  "id": "1529710:devpitch",
+  "target": "1529710",
+  "tags": [
+   "Walking Simulator",
+   "Exploration",
+   "Atmospheric",
+   "Nostalgia",
+   "Realistic",
+   "Singleplayer"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Dear Esther",
+   "Gone Home"
+  ],
+  "raw": "{\"tags\": [\"Walking Simulator\", \"Exploration\", \"Atmospheric\", \"Nostalgia\", \"Realistic\", \"Singleplayer\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Dear Esther\", \"Gone Home\"]}"
+ },
+ {
+  "id": "1956600:verbatim",
+  "target": "1956600",
+  "tags": [
+   "Simulation",
+   "Dating Sim",
+   "Romance",
+   "Casual",
+   "Life Sim"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Cooking Simulator",
+   "Boyfriend Dungeon"
+  ],
+  "raw": "{\"tags\": [\"Simulation\", \"Dating Sim\", \"Romance\", \"Casual\", \"Life Sim\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Cooking Simulator\", \"Boyfriend Dungeon\"]}"
+ },
+ {
+  "id": "1956600:devpitch",
+  "target": "1956600",
+  "tags": [
+   "Visual Novel",
+   "Romance",
+   "Choices Matter",
+   "Multiple Endings",
+   "Anime",
+   "Dating Sim"
+  ],
+  "perspective": "2D",
+  "mode": "Singleplayer",
+  "comps": [
+   "VA-11 Hall-A: Cyberpunk Bartender Action",
+   "Hatoful Boyfriend"
+  ],
+  "raw": "{\"tags\": [\"Visual Novel\", \"Romance\", \"Choices Matter\", \"Multiple Endings\", \"Anime\", \"Dating Sim\"], \"perspective\": \"2D\", \"mode\": \"Singleplayer\", \"comps\": [\"VA-11 Hall-A: Cyberpunk Bartender Action\", \"Hatoful Boyfriend\"]}"
+ },
+ {
+  "id": "206440:verbatim",
+  "target": "206440",
+  "tags": [
+   "Story Rich",
+   "Adventure",
+   "Puzzle",
+   "Atmospheric",
+   "Emotional",
+   "Mystery"
+  ],
+  "perspective": null,
+  "mode": null,
+  "comps": [
+   "What Remains of Edith Finch",
+   "To the Moon"
+  ],
+  "raw": "{\"tags\": [\"Story Rich\", \"Adventure\", \"Puzzle\", \"Atmospheric\", \"Emotional\", \"Mystery\"], \"perspective\": null, \"mode\": null, \"comps\": [\"What Remains of Edith Finch\", \"To the Moon\"]}"
+ },
+ {
+  "id": "206440:devpitch",
+  "target": "206440",
+  "tags": [
+   "Story Rich",
+   "Adventure",
+   "Exploration",
+   "Pixel Graphics",
+   "Atmospheric",
+   "Great Soundtrack"
+  ],
+  "perspective": "Top-Down",
+  "mode": "Singleplayer",
+  "comps": [
+   "To the Moon",
+   "Finding Paradise"
+  ],
+  "raw": "{\"tags\": [\"Story Rich\", \"Adventure\", \"Exploration\", \"Pixel Graphics\", \"Atmospheric\", \"Great Soundtrack\"], \"perspective\": \"Top-Down\", \"mode\": \"Singleplayer\", \"comps\": [\"To the Moon\", \"Finding Paradise\"]}"
+ },
+ {
+  "id": "214510:verbatim",
+  "target": "214510",
+  "tags": [
+   "LEGO",
+   "Adventure",
+   "Action-Adventure",
+   "Fantasy",
+   "Family Friendly",
+   "Co-op"
+  ],
+  "perspective": "Third Person",
+  "mode": "Co-op",
+  "comps": [
+   "LEGO Star Wars: The Complete Saga",
+   "LEGO Batman: The Videogame"
+  ],
+  "raw": "{\"tags\": [\"LEGO\", \"Adventure\", \"Action-Adventure\", \"Fantasy\", \"Family Friendly\", \"Co-op\"], \"perspective\": \"Third Person\", \"mode\": \"Co-op\", \"comps\": [\"LEGO Star Wars: The Complete Saga\", \"LEGO Batman: The Videogame\"]}"
+ },
+ {
+  "id": "214510:devpitch",
+  "target": "214510",
+  "tags": [
+   "LEGO",
+   "Action-Adventure",
+   "Open World",
+   "Local Co-Op",
+   "Family Friendly",
+   "Fantasy"
+  ],
+  "perspective": "Third Person",
+  "mode": "Local Co-Op",
+  "comps": [
+   "LEGO Star Wars: The Skywalker Saga",
+   "LEGO Marvel Super Heroes"
+  ],
+  "raw": "{\"tags\":[\"LEGO\",\"Action-Adventure\",\"Open World\",\"Local Co-Op\",\"Family Friendly\",\"Fantasy\"],\"perspective\":\"Third Person\",\"mode\":\"Local Co-Op\",\"comps\":[\"LEGO Star Wars: The Skywalker Saga\",\"LEGO Marvel Super Heroes\"]}"
+ },
+ {
+  "id": "2194530:verbatim",
+  "target": "2194530",
+  "tags": [
+   "Simulation",
+   "Management",
+   "Life Sim",
+   "Romance",
+   "Fantasy",
+   "Character Customization"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Hotel Giant",
+   "Monster Prom"
+  ],
+  "raw": "{\"tags\":[\"Simulation\",\"Management\",\"Life Sim\",\"Romance\",\"Fantasy\",\"Character Customization\"],\"perspective\":null,\"mode\":\"Singleplayer\",\"comps\":[\"Hotel Giant\",\"Monster Prom\"]}"
+ },
+ {
+  "id": "2194530:devpitch",
+  "target": "2194530",
+  "tags": [
+   "Simulation",
+   "Management",
+   "Crafting",
+   "Multiple Endings",
+   "Lovecraftian",
+   "Romance"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Spirit Hunter: NG",
+   "Moonlighter"
+  ],
+  "raw": "{\"tags\": [\"Simulation\", \"Management\", \"Crafting\", \"Multiple Endings\", \"Lovecraftian\", \"Romance\"], \"perspective\": null, \"mode\": \"Singleplayer\", \"comps\": [\"Spirit Hunter: NG\", \"Moonlighter\"]}"
+ },
+ {
+  "id": "331690:verbatim",
+  "target": "331690",
+  "tags": [
+   "Adventure",
+   "Puzzle",
+   "Action-Adventure",
+   "Story Rich",
+   "Mystery",
+   "Supernatural"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Stranger Things: The Game",
+   "The Goonies: Never Say Die"
+  ],
+  "raw": "{\"tags\": [\"Adventure\", \"Puzzle\", \"Action-Adventure\", \"Story Rich\", \"Mystery\", \"Supernatural\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Stranger Things: The Game\", \"The Goonies: Never Say Die\"]}"
+ },
+ {
+  "id": "331690:devpitch",
+  "target": "331690",
+  "tags": [
+   "Action-Adventure",
+   "Pixel Graphics",
+   "Story Rich",
+   "Supernatural",
+   "1980s",
+   "Puzzle"
+  ],
+  "perspective": "Pixel Graphics",
+  "mode": "Singleplayer",
+  "comps": [
+   "The Goonies: 35th Anniversary Edition",
+   "Costume Quest"
+  ],
+  "raw": "{\"tags\": [\"Action-Adventure\", \"Pixel Graphics\", \"Story Rich\", \"Supernatural\", \"1980s\", \"Puzzle\"], \"perspective\": \"Pixel Graphics\", \"mode\": \"Singleplayer\", \"comps\": [\"The Goonies: 35th Anniversary Edition\", \"Costume Quest\"]}"
+ },
+ {
+  "id": "349730:verbatim",
+  "target": "349730",
+  "tags": [
+   "Tactical RPG",
+   "Roguelike Deckbuilder",
+   "Turn-Based Tactics",
+   "Tabletop",
+   "Character Customization",
+   "Procedural Generation"
+  ],
+  "perspective": null,
+  "mode": "Singleplayer",
+  "comps": [
+   "Divinity: Original Sin 2",
+   "Baldur's Gate 3"
+  ],
+  "raw": "{\"tags\":[\"Tactical RPG\",\"Roguelike Deckbuilder\",\"Turn-Based Tactics\",\"Tabletop\",\"Character Customization\",\"Procedural Generation\"],\"perspective\":null,\"mode\":\"Singleplayer\",\"comps\":[\"Divinity: Original Sin 2\",\"Baldur's Gate 3\"]}"
+ },
+ {
+  "id": "349730:devpitch",
+  "target": "349730",
+  "tags": [
+   "Turn-Based Tactics",
+   "Dungeon Crawler",
+   "RPG",
+   "Level Editor",
+   "Party-Based RPG"
+  ],
+  "perspective": "Isometric",
+  "mode": "Singleplayer",
+  "comps": [
+   "Wizardry: Tale of the Forsaken Land",
+   "Etrian Odyssey"
+  ],
+  "raw": "{\"tags\":[\"Turn-Based Tactics\",\"Dungeon Crawler\",\"RPG\",\"Level Editor\",\"Party-Based RPG\",\"Roguelike\"],\"perspective\":\"Isometric\",\"mode\":\"Singleplayer\",\"comps\":[\"Wizardry: Tale of the Forsaken Land\",\"Etrian Odyssey\"]}"
+ },
+ {
+  "id": "350110:verbatim",
+  "target": "350110",
+  "tags": [
+   "Simulation",
+   "Strategy",
+   "Economy",
+   "Management",
+   "Multiplayer"
+  ],
+  "perspective": null,
+  "mode": "Multiplayer",
+  "comps": [
+   "Transport Fever 2",
+   "Anno 1800"
+  ],
+  "raw": "{\"tags\": [\"Simulation\", \"Strategy\", \"Economy\", \"Management\", \"Multiplayer\"], \"perspective\": null, \"mode\": \"Multiplayer\", \"comps\": [\"Transport Fever 2\", \"Anno 1800\"]}"
+ },
+ {
+  "id": "350110:devpitch",
+  "target": "350110",
+  "tags": [
+   "Simulation",
+   "Strategy",
+   "Economy",
+   "Management",
+   "Naval"
+  ],
+  "perspective": "3D",
+  "mode": "Multiplayer",
+  "comps": [
+   "Transport Fever 2",
+   "Port Royale 4"
+  ],
+  "raw": "{\"tags\": [\"Simulation\", \"Strategy\", \"Economy\", \"Management\", \"Naval\"], \"perspective\": \"3D\", \"mode\": \"Multiplayer\", \"comps\": [\"Transport Fever 2\", \"Port Royale 4\"]}"
+ },
+ {
+  "id": "446040:verbatim",
+  "target": "446040",
+  "tags": [
+   "2D Fighter",
+   "Fighting",
+   "Anime",
+   "Fantasy",
+   "Magic",
+   "PvP"
+  ],
+  "perspective": "Side Scroller",
+  "mode": "PvP",
+  "comps": [
+   "Guilty Gear Strive",
+   "BlazBlue: Cross Tag Battle"
+  ],
+  "raw": "{\"tags\": [\"2D Fighter\", \"Fighting\", \"Anime\", \"Fantasy\", \"Magic\", \"PvP\"], \"perspective\": \"Side Scroller\", \"mode\": \"PvP\", \"comps\": [\"Guilty Gear Strive\", \"BlazBlue: Cross Tag Battle\"]}"
+ },
+ {
+  "id": "446040:devpitch",
+  "target": "446040",
+  "tags": [
+   "2D Fighter",
+   "Fighting",
+   "Anime",
+   "Fast-Paced",
+   "PvP",
+   "Story Rich"
+  ],
+  "perspective": "2D",
+  "mode": "PvP",
+  "comps": [
+   "Guilty Gear Xrd -SIGN-",
+   "BlazBlue: Calamity Trigger"
+  ],
+  "raw": "{\"tags\":[\"2D Fighter\",\"Fighting\",\"Anime\",\"Fast-Paced\",\"PvP\",\"Story Rich\"],\"perspective\":\"2D\",\"mode\":\"PvP\",\"comps\":[\"Guilty Gear Xrd -SIGN-\",\"BlazBlue: Calamity Trigger\"]}"
+ },
+ {
+  "id": "456780:verbatim",
+  "target": "456780",
+  "tags": [
+   "Racing",
+   "Motorbike",
+   "Simulation",
+   "3D",
+   "Singleplayer"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Ride 4",
+   "MotoGP 22"
+  ],
+  "raw": "{\"tags\": [\"Racing\", \"Motorbike\", \"Simulation\", \"3D\", \"Singleplayer\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Ride 4\", \"MotoGP 22\"]}"
+ },
+ {
+  "id": "456780:devpitch",
+  "target": "456780",
+  "tags": [
+   "Racing",
+   "Motorbike",
+   "Simulation",
+   "Sports",
+   "Historical",
+   "Realistic"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "RIDE 5",
+   "Gran Turismo 7"
+  ],
+  "raw": "{\"tags\":[\"Racing\",\"Motorbike\",\"Simulation\",\"Sports\",\"Historical\",\"Realistic\"],\"perspective\":\"Third Person\",\"mode\":\"Singleplayer\",\"comps\":[\"RIDE 5\",\"Gran Turismo 7\"]}"
+ },
+ {
+  "id": "646910:verbatim",
+  "target": "646910",
+  "tags": [
+   "Racing",
+   "Driving",
+   "Automobile Sim",
+   "Vehicular Combat",
+   "Sandbox",
+   "Open World"
+  ],
+  "perspective": "Third Person",
+  "mode": "Multiplayer",
+  "comps": [
+   "The Crew",
+   "Forza Horizon 4"
+  ],
+  "raw": "{\"tags\": [\"Racing\", \"Driving\", \"Automobile Sim\", \"Vehicular Combat\", \"Sandbox\", \"Open World\"], \"perspective\": \"Third Person\", \"mode\": \"Multiplayer\", \"comps\": [\"The Crew\", \"Forza Horizon 4\"]}"
+ },
+ {
+  "id": "646910:devpitch",
+  "target": "646910",
+  "tags": [
+   "Racing",
+   "Open World",
+   "Driving",
+   "Multiplayer",
+   "Automobile Sim",
+   "America"
+  ],
+  "perspective": "Third Person",
+  "mode": "Online Co-Op",
+  "comps": [
+   "Forza Horizon 5",
+   "The Crew 2"
+  ],
+  "raw": "{\"tags\": [\"Racing\", \"Open World\", \"Driving\", \"Multiplayer\", \"Automobile Sim\", \"America\"], \"perspective\": \"Third Person\", \"mode\": \"Online Co-Op\", \"comps\": [\"Forza Horizon 5\", \"The Crew 2\"]}"
+ },
+ {
+  "id": "897030:verbatim",
+  "target": "897030",
+  "tags": [
+   "Horror",
+   "Atmospheric",
+   "Adventure",
+   "Retro",
+   "Psychological Horror",
+   "Story Rich"
+  ],
+  "perspective": "3D",
+  "mode": "Singleplayer",
+  "comps": [
+   "Signalis",
+   "Kholat"
+  ],
+  "raw": "{\"tags\": [\"Horror\", \"Atmospheric\", \"Adventure\", \"Retro\", \"Psychological Horror\", \"Story Rich\"], \"perspective\": \"3D\", \"mode\": \"Singleplayer\", \"comps\": [\"Signalis\", \"Kholat\"]}"
+ },
+ {
+  "id": "897030:devpitch",
+  "target": "897030",
+  "tags": [
+   "Horror",
+   "Psychological Horror",
+   "Surreal",
+   "Atmospheric",
+   "Story Rich",
+   "Short"
+  ],
+  "perspective": "First-Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Kentucky Route Zero",
+   "The Space Between"
+  ],
+  "raw": "{\"tags\": [\"Horror\", \"Psychological Horror\", \"Surreal\", \"Atmospheric\", \"Story Rich\", \"Short\"], \"perspective\": \"First-Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Kentucky Route Zero\", \"The Space Between\"]}"
+ },
+ {
+  "id": "960910:verbatim",
+  "target": "960910",
+  "tags": [
+   "Psychological",
+   "Mystery",
+   "Thriller",
+   "Story Rich",
+   "Detective",
+   "Multiple Endings"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Heavy Rain",
+   "Until Dawn"
+  ],
+  "raw": "{\"tags\": [\"Psychological\", \"Mystery\", \"Thriller\", \"Story Rich\", \"Detective\", \"Multiple Endings\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Heavy Rain\", \"Until Dawn\"]}"
+ },
+ {
+  "id": "960910:devpitch",
+  "target": "960910",
+  "tags": [
+   "Noir",
+   "Quick-Time Events",
+   "Multiple Endings",
+   "Story Rich",
+   "Investigation",
+   "Choices Matter"
+  ],
+  "perspective": "Third Person",
+  "mode": "Singleplayer",
+  "comps": [
+   "Heavy Rain",
+   "Until Dawn"
+  ],
+  "raw": "{\"tags\": [\"Noir\", \"Quick-Time Events\", \"Multiple Endings\", \"Story Rich\", \"Investigation\", \"Choices Matter\"], \"perspective\": \"Third Person\", \"mode\": \"Singleplayer\", \"comps\": [\"Heavy Rain\", \"Until Dawn\"]}"
+ },
+ {
+  "id": "964130:verbatim",
+  "target": "964130",
+  "tags": [
+   "City Builder",
+   "Simulation",
+   "Strategy",
+   "Sci-fi",
+   "Trading",
+   "Multiplayer"
+  ],
+  "perspective": null,
+  "mode": "Multiplayer",
+  "comps": [
+   "Anno 2205",
+   "Surviving Mars"
+  ],
+  "raw": "{\"tags\": [\"City Builder\", \"Simulation\", \"Strategy\", \"Sci-fi\", \"Trading\", \"Multiplayer\"], \"perspective\": null, \"mode\": \"Multiplayer\", \"comps\": [\"Anno 2205\", \"Surviving Mars\"]}"
+ },
+ {
+  "id": "964130:devpitch",
+  "target": "964130",
+  "tags": [
+   "City Builder",
+   "Strategy",
+   "Simulation",
+   "Sci-fi",
+   "Economy",
+   "Multiplayer"
+  ],
+  "perspective": "Isometric",
+  "mode": "Multiplayer",
+  "comps": [
+   "Surviving Mars",
+   "Anno 2205"
+  ],
+  "raw": "{\"tags\": [\"City Builder\", \"Strategy\", \"Simulation\", \"Sci-fi\", \"Economy\", \"Multiplayer\"], \"perspective\": \"Isometric\", \"mode\": \"Multiplayer\", \"comps\": [\"Surviving Mars\", \"Anno 2205\"]}"
+ }
+]
