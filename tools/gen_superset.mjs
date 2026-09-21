@@ -1571,9 +1571,29 @@ async function deployManifestMerge(files) {
 
 // ---------- main ----------
 
+// N4 (2026-09-21): auth preflight. Generation takes several minutes and only then
+// hits the Netlify API, so a missing, placeholder or revoked PAT used to surface as
+// a 401 at the very end of a full run. Validate the token against /api/v1/user and
+// the target site before generating anything.
+async function preflightNetlifyAuth() {
+  if (!NETLIFY_PAT) throw new Error('NETLIFY_PAT is not set. Nothing generated.');
+  if (!NETLIFY_PAT.startsWith('nfp_') || NETLIFY_PAT.length < 40) {
+    throw new Error(`NETLIFY_PAT does not look like a Netlify token (${NETLIFY_PAT.length} chars, starts "${NETLIFY_PAT.slice(0, 8)}"). Nothing generated.`);
+  }
+  const auth = { Authorization: `Bearer ${NETLIFY_PAT}` };
+  const u = await fetch('https://api.netlify.com/api/v1/user', { headers: auth });
+  if (!u.ok) throw new Error(`NETLIFY_PAT rejected by Netlify (${u.status}). Token is expired or revoked. Nothing generated.`);
+  const site = await fetch(`https://api.netlify.com/api/v1/sites/${NETLIFY_SITE_ID}`, { headers: auth });
+  if (!site.ok) throw new Error(`NETLIFY_PAT has no access to site ${NETLIFY_SITE_ID} (${site.status}). Nothing generated.`);
+  const { name } = await site.json();
+  console.error(`preflight: Netlify auth OK, site "${name}"`);
+}
+
 async function main() {
   const deployMode = process.argv.includes('--deploy');
   const outDir = process.env.OUT_DIR || join(tmpdir(), 'gies_superset_out');
+
+  if (deployMode) await preflightNetlifyAuth();
 
   const { files, summary } = await generate();
 
