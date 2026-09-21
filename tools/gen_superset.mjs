@@ -1577,8 +1577,11 @@ async function deployManifestMerge(files) {
 // the target site before generating anything.
 async function preflightNetlifyAuth() {
   if (!NETLIFY_PAT) throw new Error('NETLIFY_PAT is not set. Nothing generated.');
-  if (!NETLIFY_PAT.startsWith('nfp_') || NETLIFY_PAT.length < 40) {
-    throw new Error(`NETLIFY_PAT does not look like a Netlify token (${NETLIFY_PAT.length} chars, starts "${NETLIFY_PAT.slice(0, 8)}"). Nothing generated.`);
+  // Length only, no prefix rule: Netlify has issued PATs both with and without the
+  // nfp_ prefix, so a prefix check would reject a valid legacy token. The API call
+  // below is the real gate; this just catches an unsubstituted placeholder.
+  if (NETLIFY_PAT.length < 40 || /PASTE|YOUR[_-]?TOKEN|XXXX/i.test(NETLIFY_PAT)) {
+    throw new Error(`NETLIFY_PAT looks like a placeholder, not a token (${NETLIFY_PAT.length} chars, starts "${NETLIFY_PAT.slice(0, 8)}"). Nothing generated.`);
   }
   const auth = { Authorization: `Bearer ${NETLIFY_PAT}` };
   const u = await fetch('https://api.netlify.com/api/v1/user', { headers: auth });
