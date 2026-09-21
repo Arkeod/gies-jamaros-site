@@ -955,12 +955,37 @@ const RESEARCH_SLUGS = [
   'xbox-game-pass-pricing-value',
 ];
 
-function renderSitemap(issues, videos) {
+// N4 (2026-09-21): /watch/ catalogue. renderSitemap used to emit only the videos in
+// the YouTube RSS window (5) plus three hand-listed ids, so 59 of the 61 live /watch/
+// pages were missing from the sitemap. /watch/index.html is the site's own catalogue
+// and carries data-id, data-date and data-short per card, which is exactly id, lastmod
+// and priority. Fetched live so this never goes stale against the deployed catalogue.
+async function fetchWatchCatalogue() {
+  try {
+    const html = await fetchSiteFile('/watch/');
+    const out = [];
+    const re = /data-id="([A-Za-z0-9_-]{11})"\s+data-date="(\d{4}-\d{2}-\d{2})"\s+data-short="([01])"/g;
+    let m;
+    while ((m = re.exec(html)) !== null) {
+      out.push({ id: m[1], date: m[2], isShort: m[3] === '1' });
+    }
+    console.error(`  watch catalogue: ${out.length} entries from /watch/`);
+    return out;
+  } catch (e) {
+    console.error(`  watch catalogue fetch failed (non-fatal): ${e?.message || e}`);
+    return [];
+  }
+}
+
+function renderSitemap(issues, videos, watchCatalogue = []) {
   const today = new Date().toISOString().slice(0, 10);
   const urls = [];
   urls.push(`  <url><loc>https://giesweekly.com/</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>`);
   urls.push(`  <url><loc>https://giesweekly.com/about/</loc><lastmod>2026-05-03</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>`);
   urls.push(`  <url><loc>https://giesweekly.com/archives/</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  // N4 (2026-09-21): /this-week/ is rebuilt by this script on every run and is the
+  // second most cited page on the property, but it had never been in the sitemap.
+  urls.push(`  <url><loc>https://giesweekly.com/this-week/</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   // N3 (2026-09-14): /research/ briefs were missing from the sitemap entirely, so the
   // section was invisible to crawlers even after the /research/ -> /archives/ 301 was
   // cleared. /authors/ was removed here because it 301s to /about/ and a sitemap should
@@ -969,29 +994,45 @@ function renderSitemap(issues, videos) {
   for (const slug of RESEARCH_SLUGS) {
     urls.push(`  <url><loc>https://giesweekly.com/research/${slug}/</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>`);
   }
+  // N4 (2026-09-21): /watch/ index and the two standalone tool pages. All three return
+  // 200 and are linked from the nav, none were in the sitemap. lastmod is each page's
+  // own declared update date (/its-in-the-name/ and /name-your-game/ both state
+  // 2026-09-01); /watch/ declares none, so its last edit date is used.
+  urls.push(`  <url><loc>https://giesweekly.com/watch/</loc><lastmod>2026-09-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
+  urls.push(`  <url><loc>https://giesweekly.com/its-in-the-name/</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`);
+  urls.push(`  <url><loc>https://giesweekly.com/name-your-game/</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`);
   urls.push(`  <url><loc>https://giesweekly.com/llms.txt</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`);
   urls.push(`  <url><loc>https://giesweekly.com/llms-full.txt</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
   for (const iss of issues) {
     if (!iss.slug || !iss.date) continue;
     urls.push(`  <url><loc>https://giesweekly.com/newsletter/${iss.slug}/</loc><lastmod>${iss.date}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
   }
+  // Watch pages, emitted once each. RSS videos first (exact publishedAt), then the
+  // live /watch/ catalogue, then the hand-listed fallbacks. Dedupe is on the lowercase
+  // id because that is the deployed path (see N2 below).
+  const emittedWatch = new Set();
+  const pushWatch = (id, lastmod, priority) => {
+    const key = id.toLowerCase();
+    if (emittedWatch.has(key)) return;
+    emittedWatch.add(key);
+    urls.push(`  <url><loc>https://giesweekly.com/watch/${key}/</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>${priority}</priority></url>`);
+  };
   for (const v of videos) {
-    const lastmod = v.publishedAt ? v.publishedAt.slice(0, 10) : today;
-    const priority = v.isShort ? '0.7' : '0.8';
-    urls.push(`  <url><loc>https://giesweekly.com/watch/${v.id.toLowerCase()}/</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>${priority}</priority></url>`);
+    pushWatch(v.id, v.publishedAt ? v.publishedAt.slice(0, 10) : today, v.isShort ? '0.7' : '0.8');
   }
-  // N2 (2026-05-16e): hand-curated /watch/ pages that live outside the YT RSS
-  // window (older than the latest 5 videos). Inject them so they stay crawlable.
+  for (const w of watchCatalogue) {
+    pushWatch(w.id, w.date, w.isShort ? '0.7' : '0.8');
+  }
+  // N2 (2026-05-16e): hand-curated /watch/ pages that live outside the YT RSS window.
+  // Kept as a fallback for the case where the /watch/ catalogue fetch fails.
   // Update this list if a video gets unpublished or replaced.
   const STATIC_WATCH = [
     { id: 'OI_wRypykRY', date: '2026-04-30' },
     { id: 'mNllKJWZ0Fg', date: '2026-04-23' },
     { id: 'J9ALtdq6TbQ', date: '2026-04-16' },
   ];
-  const live = new Set(videos.map(v => v.id));
   for (const s of STATIC_WATCH) {
-    if (live.has(s.id)) continue;
-    urls.push(`  <url><loc>https://giesweekly.com/watch/${s.id.toLowerCase()}/</loc><lastmod>${s.date}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`);
+    pushWatch(s.id, s.date, '0.7');
   }
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`;
 }
@@ -1401,7 +1442,8 @@ async function generate() {
   // 4/5. sitemap.xml, llms.txt, llms-full.txt
   const llmsTxt = renderLlmsTxt(issues, videos);
   const llmsFullTxt = renderLlmsFullTxt(issues);
-  const sitemapXml = renderSitemap(issues, videos);
+  const watchCatalogue = await fetchWatchCatalogue();
+  const sitemapXml = renderSitemap(issues, videos, watchCatalogue);
   files['/llms.txt'] = enc(llmsTxt);
   files['/llms-full.txt'] = enc(llmsFullTxt);
   files['/sitemap.xml'] = enc(sitemapXml);
