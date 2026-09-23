@@ -1,6 +1,32 @@
+# Force 301 redirect from legacy gies.jamaros.com → giesweekly.com (consolidate SEO equity)
+http://gies.jamaros.com/* https://giesweekly.com/:splat 301!
+https://gies.jamaros.com/* https://giesweekly.com/:splat 301!
+
+# Force 301 from www.giesweekly.com → giesweekly.com (canonical no-www)
+http://www.giesweekly.com/* https://giesweekly.com/:splat 301!
+https://www.giesweekly.com/* https://giesweekly.com/:splat 301!
+
 # /subscribe → Substack signup, preserves any email pre-fill query param
 /subscribe https://giesweekly.substack.com/subscribe 301!
 /subscribe/* https://giesweekly.substack.com/subscribe/:splat 301!
+
+# /authors/ merged into /about/ (bios now live on the About page)
+/authors/ /about/ 301!
+/authors/* /about/ 301!
+
+# /research/ is a live content section (evergreen executive briefs).
+# The /research/ -> /archives/ alias was removed 2026-07-19 so these pages resolve.
+
+# /methodology/ + /glossary/ removed 2026-05-16 , redirect to /about/
+# (built earlier that day, decided not needed; preserve any inbound links)
+/methodology/ /about/ 301!
+/methodology/* /about/ 301!
+/glossary/ /about/ 301!
+/glossary/* /about/ 301!
+
+# /issues/ renamed to /newsletter/ on 2026-05-03
+/issues/ /newsletter/ 301!
+/issues/* /newsletter/:splat 301!
 
 # Convenience redirects
 /youtube https://www.youtube.com/@giesweekly 302

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GIES site refresh — autonomous content updater.
+GIES site refresh - autonomous content updater.
 
 Scrapes giesweekly.substack.com archive + youtube.com/@giesweekly,
 downloads cover images, regenerates dynamic blocks in index.html and
@@ -88,6 +88,7 @@ class Issue:
     is_special: bool = False
     week: Optional[str] = None       # "W16", "Monthly", "Special"
     short_title: str = ''            # condensed for cards
+    secondary_topics: list = None    # topics 2..N from "T1 | T2 | T3" Substack title
 
     @property
     def year(self) -> str:
@@ -198,14 +199,16 @@ def fetch_substack_archive() -> list[Issue]:
         if is_special:
             week = 'Special'
         
-        short = title.split('|')[0].strip()
+        title_parts = [p.strip() for p in title.split('|') if p.strip()]
+        short = title_parts[0] if title_parts else title
         if len(short) > 90:
             short = short[:87].rsplit(' ', 1)[0] + '\u2026'
-        
+        secondary_topics = title_parts[1:]
+
         issues.append(Issue(
             title=title, url=url, date=date, cover_url=cover,
             is_takeaway=is_takeaway, is_special=is_special,
-            week=week, short_title=short,
+            week=week, short_title=short, secondary_topics=secondary_topics,
         ))
     
     issues.sort(key=lambda i: (i.date or '0000'), reverse=True)
@@ -305,21 +308,23 @@ def download_covers(issues: list[Issue], dest_dir: Path) -> dict[int, str]:
 def render_lead(issue: Issue, cover_local: str) -> str:
     label = 'Monthly Takeaway' if issue.is_takeaway else ('Special Report' if issue.is_special else 'Latest Issue')
     cover_class = 'lead-cover is-takeaway' if issue.is_takeaway else 'lead-cover'
-    week_label = issue.week or '—'
+    week_label = issue.week or '-'
     date_label = issue.date_short
     # Lede: derive a 1-sentence opener from the title (keep original for now;
     # script can be extended later to fetch post body).
-    lede = (
-        f"Latest GIES issue covers: {issue.short_title}. "
-        "Read the full analysis on Substack for our take on what this means for executives, investors, and senior analysts."
-    )
+    secondaries = getattr(issue, 'secondary_topics', None) or []
+    secondaries = [s for s in secondaries if s]
+    if secondaries:
+        lede = "Plus: " + ". ".join(secondaries) + "."
+    else:
+        lede = "Read the full analysis on Substack."
     return (
         f'    <a class="{cover_class}" href="{_h(issue.url)}">\n'
         f'      <img src="{cover_local}" alt="{_h(issue.short_title)}" loading="eager">\n'
         f'    </a>\n'
         f'    <div class="lead-text">\n'
         f'      <div class="lead-meta">\n'
-        f'        <span class="issue-no">Issue {week_label} / {issue.year}</span>\n'
+        f'        <span class="issue-no">{week_label} / {issue.year}</span>\n'
         f'        <span>{date_label}, {issue.year}</span>\n'
         f'        <span>5 min read</span>\n'
         f'      </div>\n'
@@ -415,7 +420,7 @@ def render_itemlist(issues: list[Issue]) -> str:
         '@type': 'ItemList',
         'name': 'GIES Research Archive',
         'description': 'Complete archive of GIES weekly issues, monthly takeaways, and special reports.',
-        'url': 'https://gies.jamaros.com/research/',
+        'url': 'https://giesweekly.com/research/',
         'numberOfItems': len(issues),
         'itemListElement': items,
     }
@@ -545,7 +550,7 @@ def main():
     if args.dry_run:
         print('\n--- DRY RUN SUMMARY ---')
         for i, iss in enumerate(issues[:8]):
-            print(f'  [{i:>2}] {iss.date}  {iss.week or "—":>7}  {iss.short_title[:80]}')
+            print(f'  [{i:>2}] {iss.date}  {iss.week or "-":>7}  {iss.short_title[:80]}')
         for v in videos[:5]:
             print(f'  YT  {v.id}  {"SHORT" if v.is_short else "VIDEO"}  {v.title[:80]}')
         return
@@ -587,13 +592,4 @@ def main():
         zip_path = Path('/tmp') / 'gies-deploy.zip'
         print(f'\nZipping site -> {zip_path}')
         build_zip(zip_path)
-        print(f'  zip size: {zip_path.stat().st_size}B')
-        print('Deploying to Netlify...')
-        deploy_to_netlify(zip_path)
-        print('Done.')
-    else:
-        print('\nSkipping deploy (use --deploy to push to Netlify).')
-
-
-if __name__ == '__main__':
-    main()
+        print(f'  zip size: {zip_pa

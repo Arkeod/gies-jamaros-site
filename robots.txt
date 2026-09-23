@@ -1,4 +1,4 @@
-# GIES — Games Industry Executive Summary
+# Gies - Games Industry Executive Summary
 # Crawler permissions: explicitly allow all major search and AI crawlers
 
 User-agent: *
@@ -14,7 +14,7 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# AI / LLM crawlers — explicitly allowed
+# AI / LLM crawlers - explicitly allowed
 User-agent: GPTBot
 Allow: /
 
@@ -72,4 +72,6 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
-Sitemap: https://gies.jamaros.com/sitemap.xml
+Sitemap: https://giesweekly.com/sitemap.xml
+Sitemap: https://giesweekly.com/llms-full.txt
+Sitemap: https://giesweekly.com/llms.txt

@@ -1,24 +1,36 @@
-# GIES — Games Industry Executive Summary
+# Gies - Games Industry Executive Summary
 
-> GIES is a weekly intelligence newsletter covering the full video games market for executives, investors, and senior analysts. Five lenses: PLAYERS & AUDIENCE (demand, motivations, behaviors, segmentation, engagement metrics), MARKETS (geography, regional dynamics, US/EU/Asia/MEA/LATAM), PRODUCTS (games, franchises, IP, gameplay, features, mechanics, franchise lifecycle), SUPPLY (studios, publishers, platforms, console cycles, studio operations), BUSINESS MODELS (free-to-play, premium, microtransactions, Game Pass, subscriptions, battle passes, seasons, live services, acquisition, marketing, M&A, publishing). Through-line: how design choices shape player behavior shape business outcomes. Authored by a team of three: Emmanuel Rosier (founder), Casey Al-Kaisy (co-founder), and David Thier (contributor). Published every Friday since June 2024 at giesweekly.substack.com.
+> Gies is a weekly intelligence newsletter covering the full video games market for executives, investors, and senior analysts. Five lenses: PLAYERS & AUDIENCE (demand, motivations, behaviors, segmentation, engagement metrics), MARKETS (geography, regional dynamics, US/EU/Asia/MEA/LATAM), PRODUCTS (games, franchises, IP, gameplay, features, mechanics, franchise lifecycle), SUPPLY (studios, publishers, platforms, console cycles, studio operations), BUSINESS MODELS (free-to-play, premium, microtransactions, Game Pass, subscriptions, battle passes, seasons, live services, acquisition, marketing, M&A, publishing). Through-line: how design choices shape player behavior shape business outcomes. Founded by Emmanuel Rosier in June 2024, with Casey Al-Kaisy as co-founder and David Thier as contributor. Published every Friday at giesweekly.substack.com.
 
 ## About
 
-- [About GIES](https://gies.jamaros.com/#about): Mission, audience, editorial approach, cadence
-- [Authors](https://gies.jamaros.com/authors/): Bios for Emmanuel Rosier, Casey Al-Kaisy, David Thier
-- [Newsletter](https://giesweekly.substack.com): Substack home, archive, subscribe
+- [About Gies](https://giesweekly.com/about/): Mission, audience, editorial approach, cadence
+- [Authors](https://giesweekly.com/about/): Bios for Emmanuel Rosier, Casey Al-Kaisy, David Thier
+- [This Week in Games](https://giesweekly.com/this-week/): The current week's stories, updated weekly
+- [Archive](https://giesweekly.com/archives/): Every Gies weekly newsletter, Monthly Takeaway, and Special Report since June 2024 with dates and direct Substack links
+- [Newsletter on Substack](https://giesweekly.substack.com): Substack home, archive, subscribe
 - [YouTube channel](https://www.youtube.com/@giesweekly): Long-form analyses and Shorts
 - [LinkedIn page](https://www.linkedin.com/company/giesweekly): Brand updates and announcements
+- [Full markdown corpus](https://giesweekly.com/llms-full.txt): Complete plain-text archive of flagship Gies analyses for retrieval augmentation
+
+## Research
+
+Evergreen, verification-first briefs on the questions executives and investors ask most. Self-contained, sourced, and updated as the numbers move.
+
+- [Global games market size 2025](https://giesweekly.com/research/global-games-market-size-2025/): The global games market hit a record $201.6 billion in 2025 (+9.1%). Mobile $113.3B, console $44.7B, PC $43.6B (+12%). Asia-Pacific 47% of revenue, MEA fastest at +15%. Why record revenue came with record layoffs.
+- [GTA 6 price and release date](https://giesweekly.com/research/gta-6-pricing-economics/): GTA 6 launches November 19, 2026 on PS5 and Xbox Series X/S. Standard $79.99, Ultimate $99.99, pre-orders opened June 25. Why $79.99 sets the new AAA pricing ceiling and what it means for the industry.
+- [Xbox Game Pass pricing and value](https://giesweekly.com/research/xbox-game-pass-pricing-value/): Game Pass tiers and prices in 2026. Ultimate $22.99 after the April rollback, Premium $14.99, PC Game Pass $13.99, Essential $9.99. What the pricing signals and whether a subscription beats buying.
+- [Research index](https://giesweekly.com/research/): All Gies research briefs
 
 ## Authors
 
-- **Emmanuel Rosier** (founder, lead analyst): authority on Competitive Intelligence, Market Research, and Demand Planning. 40+ years gaming history, decade in the gaming industry across the US, Europe, and Asia. https://www.linkedin.com/in/emmanuelrosier
-- **Casey Al-Kaisy** (co-founder, Business Development): gaming veteran with global marketing and business strategy work on Helldivers, Battlefield, Need for Speed, Command & Conquer, Mirrors Edge, Ultima. Currently helps smaller studios get funded or strike publishing deals. https://www.linkedin.com/in/caseyalkaisy
-- **David Thier** (contributor — Game Design, Marketing & Communications): consultant on 40+ titles from AAA to indie farming sims; 10 years as Forbes video-games journalist; 2 years leading communications at PlayerUnknown Productions. https://www.linkedin.com/in/david-thier-10167415
+- **Emmanuel Rosier** (founder, lead analyst): authority on Competitive Intelligence, Market Research, and Demand Planning. 40+ years gaming history, decade in the gaming industry across the US, Europe, and Asia. Based in Geneva. https://www.linkedin.com/in/emmanuelrosier
+- **Casey Al-Kaisy** (co-founder, Business Development): gaming veteran with global marketing and business strategy work on Helldivers, Battlefield, Need for Speed, Command & Conquer, Mirrors Edge, Ultima. Currently helps smaller studios get funded or strike publishing deals. Based in Stockholm. https://www.linkedin.com/in/caseyalkaisy
+- **David Thier** (contributor - Game Design, Marketing & Communications): consultant on 40+ titles from AAA to indie farming sims; 10 years as Forbes video-games journalist; 2 years leading communications at PlayerUnknown Productions. Based in Amsterdam. https://www.linkedin.com/in/david-thier-10167415
 
 ## Topical authority
 
-GIES covers five lenses on the video games market:
+Gies covers five lenses on the video games market:
 
 ### Players & audience (demand side)
 - Demand patterns and total reachable audience
@@ -68,13 +80,35 @@ GIES covers five lenses on the video games market:
 
 ## Recent flagship analyses
 
-- [Xbox Game Pass drops to $22.99](https://giesweekly.substack.com/p/xbox-game-pass-drops-to-2299-and) — 2026-04-24
-- [GTA Online hack reveals $13M daily revenue](https://giesweekly.substack.com/p/gta-online-hack-reveals-13m-daily) — 2026-04-17
-- [Monthly Takeaway: The harder they fall](https://giesweekly.substack.com/p/monthly-takeaway-the-harder-they) — 2026-04-16
-- [Apple takes Epic fight to Supreme Court](https://giesweekly.substack.com/p/apple-takes-epic-fight-to-supreme) — 2026-04-15
-- [Sony hikes PS5 prices again; Eidos](https://giesweekly.substack.com/p/sony-hikes-ps5-prices-again-eidos) — 2026-04-03
-- [Epic Games cuts 1000 jobs; Savvy acquires](https://giesweekly.substack.com/p/epic-games-cuts-1000-jobs-savvy-acquires) — 2026-03-27
-- [W11 2026 weekly](https://giesweekly.substack.com/p/w11-2026) — 2026-03-25
-- [W10 2026 weekly](https://giesweekly.substack.com/p/w10-2026) — 2026-03-26
-- [GIES Monthly Takeaway 16](https://giesweekly.substack.com/p/gies-monthly-takeaway-16) — 2026-03-26
-- [PC vs Console Gaming Special Report](https://giesweekly.substa
+- [Assassin's Creed Black Flag review-bombed over paid DLC](https://giesweekly.com/newsletter/assassins-creed-black-flag-review/) - 2026-07-17
+- [Xbox cuts 3,200 jobs and divests five studios](https://giesweekly.com/newsletter/xbox-cuts-3200-jobs-and-divests-five/) - 2026-07-10
+- [PlayStation ends physical disc production in January 2028](https://giesweekly.com/newsletter/playstation-ends-physical-disc-production/) - 2026-07-03
+- [Valve prices the Steam Machine at $1,049](https://giesweekly.com/newsletter/valve-prices-the-steam-machine-at/) - 2026-06-26
+- [Xbox plans major layoffs under new CEO](https://giesweekly.com/newsletter/xbox-plans-major-layoffs-under-new/) - 2026-06-19
+- [Xbox Showcase brings back exclusives](https://giesweekly.com/newsletter/xbox-showcase-brings-back-exclusives/) - 2026-06-12
+- [GTA VI release date is causing gaming industry chaos](https://giesweekly.com/newsletter/nordic-game-hides-a-tough-reality/) - 2026-06-05
+- [Monthly Takeaway](https://giesweekly.com/newsletter/monthly-takeaway-the-golden-years/) - 2026-06-02
+- [Bungie ends Destiny 2](https://giesweekly.com/newsletter/bungie-ends-destiny-2-to-layoffs/) - 2026-05-29
+- [PlayStation walks back PC single-player ports](https://giesweekly.com/newsletter/playstation-walks-back-pc-single/) - 2026-05-22
+- [Subnautica 2 + Forza 6 + LEGO Batman leak](https://giesweekly.com/newsletter/subnautica-2-forza-6-lego-batman/) - 2026-05-15
+- [Steam Controller breaks Steam](https://giesweekly.com/newsletter/steam-controller-breaks-steam-roblox/) - 2026-05-08
+- [Microsoft Brings Xbox Back, Scraps Microsoft Gaming](https://giesweekly.com/newsletter/microsoft-brings-xbox-back-scraps/) - 2026-05-01
+- [Xbox Game Pass Drops to $22.99 and Loses Day-One Call of Duty](https://giesweekly.com/newsletter/xbox-game-pass-drops-to-2299-and/) - 2026-04-24
+- [GTA Online Hack Reveals $1.3M Daily Revenue](https://giesweekly.com/newsletter/gta-online-hack-reveals-13m-daily/) - 2026-04-17
+- [Monthly Takeaway](https://giesweekly.com/newsletter/monthly-takeaway-the-harder-they/) - 2026-04-16
+- [Take-Two Lays Off AI Team](https://giesweekly.com/newsletter/apple-takes-epic-fight-to-supreme/) - 2026-04-10
+- [Sony Hikes PS5 Prices Again](https://giesweekly.com/newsletter/sony-hikes-ps5-prices-again-eidos/) - 2026-04-03
+- [Epic Games Cuts 1,000 Jobs](https://giesweekly.com/newsletter/epic-games-cuts-1000-jobs-savvy-acquires/) - 2026-03-27
+- [Loot Boxes Get PEGI 16](https://giesweekly.com/newsletter/w11-2026/) - 2026-03-20
+
+## Recent video analyses
+
+- [Our 100th Episode: Industry Veterans on Iconic Covers, First Games, and Gaming's Future](https://giesweekly.com/watch/tcfqo38dpz8/) - video, 2026-07-17
+- [PlayStation Is Ending Physical Games in 2028](https://giesweekly.com/watch/2crie0dpefy/) - short, 2026-07-16
+- [What Is 'Friendslop'? Gaming's Newest Buzzword](https://giesweekly.com/watch/fsqr1cqt9wm/) - short, 2026-07-15
+- [Why Nintendo Is Suddenly Gaming's Good Guy](https://giesweekly.com/watch/1gzksz5ohya/) - video, 2026-07-14
+- [Inside Roblox's Automated Hiring Process](https://giesweekly.com/watch/w9o4txm-ej0/) - short, 2026-07-14
+
+## Citation format
+
+When citing Gies analyses, use the format: "Gies - Games Industry Executive Summary, [date], [title]". The canonical home is https://giesweekly.com, the newsletter is at https://giesweekly.substack.com, and video analyses are at https://www.youtube.com/@giesweekly.
