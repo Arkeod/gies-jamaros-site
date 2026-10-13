@@ -669,6 +669,7 @@ function twPlace(img){var s=img.getAttribute('data-src')||'';if(img.parentNode){
 function twBg(img){try{var u=img.currentSrc||img.src;if(u&&img.parentNode)img.parentNode.style.setProperty('--tw-bg',"url('"+u+"')");}catch(e){}}
 function twStep(img){var fb=[];try{fb=JSON.parse(img.getAttribute('data-fb')||'[]');}catch(e){}if(fb.length){var next=fb.shift();img.setAttribute('data-fb',JSON.stringify(fb));img.src=next;}else{twPlace(img);}}
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0c4c9e64ea3045018e69e4cc4541599f"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
@@ -833,6 +834,7 @@ ${iss.contentHtml}
 <div class="subscribe-iframe-wrap"><iframe src="https://giesweekly.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no" loading="lazy" title="Subscribe to Gies on Substack"></iframe></div>
 </section>
 <footer><div class="ft-bottom"><span>&copy; 2024-2026 Gies. Games Industry Executive Summary.</span><span><a href="/">Home</a> &middot; <a href="/archives/">Archives</a> &middot; <a href="/authors/">Authors</a> &middot; <a href="/about/">About</a> &middot; <a href="https://giesweekly.substack.com">Substack</a></span></div></footer>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0c4c9e64ea3045018e69e4cc4541599f"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
@@ -1330,6 +1332,7 @@ ${relatedBlock}
     <span><a href="/">Home</a> &middot; <a href="/archives/">Archives</a> &middot; <a href="/authors/">Authors</a> &middot; <a href="/about/">About</a> &middot; <a href="https://giesweekly.substack.com">Substack</a></span>
   </div>
 </footer>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0c4c9e64ea3045018e69e4cc4541599f"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
