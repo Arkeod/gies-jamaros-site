@@ -338,7 +338,10 @@ async function fetchYouTubeVideos(channelId) {
       publishedAt,
       description,
     });
-    if (videos.length >= 5) break;
+    // 2026-10-13: was 5. The channel posts more than 5 items a week, so videos that
+    // dropped out of the window between Friday runs never got a /watch/ page (two
+    // Oct 2 Shorts 404'd). 15 is the full YouTube RSS window.
+    if (videos.length >= 15) break;
   }
   return videos;
 }
@@ -1359,6 +1362,37 @@ ${relatedBlock}
 
 // ---------- Node I/O layer: live fetch, generate, write, deploy ----------
 
+// 2026-10-13: /watch/ catalogue upkeep. /watch/index.html was hand-maintained and
+// stopped at Sep 4 while new episodes and Shorts kept shipping. Each run now fetches
+// the live catalogue, adds a card for every RSS video that is missing, shows dates
+// as "Oct 6" (some cards carried raw ISO timestamps), and keeps cards newest first.
+function watchDateLabel(isoDay) {
+  const d = new Date(`${isoDay}T12:00:00Z`);
+  return `${d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' })} ${d.getUTCDate()}`;
+}
+async function updateWatchIndex(videos) {
+  const html = await fetchSiteFile('/watch/');
+  const have = new Set([...html.matchAll(/data-id="([A-Za-z0-9_-]{11})"/g)].map(m => m[1]));
+  const added = [];
+  for (const v of videos) {
+    if (have.has(v.id) || !v.publishedAt) continue;
+    const day = v.publishedAt.slice(0, 10);
+    const tag = v.isShort ? '<span class="wi-tag short">Short</span>' : '<span class="wi-tag">Video</span>';
+    added.push(`<a class="wi-card" href="/watch/${v.id.toLowerCase()}/" data-id="${v.id}" data-date="${day}" data-short="${v.isShort ? 1 : 0}">${tag}<span class="wi-title">${esc(v.title)}</span><span class="wi-date">${watchDateLabel(day)}</span></a>`);
+  }
+  let out = html.replace(/<span class="wi-date">(\d{4}-\d{2}-\d{2})T[^<]*<\/span>/g,
+    (_, day) => `<span class="wi-date">${watchDateLabel(day)}</span>`);
+  const open = '<div class="wi-grid">';
+  const start = out.indexOf(open);
+  const end = start === -1 ? -1 : out.indexOf('</div>', start);
+  if (start === -1 || end === -1) throw new Error('watch index: wi-grid block not found');
+  const cards = [...out.slice(start + open.length, end).matchAll(/<a class="wi-card"[\s\S]*?<\/a>/g)].map(m => m[0]).concat(added);
+  const dateOf = c => (c.match(/data-date="([^"]+)"/) || [])[1] || '';
+  cards.sort((a, b) => dateOf(b).localeCompare(dateOf(a)));
+  out = out.slice(0, start + open.length) + '\n' + cards.join('\n') + '\n' + out.slice(end);
+  return { html: out, added: added.length, changed: out !== html };
+}
+
 async function fetchSiteFile(path) {
   const url = `${SITE_ORIGIN}${path}`;
   const r = await fetch(url);
@@ -1484,6 +1518,15 @@ async function generate() {
     watchPagesCount++;
   }
   console.error(`  ${watchPagesCount} /watch/{id}/ pages rendered`);
+
+  // 6b. /watch/ catalogue: add cards for new videos (non-fatal on failure).
+  try {
+    const w = await updateWatchIndex(sortedVideos);
+    if (w.changed) files['/watch/index.html'] = enc(w.html);
+    console.error(`  watch index: ${w.added} card(s) added${w.changed ? '' : ', unchanged'}`);
+  } catch (e) {
+    console.error(`  watch index update failed (non-fatal): ${e?.message || e}`);
+  }
 
   // Guard: assert no forbidden paths made it into the set.
   for (const p of Object.keys(files)) {
