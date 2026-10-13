@@ -141,6 +141,7 @@ td .w.neutral{color:var(--text-dim)}
 .rb .track{position:relative;height:15px}
 .rb .bar{position:absolute;left:0;top:0;height:15px;background:var(--red);border-radius:3px}
 .rb .v{position:absolute;top:0;line-height:15px;font-family:'SF Mono',Menlo,monospace;font-size:0.68rem;color:var(--text-mute);white-space:nowrap}
+@media(max-width:600px){.rb .track{height:auto;padding-top:19px}.rb .v{position:static;display:block;white-space:normal;line-height:1.35}}
 @media(max-width:640px){.glist-grid{grid-template-columns:1fr}}
 @media(max-width:640px){header.page-head{padding:2rem 1.25rem 1rem}section.body{padding:1.25rem 1.25rem 2rem}}
 @media(prefers-reduced-motion:reduce){*{transition:none !important}}

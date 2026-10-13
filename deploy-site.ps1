@@ -17,9 +17,10 @@ $hdr   = @{ Authorization = "Bearer $TOKEN" }
 
 # Netlify path -> local file. Add lines here when you change other static pages.
 $push = [ordered]@{
-  "/about/index.html" = (Join-Path $root "about\index.html")
-  "/_redirects"       = (Join-Path $root "_redirects")
-  "/robots.txt"       = (Join-Path $root "robots.txt")
+  "/about/index.html"          = (Join-Path $root "about\index.html")
+  "/css/chrome.css"            = (Join-Path $root "css\chrome.css")
+  "/watch/index.html"          = (Join-Path $root "watch\index.html")
+  "/name-your-game/index.html" = (Join-Path $root "name-your-game\index.html")
 }
 
 Write-Host "Fetching current Netlify file manifest..."
@@ -42,7 +43,7 @@ Write-Host "Deploy $($deploy.id): $($deploy.required.Count) file(s) to upload"
 
 foreach ($p in $push.Keys) {
   if ($deploy.required -contains $shaMap[$p]) {
-    $ct = if ($p -like "*.html") { "text/html" } elseif ($p -eq "/_redirects" -or $p -like "*.txt") { "text/plain" } elseif ($p -like "*.xml") { "application/xml" } else { "application/octet-stream" }
+    $ct = if ($p -like "*.html") { "text/html" } elseif ($p -like "*.css") { "text/css" } elseif ($p -eq "/_redirects" -or $p -like "*.txt") { "text/plain" } elseif ($p -like "*.xml") { "application/xml" } else { "application/octet-stream" }
     Write-Host "  uploading $p"
     $bytes = [System.IO.File]::ReadAllBytes($push[$p])
     Invoke-RestMethod -Method Put -Uri "https://api.netlify.com/api/v1/deploys/$($deploy.id)/files$p" -Headers $hdr -ContentType $ct -Body $bytes | Out-Null
@@ -53,7 +54,7 @@ Write-Host "Waiting for deploy to go live..."
 for ($i = 0; $i -lt 25; $i++) {
   Start-Sleep -Seconds 2
   $d = Invoke-RestMethod -Uri "https://api.netlify.com/api/v1/deploys/$($deploy.id)" -Headers $hdr
-  if ($d.state -eq "ready")  { Write-Host "LIVE: https://giesweekly.com/about/  (deploy $($d.id))"; break }
+  if ($d.state -eq "ready")  { Write-Host "LIVE: https://giesweekly.com/  (deploy $($d.id))"; break }
   if ($d.state -eq "error")  { Write-Host "Deploy FAILED"; break }
 }
 Write-Host "Done."

@@ -23,3 +23,7 @@ header.page-head h1.display{font-weight:700;font-size:clamp(2.4rem,5.5vw,4rem);l
 /* crumb links: one color everywhere (was text-dim on watch/about, text-mute on tools, missing on this-week) */
 .crumb a{color:#7a7a7a!important;border-bottom:1px solid #3a3a3a;padding-bottom:1px}
 .crumb a:hover{color:#ED1C24!important}
+
+/* subscribe strip: let the email field shrink on phones (was min-width:200px, pushed the page 20-75px wide) */
+.sub-strip form{flex-wrap:wrap;max-width:100%}
+.sub-strip input{min-width:0;flex:1 1 160px}

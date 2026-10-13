@@ -28,6 +28,35 @@ const SUBSTACK_FEED = 'https://giesweekly.substack.com/feed';
 const SITE_ORIGIN = 'https://giesweekly.com';
 const YT_CHANNEL_ID = 'UChHK6Jz-6cpZc_RrMAbGdTA';
 const NETLIFY_SITE_ID = process.env.NETLIFY_SITE_ID || '32bd51d3-9349-4db5-88bd-4b7dc87eb2a3';
+
+// Shared site nav (2026-10-13): same markup as the homepage, /watch/ and /archives/.
+// Styling comes from /css/chrome.css, which every generated page loads LAST so it
+// overrides the page's inline nav rules (the inline rules turned the Subscribe text
+// grey and stopped the links wrapping on phones).
+const CHROME_CSS = '<link rel="stylesheet" href="/css/chrome.css?v=8">';
+const NAV_ITEMS = [
+  ['home', '/', 'Home'],
+  ['this-week', '/this-week/', 'This Week'],
+  ['watch', '/watch/', 'Watch'],
+  ['name-your-game', '/name-your-game/', 'Name Your Game'],
+  ['its-in-the-name', '/its-in-the-name/', "It's in the name"],
+  ['about', '/about/', 'About'],
+  ['archives', '/archives/', 'Archives'],
+];
+// /this-week/ cards hotlink full-size publisher images (1-1.2 MB each). Serve a
+// 720px WebP through wsrv.nl instead (measured 2.4 MB -> 375 KB for one week).
+// The original URL stays first in the data-fb fallback chain, so if wsrv.nl is
+// down twStep() loads the publisher image as before.
+function twResize(u) {
+  if (!/^https?:\/\//i.test(u)) return u;
+  return `https://wsrv.nl/?url=${encodeURIComponent(u)}&w=720&output=webp&q=75`;
+}
+
+function siteNav(active) {
+  const links = NAV_ITEMS.map(([key, href, label]) =>
+    `<a href="${href}"${key === active ? ' class="active"' : ''}>${label}</a>`).join('');
+  return `<nav><div class="nav-inner"><a href="/" class="brand"><img src="/img/gies-wordmark.png" alt="Gies" class="brand-logo"></a><div class="nav-links">${links}<a class="nav-cta" href="https://giesweekly.substack.com/subscribe" target="_blank" rel="noopener">Subscribe</a></div></div></nav>`;
+}
 const NETLIFY_PAT = process.env.NETLIFY_PAT || '';
 
 // Browser-like headers for Substack fetches (verbatim from worker).
@@ -545,7 +574,7 @@ function renderThisWeekPage(iss, sections) {
     // clean source tile. The browser steps to the next candidate if one fails to load.
     const cands = [it.og, it.fallback].filter(Boolean);
     const thumb = cands.length
-      ? `<img class="tw-img" loading="lazy" alt="" src="${esc(cands[0])}" data-src="${esc(host)}" data-fb="${esc(JSON.stringify(cands.slice(1)))}" onload="twBg(this)" onerror="twStep(this)">`
+      ? `<img class="tw-img" loading="lazy" decoding="async" alt="" src="${esc(twResize(cands[0]))}" data-src="${esc(host)}" data-fb="${esc(JSON.stringify(twResize(cands[0]) === cands[0] ? cands.slice(1) : cands))}" onload="twBg(this)" onerror="twStep(this)">`
       : `<div class="tw-ph"><img src="/img/gies-wordmark.png" alt="Gies" class="tw-ph-logo" loading="lazy"><span>${esc(host)}</span></div>`;
     return `<a class="tw-card" href="${esc(it.url)}" target="_blank" rel="noopener">`
       + `<div class="tw-thumb">${thumb}</div>`
@@ -648,9 +677,10 @@ footer .ft-bottom a:hover{color:var(--red)}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"CollectionPage","name":"This Week in Games - Gies","url":"https://giesweekly.com/this-week/","isPartOf":{"@type":"WebSite","url":"https://giesweekly.com/"},"about":"Curated sources behind the latest Gies weekly issue","mainEntity":{"@type":"ItemList","numberOfItems":${all.length},"itemListElement":[${itemListElements}]}}
 </script>
+${CHROME_CSS}
 </head>
 <body>
-<nav><div class="nav-inner"><a href="/" class="brand"><img src="/img/gies-wordmark.png" alt="Gies" class="brand-logo"></a><div class="nav-links"><a href="/">Home</a><a href="/this-week/" class="active">This Week</a><a href="/#watch">Watch</a><a href="/authors/">Authors</a><a href="/about/">About</a><a href="/archives/">Archives</a><a class="nav-cta" href="https://giesweekly.substack.com/subscribe" target="_blank" rel="noopener">Subscribe</a></div></div></nav>
+${siteNav('this-week')}
 <header class="tw-head">
   <div class="tw-crumb"><a href="/">Home</a> &nbsp;/&nbsp; This Week</div>
   <h1>This Week in Games</h1>
@@ -814,9 +844,10 @@ footer .ft-bottom a:hover{color:var(--red)}
   ]
 }
 </script>
+${CHROME_CSS}
 </head>
 <body>
-<nav><div class="nav-inner"><a href="/" class="brand"><img src="/img/gies-wordmark.png" alt="Gies" class="brand-logo"></a><div class="nav-links"><a href="/">Home</a><a href="/#lead">Read</a><a href="/#watch">Watch</a><a href="/authors/">Authors</a><a href="/about/">About</a><a href="/glossary/">Glossary</a><a href="/archives/">Archives</a><a class="nav-cta" href="https://giesweekly.substack.com/subscribe" target="_blank" rel="noopener">Subscribe</a></div></div></nav>
+${siteNav('archives')}
 <header class="page-head">
   <div class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/archives/">Archives</a> &nbsp;/&nbsp; ${esc(week)} ${esc(iss.date)}</div>
   <h1>${titleEsc}</h1>
@@ -1278,24 +1309,12 @@ footer .ft-bottom a:hover{color:var(--red)}
   ]
 }
 </script>
+${CHROME_CSS}
 </head>
 <body>
-<nav>
-  <div class="nav-inner">
-    <a href="/" class="brand"><img src="/img/gies-wordmark.png" alt="Gies" class="brand-logo"></a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/#lead">Read</a>
-      <a href="/#watch">Watch</a>
-      <a href="/authors/">Authors</a>
-      <a href="/about/">About</a>
-      <a href="/archives/">Archives</a>
-      <a class="nav-cta" href="https://giesweekly.substack.com/subscribe" target="_blank" rel="noopener">Subscribe</a>
-    </div>
-  </div>
-</nav>
+${siteNav('watch')}
 <header class="page-head">
-  <div class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/#watch">Watch</a> &nbsp;/&nbsp; ${v.id}</div>
+  <div class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/watch/">Watch</a> &nbsp;/&nbsp; ${v.id}</div>
   <h1>${titleEsc}</h1>
   <div class="meta-row">
     <span class="pill red">${pillTag}</span>
