@@ -27,3 +27,23 @@ header.page-head h1.display{font-weight:700;font-size:clamp(2.4rem,5.5vw,4rem);l
 /* subscribe strip: let the email field shrink on phones (was min-width:200px, pushed the page 20-75px wide) */
 .sub-strip form{flex-wrap:wrap;max-width:100%}
 .sub-strip input{min-width:0;flex:1 1 160px}
+/* 2026-10-16 contrast: --text-mute #7a7a7a was 4.22:1 on cards (#161616), --text-faint #555 was 2.70:1 in the footer. */
+:root{--text-mute:#8a8a8a;--text-faint:#8a8a8a}
+nav .nav-links a{color:#8a8a8a}
+
+/* 2026-10-16 tap targets: nav, crumb and footer links were 13-20px tall on phones. */
+nav .nav-links a{padding:0.5rem 0}
+nav .nav-links a.nav-cta{padding:0.6rem 1.15rem}
+.crumb a{display:inline-block;padding:0.35rem 0}
+footer a{display:inline-block;padding:0.4rem 0}
+
+/* 2026-10-16 phones: the menu wrapped to 3 rows (~205px). Now logo + Subscribe on one row,
+   the links on one scrollable row under it (~100px). */
+@media (max-width:760px){
+  nav .nav-inner{flex-wrap:wrap;gap:0.15rem 1rem;padding:0.6rem 1rem 0.2rem}
+  nav .brand-logo{height:28px}
+  nav .nav-links{order:3;width:100%;flex-wrap:nowrap;gap:1.15rem;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-right:1rem}
+  nav .nav-links::-webkit-scrollbar{display:none}
+  nav .nav-links a{white-space:nowrap;flex-shrink:0;padding:0.65rem 0}
+  nav .nav-links a.nav-cta{position:absolute;top:0.55rem;right:1rem;padding:0.5rem 1rem}
+}

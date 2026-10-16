@@ -807,8 +807,6 @@ section.body{max-width:var(--maxw);margin:0 auto;padding:1.5rem 1.75rem 2rem}
 .callout-cta p{margin:0;color:var(--text-dim);font-size:0.92rem}
 .callout-cta a.btn{background:var(--red);color:#fff;padding:0.85rem 1.5rem;font-weight:600;border-radius:999px;font-size:0.92rem;white-space:nowrap}
 .callout-cta a.btn:hover{background:var(--red-dark)}
-.subscribe-iframe-wrap{margin:2rem 0;display:flex;justify-content:center}
-.subscribe-iframe-wrap iframe{width:100%;max-width:480px;border:1px solid var(--border-strong);background:white}
 footer{margin-top:3rem;border-top:1px solid var(--border-mid);background:#070707}
 footer .ft-bottom{max-width:1120px;margin:0 auto;padding:1.5rem 1.75rem;display:flex;justify-content:space-between;font-family:'SF Mono',Menlo,monospace;font-size:0.7rem;letter-spacing:0.1em;color:var(--text-mute);text-transform:uppercase;flex-wrap:wrap;gap:0.5rem}
 footer .ft-bottom a{color:var(--text-mute)}
@@ -865,7 +863,6 @@ ${analysisHtml}
 ${iss.contentHtml}
 </div>
 <div class="callout-cta"><div><h3>Get Gies every Friday</h3><p>Curated factual digest of the gaming industry news in 5 minutes. Free.</p></div><a class="btn" href="https://giesweekly.substack.com/subscribe" target="_blank" rel="noopener">Subscribe &rarr;</a></div>
-<div class="subscribe-iframe-wrap"><iframe src="https://giesweekly.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no" loading="lazy" title="Subscribe to Gies on Substack"></iframe></div>
 </section>
 <footer><div class="ft-bottom"><span>&copy; 2024-2026 Gies. Games Industry Executive Summary.</span><span><a href="/">Home</a> &middot; <a href="/archives/">Archives</a> &middot; <a href="/authors/">Authors</a> &middot; <a href="/about/">About</a> &middot; <a href="https://giesweekly.substack.com">Substack</a></span></div></footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0c4c9e64ea3045018e69e4cc4541599f"}'></script><!-- End Cloudflare Web Analytics -->
