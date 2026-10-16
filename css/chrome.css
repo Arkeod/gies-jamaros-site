@@ -7,7 +7,7 @@ nav .brand-logo{height:32px;width:auto;display:block;flex-shrink:0}
 nav .nav-links{display:flex;gap:1.65rem;align-items:center;flex-wrap:wrap}
 nav .nav-links a{line-height:1.65;font-size:0.74rem;color:#7a7a7a;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-bottom:0}
 nav .nav-links a:hover,nav .nav-links a.active{color:#fff}
-nav .nav-links a.nav-cta,.nav-cta{font-size:0.74rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#fff;background:#ED1C24;padding:0.6rem 1.15rem;border-radius:999px;box-shadow:0 2px 10px rgba(237,28,36,0.18);transition:background .2s}
+nav .nav-links a.nav-cta,.nav-cta{font-size:0.74rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#fff;background:#e0161e;padding:0.6rem 1.15rem;border-radius:999px;box-shadow:0 2px 10px rgba(237,28,36,0.18);transition:background .2s}
 nav .nav-links a.nav-cta:hover,.nav-cta:hover{background:#c8141b;color:#fff}
 
 /* Shared page-header grammar */
@@ -47,3 +47,10 @@ footer a{display:inline-block;padding:0.4rem 0}
   nav .nav-links a{white-space:nowrap;flex-shrink:0;padding:0.65rem 0}
   nav .nav-links a.nav-cta{position:absolute;top:0.55rem;right:1rem;padding:0.5rem 1rem}
 }
+/* 2026-10-16 red contrast. Brand red #ED1C24 fails twice: white text on it is 4.38:1 and
+   red text on dark cards (#161616) is 4.13:1 (min 4.5). Two near-identical shades fix it:
+   buttons/tags behind white text use #e0161e (4.88:1), red text on cards uses #f2434a (4.89:1).
+   Red on the plain page background (#0a0a0a) already passes (4.52:1) and keeps #ED1C24.
+   Hover states keep each page's own --red-dark. */
+.ic-week,.pf-eyebrow,.cc-eyebrow,.lens-num,.issues-banner a,.pill.red,.tw-src,.pn-label,.rel-tag,.dvhead .r,.substack-content blockquote a{color:#f2434a!important}
+.lead-cta:not(:hover),.pf-badge-overlay,.vt-tag,.subscribe-form button:not(:hover),.cf-submit:not(:hover),.sub-strip button:not(:hover),.ac-btn:not(:hover),.tw-foot-cta .btn:not(:hover),.callout-cta a.btn:not(:hover),.wi-tag:not(.short),.pitch-row button:not(.ghost):not(:hover),.lookup-row button:not(.ghost):not(:hover),.mode-btn.on{background-color:#e0161e!important}
